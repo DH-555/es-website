@@ -92,5 +92,5 @@ Please avoid **posting a public issue** on GitHub or elsewhere online to prevent
 from abusing the vulnerabilities before the Appwrite team has chance to patch the issue.
 
 # Reporting abuse {% #reporting-abuse %}
-If you encounter issues involving abuse, such as malware, please contact us at abuse@appwrite.io. 
-The Appwrite team will investigate and take actions if it proceeds.
+If you encounter issues involving abuse, such as hosting malware, please contact us at 
+abuse@appwrite.io. The Appwrite team will investigate and take actions if it proceeds.

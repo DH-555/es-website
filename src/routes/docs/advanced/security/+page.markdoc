@@ -90,3 +90,7 @@ like DoS and brute-force attacks.
 If you discover security vulnerabilities, please contact us at security@appwrite.io.
 Please avoid **posting a public issue** on GitHub or elsewhere online to prevent malicious actors
 from abusing the vulnerabilities before the Appwrite team has chance to patch the issue.
+
+# Reporting abuse {% #reporting-abuse %}
+If you encounter issues involving abuse, such as malware, please contact us at abuse@appwrite.io. 
+The Appwrite team will investigate and take actions if it proceeds.

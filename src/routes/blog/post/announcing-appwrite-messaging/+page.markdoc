@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Announcing Messaging: Push, Email and SMS"
-description: You can now send emails, SMS and push notifications with Appwrite’s easy-to-use APIs.
+title: "Anunciando Mensajería: Notificaciones Push, Correo Electrónico y SMS"
+description: Ahora puedes enviar correos electrónicos, SMS y notificaciones push con las APIs fáciles de usar de Appwrite.
 date: 2024-02-26
 cover: /images/blog/messaging-announcement.png
 timeToRead: 6
@@ -10,92 +10,91 @@ category: product
 featured: false
 ---
 
-It has been requested over and over again by Appwrite developers. It's a product that is hard to build from scratch and much needed for you and your application to have effective communication with your users. Therefore, we're excited to present you with **Messaging**. With just a few lines of backend code, you can set up a full-functioning messaging service for your application that covers three significant communication channels under one unified API.
+Ha sido solicitado una y otra vez por los desarrolladores de Appwrite. Es un producto que es difícil de construir desde cero y muy necesario para que tú y tu aplicación tengan una comunicación efectiva con tus usuarios. Por lo tanto, estamos emocionados de presentarte **Mensajería**. Con solo unas pocas líneas de código en el backend, puedes configurar un servicio de mensajería completamente funcional para tu aplicación que cubre tres canales de comunicación significativos bajo una API unificada.
 
-# The power of communication
+# El poder de la comunicación
 
-Effective communication with your users is key to high user engagement and retention. Consistent but judicious use of emails, SMS, and push notifications is the key to a highly engaged and loyal user base.
+La comunicación efectiva con tus usuarios es clave para un alto compromiso y retención de usuarios. El uso constante pero juicioso de correos electrónicos, SMS y notificaciones push es la clave para una base de usuarios altamente comprometida y leal.
 
-Timely and personalized messages delivered to the users’ devices and inboxes help them stay informed and connected, even when they’re not actively using your app. This is where Messaging comes in, a product built to help you streamline email, SMS, and push notifications.
+Mensajes oportunos y personalizados entregados a los dispositivos y bandejas de entrada de los usuarios les ayudan a mantenerse informados y conectados, incluso cuando no están utilizando activamente tu aplicación. Aquí es donde entra Mensajería, un producto construido para ayudarte a optimizar el correo electrónico, SMS y las notificaciones push.
 
-# All your messages in one place
+# Todos tus mensajes en un solo lugar
 
-As mentioned, Messaging covers three communication channels under one unified API, allowing you to send email, SMS, and push notifications from your Appwrite project. It connects with a variety of third-party providers to deliver you messages. See this table to get an overview of what message types you can send with each provider.
+Como se mencionó, Mensajería cubre tres canales de comunicación bajo una API unificada, lo que te permite enviar correos electrónicos, SMS y notificaciones push desde tu proyecto de Appwrite. Se conecta con una variedad de proveedores de terceros para entregarte los mensajes. Consulta esta tabla para obtener una visión general de qué tipos de mensajes puedes enviar con cada proveedor.
 
-
-## Push Notifications
+## Notificaciones Push
 {% cards %}
 {% cards_item href="/docs/products/messaging/apns" title="APNS" icon="icon-apple" %}
-Use APNs for push notification to Apple devices.
+Usa APNs para notificaciones push a dispositivos Apple.
 {% /cards_item %}
 {% cards_item href="/docs/products/messaging/fcm" title="FCM" icon="web-icon-firebase" %}
-Use FCM for push notification to Android and Apple devices.
+Usa FCM para notificaciones push a dispositivos Android y Apple.
 {% /cards_item %}
 {% /cards %}
 
-## Email
+## Correo Electrónico
 {% cards %}
 {% cards_item href="/docs/products/messaging/mailgun" title="Mailgun" icon="web-icon-mailgun" %}
-Use Mailgun to send emails
+Usa Mailgun para enviar correos electrónicos.
 {% /cards_item %}
 {% cards_item href="/docs/products/messaging/sendgrid" title="Sendgrid" icon="web-icon-sendgrid" %}
-Use Sendgrid to send emails
+Usa Sendgrid para enviar correos electrónicos.
 {% /cards_item %}
 {% cards_item href="/docs/products/messaging/smtp" title="SMTP" icon="icon-mail" %}
-Use SMTP to send emails
+Usa SMTP para enviar correos electrónicos.
 {% /cards_item %}
 {% /cards %}
 
 ## SMS
 {% cards %}
 {% cards_item href="/docs/products/messaging/twilio" title="Twilio" icon="icon-twilio" %}
-Use Twilio for SMS notifications to mobile devices.
+Usa Twilio para notificaciones SMS a dispositivos móviles.
 {% /cards_item %}
 {% cards_item href="/docs/products/messaging/msg91" title="MSG91" icon="icon-msg91" %}
-Use MSG91 for SMS notifications to mobile devices.
+Usa MSG91 para notificaciones SMS a dispositivos móviles.
 {% /cards_item %}
 {% cards_item href="/docs/products/messaging/telesign" title="Telesign" icon="icon-telesign" %}
-Use Telesign for SMS notifications to mobile devices.
+Usa Telesign para notificaciones SMS a dispositivos móviles.
 {% /cards_item %}
 {% cards_item href="/docs/products/messaging/textmagic" title="Textmagic" icon="web-icon-textmagic" %}
-Use Textmagic for SMS notifications to mobile devices.
+Usa Textmagic para notificaciones SMS a dispositivos móviles.
 {% /cards_item %}
 {% cards_item href="/docs/products/messaging/vonage" title="Vonage" icon="icon-vonage" %}
-Use Vonage for SMS notifications to mobile devices.
+Usa Vonage para notificaciones SMS a dispositivos móviles.
 {% /cards_item %}
 {% /cards %}
 
-# Message your existing users
+# Mensajes a tus usuarios existentes
 
-With Messaging, you can deliver messages to groups of users through topics or address individual users' email, phone, or devices through targets. Messaging deeply integrates with integrated existing accounts in Appwrite out of the box. You can immediately start messaging your existing users and integrate deeply with other Appwrite features.
+Con Mensajería, puedes entregar mensajes a grupos de usuarios a través de temas o dirigirte a usuarios individuales por correo electrónico, teléfono o dispositivos a través de destinos. Mensajería se integra profundamente con cuentas existentes en Appwrite desde el primer momento. Puedes comenzar a mensajear a tus usuarios existentes e integrarte profundamente con otras funciones de Appwrite.
 
-You can address recipients of messages at three levels:
+Puedes dirigir los destinatarios de los mensajes a tres niveles:
 
-- Topics, which hold a group of targets.
-- Users, which holds all targets associated with their account.
-- Targets, which are individual emails, phone numbers, and channels.
+- Temas, que contienen un grupo de destinos.
+- Usuarios, que contienen todos los destinos asociados con su cuenta.
+- Destinos, que son correos electrónicos, números de teléfono y canales individuales.
 
-You can publish announcements and newsletters through topics, deliver user-specific promotions and alerts to all user's available targets, and address individual targets for location-based or real-time alerts.
+Puedes publicar anuncios y boletines a través de temas, entregar promociones y alertas específicas para el usuario a todos los destinos disponibles de un usuario, y dirigirte a destinos individuales para alertas basadas en la ubicación o en tiempo real.
 
-![Creating a message from the Console](/images/blog/message-overview.png)
+![Creando un mensaje desde la Consola](/images/blog/message-overview.png)
 
-# Deliver messages your way
+# Entrega mensajes a tu manera
 
-Draft, schedule, and send your messages in the Appwrite Console, or use Appwrite SDKs to send messages through code.
+Redacta, programa y envía tus mensajes en la Consola de Appwrite, o usa los SDK de Appwrite para enviar mensajes a través de código.
 
-Drafting directly in the Appwrite Console is great for promo messages, newsletters, and other announcements. You can see a preview of what your message will look like right in the console and control how your message will look before sending.
+Redactar directamente en la Consola de Appwrite es excelente para mensajes promocionales, boletines y otros anuncios. Puedes ver una vista previa de cómo se verá tu mensaje directamente en la consola y controlar cómo se verá tu mensaje antes de enviarlo.
 
-For real-time alerts, you can programmatically send messages to your users and integrate with Appwrite Functions triggered by platform events. This allows you to deliver automated messages like invoices, login alerts, order confirmations, and new message alerts.
+Para alertas en tiempo real, puedes enviar mensajes programáticamente a tus usuarios e integrarte con las Funciones de Appwrite activadas por eventos de la plataforma. Esto te permite entregar mensajes automatizados como facturas, alertas de inicio de sesión, confirmaciones de pedidos y alertas de nuevos mensajes.
 
-You can send messages immediately or schedule them for future delivery. The Appwrite Console allows you to set dates and times from the UI easily. This is a great addition for use cases like appointment reminders, alerts, promotional messages, and any time you need to deliver a message at a specific time.
+Puedes enviar mensajes de inmediato o programarlos para entrega futura. La Consola de Appwrite te permite establecer fechas y horas desde la interfaz de usuario fácilmente. Esta es una gran adición para casos de uso como recordatorios de citas, alertas, mensajes promocionales y cada vez que necesites entregar un mensaje en un momento específico.
 
-# Get started with Messaging
+# Comienza con Mensajería
 
-To get started with messaging, you connect a provider, add topics and targets, and send your first message today for your project.
+Para comenzar con la mensajería, conecta un proveedor, agrega temas y destinos, y envía tu primer mensaje hoy para tu proyecto.
 
-We will be adding more adopters over time and are open to contributions. Visit our [community page](/community) to learn more about contributing or add your issues directly to [GitHub](https://github.com/appwrite/appwrite/issues).
+Estaremos añadiendo más adoptantes con el tiempo y estamos abiertos a contribuciones. Visita nuestra [página de comunidad](/community) para aprender más sobre cómo contribuir o añade tus problemas directamente a [GitHub](https://github.com/appwrite/appwrite/issues).
 
-Visit our documentation to learn more about Messaging, join us on Discord to be part of the discussion, view our blog and YouTube channel, or visit our GitHub repository to see our open-source code.
+Visita nuestra documentación para aprender más sobre Mensajería, únete a nosotros en Discord para ser parte de la discusión, consulta nuestro blog y canal de YouTube, o visita nuestro repositorio de GitHub para ver nuestro código abierto.
 
 - [Docs](/docs/products/messaging)
 - [Discord](https://appwrite.io/discord)
@@ -103,4 +102,4 @@ Visit our documentation to learn more about Messaging, join us on Discord to be 
 - [YouTube](https://www.youtube.com/channel/UCtBJ1v69gm8NgbCju_03Fiw)
 - [GitHub](https://github.com/appwrite/appwrite)
 
-Messaging will be available as part of the Appwrite 1.5 release on [GitHub](https://github.com/appwrite/appwrite) and [Cloud](https://cloud.appwrite.io/register) in March 2024.
+Mensajería estará disponible como parte de la versión 1.5 de Appwrite en [GitHub](https://github.com/app

@@ -176,7 +176,7 @@
     }}
 >
     <div class="sticky-wrapper">
-        <h3 class="text-display font-aeonik-pro text-primary">Powered by Open Source</h3>
+        <h3 class="text-display font-aeonik-pro text-primary">Con el poder del código abierto</h3>
 
         <div class="cards-wrapper">
             <a
@@ -193,7 +193,7 @@
                         aria-label="Discord"
                     />
                 </div>
-                <div class="text-title font-aeonik-pro mt-auto">17k+ Discord Members</div>
+                <div class="text-title font-aeonik-pro mt-auto">17k+ Miembros de Discord</div>
             </a>
 
             <a
@@ -209,7 +209,7 @@
                     />
                 </div>
                 <div class="text-title font-aeonik-pro mt-auto">
-                    {GITHUB_STARS}+ GitHub Stars
+                    {GITHUB_STARS}+ Estrellas de GitHub
                 </div>
             </a>
 
@@ -225,7 +225,7 @@
                         aria-label="Twitter"
                     />
                 </div>
-                <div class="text-title font-aeonik-pro mt-auto">128k+ Twitter Followers</div>
+                <div class="text-title font-aeonik-pro mt-auto">128k+ Seguidores en Twitter</div>
             </a>
 
             <a
@@ -240,7 +240,7 @@
                         aria-label="YouTube"
                     />
                 </div>
-                <div class="text-title font-aeonik-pro mt-auto">7k+ Youtube Subscribers</div>
+                <div class="text-title font-aeonik-pro mt-auto">7k+ Suscripciones en Youtube</div>
             </a>
 
             <a
@@ -255,7 +255,7 @@
                         aria-label="GitHub"
                     />
                 </div>
-                <div class="text-title font-aeonik-pro mt-auto">21k+ Code Commits</div>
+                <div class="text-title font-aeonik-pro mt-auto">21k+ Commits de código</div>
             </a>
         </div>
     </div>

@@ -72,7 +72,7 @@
                 <a href={platform.href} class="web-icon-button web-box-icon has-border-gradient">
                     <img
                         src={platform.image}
-                        alt="{platform.name} quick start"
+                        alt="{platform.name} inicio rápido"
                         width="32"
                         height="32"
                     />

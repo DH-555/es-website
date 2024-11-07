@@ -169,7 +169,7 @@
                                     </div>
                                 </div>
                                 <a href={featured.href} class="web-button is-secondary mt-auto">
-                                    <span>Read article</span>
+                                    <span>Leer artículo</span>
                                 </a>
                             </div>
                         </article>
@@ -185,7 +185,7 @@
                         class="text-title font-aeonik-pro text-primary"
                         bind:this={articlesHeader}
                     >
-                        Articles
+                        Artículos
                     </h2>
 
                     <div class="mt-12">
@@ -214,17 +214,17 @@
                             {#if data.currentPage > 1}
                                 <a
                                     data-sveltekit-noscroll
-                                    class="flex navigation-button"
+                                    class="navigation-button flex"
                                     href="/blog/{data.currentPage - 1}"
                                     class:navigation-button-active={!isFirstPage}
                                 >
                                     <span class="web-icon-chevron-left" style="font-size: 20px" />
-                                    Previous
+                                    Anterior
                                 </a>
                             {:else}
-                                <span class="flex navigation-button">
+                                <span class="navigation-button flex">
                                     <span class="web-icon-chevron-left" style="font-size: 20px" />
-                                    Previous
+                                    Anterior
                                 </span>
                             {/if}
 
@@ -246,16 +246,16 @@
                             {#if data.currentPage < data.totalPages}
                                 <a
                                     data-sveltekit-noscroll
-                                    class="flex navigation-button"
+                                    class="navigation-button flex"
                                     href="/blog/{data.currentPage + 1}"
                                     class:navigation-button-active={!isLastPage}
                                 >
-                                    Next
+                                    Siguiente
                                     <span class="web-icon-chevron-right" style="font-size: 20px" />
                                 </a>
                             {:else}
-                                <span class="flex navigation-button">
-                                    Next
+                                <span class="navigation-button flex">
+                                    Siguiente
                                     <span class="web-icon-chevron-right" style="font-size: 20px" />
                                 </span>
                             {/if}

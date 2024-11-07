@@ -4,70 +4,70 @@
 
     const parent: NavParent = {
         href: '/docs',
-        label: 'Databases'
+        label: 'Bases de datos'
     };
 
     const navigation: NavTree = [
         {
-            label: 'Getting started',
+            label: 'Empezando',
             items: [
                 {
-                    label: 'Overview',
+                    label: 'Visión general',
                     href: '/docs/products/databases'
                 },
                 {
-                    label: 'Quick start',
+                    label: 'Inicio rápido',
                     href: '/docs/products/databases/quick-start'
                 }
             ]
         },
         {
-            label: 'Concepts',
+            label: 'Conceptos',
             items: [
                 {
-                    label: 'Databases',
+                    label: 'Bases de datos',
                     href: '/docs/products/databases/databases'
                 },
                 {
-                    label: 'Collections',
+                    label: 'Colecciones',
                     href: '/docs/products/databases/collections'
                 },
                 {
-                    label: 'Documents',
+                    label: 'Documentos',
                     href: '/docs/products/databases/documents'
                 },
                 {
-                    label: 'Permissions',
+                    label: 'Permisos',
                     href: '/docs/products/databases/permissions'
                 },
                 {
-                    label: 'Relationships',
+                    label: 'Relaciones',
                     href: '/docs/products/databases/relationships'
                 }
             ]
         },
         {
-            label: 'Journeys',
+            label: 'Recorridos',
             items: [
                 {
                     label: 'Queries',
                     href: '/docs/products/databases/queries'
                 },
                 {
-                    label: 'Order',
+                    label: 'Orden',
                     href: '/docs/products/databases/order'
                 },
                 {
-                    label: 'Pagination',
+                    label: 'Paginación',
                     href: '/docs/products/databases/pagination'
                 }
             ]
         },
         {
-            label: 'References',
+            label: 'Referencias',
             items: [
                 {
-                    label: 'Databases API',
+                    label: 'API de la base de datos',
                     href: '/docs/references/cloud/client-web/databases'
                 }
             ]

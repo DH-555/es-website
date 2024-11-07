@@ -4,40 +4,40 @@
 
     const parent: NavParent = {
         href: '/docs',
-        label: 'Functions'
+        label: 'Funciones'
     };
 
     const navigation: NavTree = [
         {
-            label: 'Getting started',
+            label: 'Empezando',
             items: [
                 {
-                    label: 'Overview',
+                    label: 'Visión general',
                     href: '/docs/products/functions'
                 },
                 {
-                    label: 'Quick start',
+                    label: 'Inicio rápido',
                     href: '/docs/products/functions/quick-start'
                 }
             ]
         },
         {
-            label: 'Concepts',
+            label: 'Conceptos',
             items: [
                 {
-                    label: 'Functions',
+                    label: 'Funciones',
                     href: '/docs/products/functions/functions'
                 },
                 {
-                    label: 'Deployments',
+                    label: 'Despliegues',
                     href: '/docs/products/functions/deployments'
                 },
                 {
-                    label: 'Executions',
+                    label: 'Ejecuciones',
                     href: '/docs/products/functions/executions'
                 },
                 {
-                    label: 'Domains',
+                    label: 'Dominios',
                     href: '/docs/products/functions/domains'
                 },
                 {
@@ -47,39 +47,39 @@
             ]
         },
         {
-            label: 'Journeys',
+            label: 'Recorridos',
             items: [
                 {
-                    label: 'Templates',
+                    label: 'Plantillas',
                     href: '/docs/products/functions/templates'
                 },
                 {
-                    label: 'Develop',
+                    label: 'Desarrollo',
                     href: '/docs/products/functions/develop'
                 },
                 {
-                    label: 'Develop locally',
+                    label: 'Desarrollo local',
                     href: '/docs/products/functions/develop-locally'
                 },
                 {
-                    label: 'Deploy from Git',
+                    label: 'Despliegue desde Git',
                     href: '/docs/products/functions/deploy-from-git'
                 },
                 {
-                    label: 'Deploy manually',
+                    label: 'Despliegue manual',
                     href: '/docs/products/functions/deploy-manually'
                 },
                 {
-                    label: 'Execute',
+                    label: 'Ejecución',
                     href: '/docs/products/functions/execute'
                 }
             ]
         },
         {
-            label: 'References',
+            label: 'Referencias',
             items: [
                 {
-                    label: 'Functions API',
+                    label: 'API de funciones',
                     href: '/docs/references/cloud/client-web/functions'
                 }
             ]

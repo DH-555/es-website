@@ -6,17 +6,17 @@
     const options: SelectOption<Theme>[] = [
         {
             value: 'dark',
-            label: 'Dark',
+            label: 'oscuro',
             icon: 'web-icon-dark'
         },
         {
             value: 'light',
-            label: 'Light',
+            label: 'Claro',
             icon: 'web-icon-light'
         },
         {
             value: 'system',
-            label: 'System',
+            label: 'Sistema',
             icon: 'web-icon-system'
         }
     ];

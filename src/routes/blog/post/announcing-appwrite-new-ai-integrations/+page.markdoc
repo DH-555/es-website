@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Announcing new Appwrite AI integrations
-description: We are happy we can finally share more about our plans for AI and what we have been working on so far.
+title: Anunciando nuevas integraciones de AI en Appwrite
+description: Estamos felices de poder compartir más sobre nuestros planes para AI y en qué hemos estado trabajando hasta ahora.
 date: 2024-05-14
 cover: /images/blog/ai-announcement.png
 timeToRead: 5
@@ -9,23 +9,23 @@ author: christy-jacob
 category: AI
 featured: true
 ---
-The AI hype is real and will be around for many years to come. In 2021 alone, AI startups worldwide raised nearly $50 billion in venture capital across approximately 1,500 deals, reflecting a significant increase from previous years. So it's no surprise that many of you are looking to build AI powered applications. But that's easier said than done, as building AI powered applications can be tricky. We don't want it to be. That's why we're happy to share multiple AI related announcements designed to enhance the Appwrite experience and adapt to new possibilities for devs building with Appwrite.
+El hype de la AI es real y estará presente durante muchos años. Solo en 2021, las startups de AI en todo el mundo recaudaron casi $50 mil millones en capital de riesgo a través de aproximadamente 1,500 acuerdos, reflejando un aumento significativo con respecto a años anteriores. Así que no es sorprendente que muchos de ustedes estén buscando construir aplicaciones impulsadas por AI. Pero eso es más fácil decirlo que hacerlo, ya que construir aplicaciones impulsadas por AI puede ser complicado. No queremos que sea así. Por eso estamos felices de compartir múltiples anuncios relacionados con AI diseñados para mejorar la experiencia de Appwrite y adaptarse a las nuevas posibilidades para los desarrolladores que construyen con Appwrite.
 
-- New knowledge base for AI
-- New third party AI integration tutorials
-- New AI powered Function templates
+- Nueva base de conocimiento para AI
+- Nuevos tutoriales de integración de AI de terceros
+- Nuevas plantillas de Funciones impulsadas por AI
 
-Let's examine the integrations, Function templates, and what's still to come.
+Examinemos las integraciones, las plantillas de Funciones y lo que aún está por venir.
 
-## AI use cases and documentation
+## Casos de uso y documentación de AI
 
-To make your life easier, we have added technical guides to our documentation covering [computer vision](https://appwrite.io/blog/post/state-of-computer-vision), [natural language processing](https://appwrite.io/blog/post/state-of-natural-language-processing), and [audio processing](https://appwrite.io/blog/post/state-of-audio-processing). These advanced tutorials explain how to use [AI and Appwrite](https://appwrite.io/docs/products/ai) in your projects.
+Para facilitarte la vida, hemos añadido guías técnicas a nuestra documentación que cubren [visión por computadora](https://appwrite.io/blog/post/state-of-computer-vision), [procesamiento de lenguaje natural](https://appwrite.io/blog/post/state-of-natural-language-processing) y [procesamiento de audio](https://appwrite.io/blog/post/state-of-audio-processing). Estos tutoriales avanzados explican cómo utilizar [AI y Appwrite](https://appwrite.io/docs/products/ai) en tus proyectos.
 
-![AI docs](/images/blog/ai-docs.png)
+![Documentación de AI](/images/blog/ai-docs.png)
 
-## AI integrations
+## Integraciones de AI
 
-We've also added support for many AI tools so you can integrate them into your projects. You will find step-by-step tutorials for each integration in our documentation. So far, we have added integrations and tutorials for:
+También hemos añadido soporte para muchas herramientas de AI para que puedas integrarlas en tus proyectos. Encontrarás tutoriales paso a paso para cada integración en nuestra documentación. Hasta ahora, hemos añadido integraciones y tutoriales para:
 
 - [Pinecone](https://appwrite.io/docs/products/ai/integrations/pinecone)
 - [OpenAI](https://appwrite.io/docs/products/ai/integrations/openai)
@@ -38,34 +38,34 @@ We've also added support for many AI tools so you can integrate them into your p
 - [Together AI](https://appwrite.io/docs/products/ai/integrations/togetherai)
 - [Anyscale](https://appwrite.io/docs/products/ai/integrations/anyscale)
 
-## AI powered Function templates
+## Plantillas de Funciones impulsadas por AI
 
-Function templates are pre-built Appwrite [Function](https://appwrite.io/docs/products/functions) that can be integrated into your Appwrite project with just a few clicks. With templates, you can easily incorporate new features and integrations into your app without writing additional code or managing infrastructure.
+Las plantillas de Funciones son Funciones preconstruidas de Appwrite que pueden integrarse en tu proyecto de Appwrite con solo unos clics. Con las plantillas, puedes incorporar fácilmente nuevas características e integraciones en tu aplicación sin escribir código adicional ni gestionar infraestructura.
 
-We have templates for your favorite AI tools, like OpenAI, LangChain, HuggingFace, and many more, covering many use cases, such as building an [intelligent chatbot](https://appwrite.io/blog/post/function-template-prompt-chatgpt) using OpenAI.
+Tenemos plantillas para tus herramientas de AI favoritas, como OpenAI, LangChain, HuggingFace y muchas más, cubriendo muchos casos de uso, como construir un [chatbot inteligente](https://appwrite.io/blog/post/function-template-prompt-chatgpt) utilizando OpenAI.
 
-Find the full overview on your console under the `Templates` tab in `Fuctions`. Filter function templates by the `AI` use case and select the AI function template that you need.
+Encuentra la visión general completa en tu consola bajo la pestaña `Templates` en `Functions`. Filtra las plantillas de funciones por el caso de uso de `AI` y selecciona la plantilla de función de AI que necesites.
 
-![Appwrite console with AI template functions](/images/blog/ai-function-templates.png)
+![Consola de Appwrite con plantillas de funciones de AI](/images/blog/ai-function-templates.png)
 
-You can also find the full list of templates on [GitHub](https://github.com/appwrite/templates) and see what's to come.
+También puedes encontrar la lista completa de plantillas en [GitHub](https://github.com/appwrite/templates) y ver lo que está por venir.
 
-## Building more AI features
+## Construyendo más funciones de AI
 
-Over the coming months, we will roll out more AI features to make building AI products smoother and allow more flexibility.
+En los próximos meses, lanzaremos más funciones de AI para hacer que la construcción de productos de AI sea más fluida y permita más flexibilidad.
 
-### Vector database
+### Base de datos vectorial
 
-Another advanced AI use case in the field of Natural Language Processing is the ability to use vector databases to store and process embeddings.
+Otro caso de uso avanzado de AI en el campo del Procesamiento de Lenguaje Natural es la capacidad de usar bases de datos vectoriales para almacenar y procesar embeddings.
 
-> Embeddings are numerical representations of words, sentences etc., and vector databases are optimized to store and perform similarity searches on the embeddings.
+> Los embeddings son representaciones numéricas de palabras, oraciones, etc., y las bases de datos vectoriales están optimizadas para almacenar y realizar búsquedas de similitud en los embeddings.
 
-Adding a vector database will be another important milestone for making Appwrite even more AI compatible.
+Agregar una base de datos vectorial será otro hito importante para hacer que Appwrite sea aún más compatible con AI.
 
-### AI marketplace
+### Mercado de AI
 
-We will add an AI marketplace to encourage more open source collaboration on AI models and improve discoverability. The marketplace will allow you to build and share popular open-source and custom models. You can also host and sell your own custom models on the marketplace.
+Añadiremos un mercado de AI para fomentar más colaboración de código abierto en modelos de AI y mejorar la descubribilidad. El mercado te permitirá construir y compartir modelos populares de código abierto y personalizados. También podrás alojar y vender tus propios modelos personalizados en el mercado.
 
-## Building the future
+## Construyendo el futuro
 
-The future of Appwrite is exciting, and we look forward to continuing to build exciting new features. Join us on [Discord](https://appwrite.io/discord) to participate in the discussion and have fun. For Appwrite and AI-powered projects, visit [builtwith.appwrite.io](https://apwr.dev/yAtAG8j).
+El futuro de Appwrite es emocionante y esperamos seguir construyendo nuevas funciones emocionantes. Únete a nosotros en [Discord](https://appwrite.io/discord) para participar en la discusión y divertirte. Para proyectos de Appwrite impulsados por AI, visita [builtwith.appwrite.io](https://apwr.dev/yAtAG8j).

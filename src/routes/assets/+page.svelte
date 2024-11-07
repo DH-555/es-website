@@ -80,14 +80,14 @@
                     <div class="web-content">
                         <section>
                             <p>
-                                Resources for presenting the Appwrite brand to maintain consistency
-                                while using our logos, colors, and other brand elements across
-                                various platforms and materials.
+                                Recursos para presentar la marca Appwrite y mantener la consistencia
+                                al utilizar nuestros logotipos, colores y otros elementos de la
+                                marca en diversas plataformas y materiales.
                             </p>
 
                             <a href="/assets.zip" download class="web-button">
                                 <span class="web-icon-download" aria-hidden="true" />
-                                <span>Download assets</span>
+                                <span>Descargar recursos</span>
                             </a>
                         </section>
 
@@ -98,12 +98,12 @@
                                     use:visible={{ top: 48 }}
                                     on:visible={handleVisibility(Section.NAMING)}
                                 >
-                                    Naming
+                                    Mención
                                 </h2>
                                 <p>
-                                    Write 'Appwrite,' with a lowercase 'w' and no space between the
-                                    two words. Please refrain from using variations like 'AppWrite'
-                                    or 'App Write'.
+                                    Escribe 'Appwrite', con una 'w' minúscula y sin espacio entre
+                                    las dos palabras. Por favor, abstente de usar variaciones como
+                                    'AppWrite' o 'App Write'.
                                 </p>
                             </div>
                         </section>
@@ -115,12 +115,12 @@
                                     use:visible={{ top: 48 }}
                                     on:visible={handleVisibility(Section.LOGOTYPE)}
                                 >
-                                    Logotype
+                                    Logotipo
                                 </h2>
                                 <p>
-                                    The Appwrite logo stands as a prominent symbol of our brand's
-                                    identity. Refrain from altering our logo and preferably use our
-                                    logo on a neutral background.
+                                    El logo de Appwrite se presenta como un símbolo destacado de la
+                                    identidad de nuestra marca. Abstente de alterar nuestro logo y,
+                                    preferiblemente, utilízalo sobre un fondo neutro.
                                 </p>
                                 <div class="web-flex flex-col-mobile mt-5 flex flex-wrap gap-8">
                                     <div
@@ -195,11 +195,13 @@
                             </div>
                             <section>
                                 <div class="web-flex flex-col gap-2">
-                                    <h3 class="text-label text-primary mt-3 mb-4">Co-branding logotypes</h3>
+                                    <h3 class="text-label text-primary mt-3 mb-4">
+                                        Logotipos de co-branding
+                                    </h3>
                                     <p>
-                                        Spacing is determined by the Appwrite mark. Unless otherwise
-                                        noted by partner brands, each logo is optically equal as a
-                                        collection of shapes.
+                                        El espaciado está determinado por la marca Appwrite. A menos
+                                        que se indique lo contrario por las marcas asociadas, cada
+                                        logotipo es ópticamente igual como una colección de formas.
                                     </p>
                                     <div
                                         class="web-u-border-radius-8 web-u-bg-color-neutral-800 web-u-min-block-size-320 mt-5 flex items-center
@@ -221,13 +223,13 @@
                                     use:visible={{ top: 48 }}
                                     on:visible={handleVisibility(Section.LOGOMARK)}
                                 >
-                                    Logomark
+                                    Logosímbolo
                                 </h3>
                                 <p>
-                                    While prioritizing recognizability, the logotype is the
-                                    recommended choice. Using the Appwrite logomark is suitable for
-                                    situations where space constraints make it challenging to
-                                    showcase the complete logotype.
+                                    Mientras se prioriza el reconocimiento, el logotipo es la opción
+                                    recomendada. Utilizar la marca del logotipo de Appwrite es
+                                    adecuado para situaciones donde las limitaciones de espacio
+                                    dificultan mostrar el logotipo completo.
                                 </p>
                                 <div class="web-flex flex-col-mobile mt-5 flex flex-wrap gap-8">
                                     <div
@@ -302,11 +304,13 @@
                             </div>
                             <section id="">
                                 <div class="web-flex flex-col gap-2">
-                                    <h3 class="text-label text-primary mt-3 mb-4">Co-branding lockups</h3>
+                                    <h3 class="text-label text-primary mt-3 mb-4">
+                                        Bloques de co-branding
+                                    </h3>
                                     <p>
-                                        Spacing is determined by the Appwrite mark. Unless otherwise
-                                        noted by partner brands, each logo is optically equal as a
-                                        collection of shapes.
+                                        El espaciado está determinado por la marca Appwrite. A menos
+                                        que se indique lo contrario por las marcas asociadas, cada
+                                        logo es ópticamente igual como una colección de formas.
                                     </p>
                                     <div
                                         class="web-u-border-radius-8 web-u-bg-color-neutral-800 web-u-min-block-size-320 mt-4 flex items-center
@@ -327,37 +331,37 @@
                                 use:visible={{ top: 48 }}
                                 on:visible={handleVisibility(Section.COLORS)}
                             >
-                                Brand colors
+                                Colores de marca
                             </h2>
                             <div class="flex flex-wrap gap-8">
                                 <div
-                                    class="media-wrapper | flex aspect-square web-u-flex-basis-200 web-flex web-u-border-radius-8 web-u-text-color-neutral-900 web-u-bg-color-neutral-50
-                                web-u-min-block-size-160 flex-1 flex-col justify-center
+                                    class="media-wrapper | web-u-flex-basis-200 web-flex web-u-border-radius-8 web-u-text-color-neutral-900 web-u-bg-color-neutral-50 web-u-min-block-size-160 flex
+                                aspect-square flex-1 flex-col justify-center
                                 gap-2 px-6"
                                 >
-                                    <h3 class="text-label">Light Grey</h3>
+                                    <h3 class="text-label">Gris claro</h3>
                                     <p class="text-caption">#EDEDF0</p>
                                     <div class="buttons | light">
                                         <Copy toCopy="#EDEDF0" />
                                     </div>
                                 </div>
                                 <div
-                                    class="media-wrapper | aspect-square flex web-u-sep web-u-flex-basis-200 web-flex web-u-border-radius-8 web-u-min-block-size-160
-                                web-u-text-color-neutral-50 web-u-bg-color-neutral-900 flex-1 flex-col justify-center
+                                    class="media-wrapper | web-u-sep web-u-flex-basis-200 web-flex web-u-border-radius-8 web-u-min-block-size-160 web-u-text-color-neutral-50 web-u-bg-color-neutral-900
+                                flex aspect-square flex-1 flex-col justify-center
                                 gap-2 px-6"
                                 >
-                                    <h3 class="text-label">Dark Grey</h3>
+                                    <h3 class="text-label">Gris oscuro</h3>
                                     <p class="text-caption">#19191D</p>
                                     <div class="buttons">
                                         <Copy toCopy="#19191D" />
                                     </div>
                                 </div>
                                 <div
-                                    class="media-wrapper | flex aspect-square web-u-flex-basis-200 web-flex web-u-border-radius-8 web-u-text-color-neutral-50 web-u-bg-color-primary-500
-                                web-u-min-block-size-160 flex-1 flex-col justify-center
+                                    class="media-wrapper | web-u-flex-basis-200 web-flex web-u-border-radius-8 web-u-text-color-neutral-50 web-u-bg-color-primary-500 web-u-min-block-size-160 flex
+                                aspect-square flex-1 flex-col justify-center
                                 gap-2 px-6"
                                 >
-                                    <h3 class="text-label">Appwrite Pink</h3>
+                                    <h3 class="text-label">Rosa Appwrite</h3>
                                     <p class="text-caption">#FD366E</p>
                                     <div class="buttons">
                                         <Copy toCopy="#FD366E" />
@@ -373,11 +377,11 @@
                                     use:visible={{ top: 48 }}
                                     on:visible={handleVisibility(Section.VISUALS)}
                                 >
-                                    Product visuals
+                                    Visuales del productos
                                 </h2>
                                 <p>
-                                    Use these product visuals to enhance your articles,
-                                    presentations, and content related to Appwrite.
+                                    Utiliza estos elementos visuales del producto para mejorar tus
+                                    artículos, presentaciones y contenido relacionado con Appwrite.
                                 </p>
                                 <div class="mt-5 grid grid-cols-2 gap-8">
                                     <div class="media-wrapper">
@@ -579,16 +583,16 @@
                                     use:visible={{ top: 48 }}
                                     on:visible={handleVisibility(Section.CONTACT)}
                                 >
-                                    Contact us
+                                    Contáctanos
                                 </h2>
                                 <p>
-                                    Should you require further assistance or have specific needs
-                                    beyond what's presented on this page, please don't hesitate to
+                                    Si necesitas más ayuda o tienes necesidades específicas más allá
+                                    de lo que se presenta en esta página, no dudes en
                                     <a
                                         class="web-link"
                                         href="/contact-us"
                                         target="_blank"
-                                        rel="noopener noreferrer">contact us</a
+                                        rel="noopener noreferrer">contactarnos</a
                                     >.
                                 </p>
                             </div>
@@ -616,13 +620,12 @@
             right: 1rem;
             bottom: 1rem;
 
-          &.visuals {
-            justify-content: left;
-            top: auto;
-            position: relative;
-            margin-top: 2rem;
-          }
+            &.visuals {
+                justify-content: left;
+                top: auto;
+                position: relative;
+                margin-top: 2rem;
+            }
         }
-
     }
 </style>

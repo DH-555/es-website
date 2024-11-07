@@ -184,7 +184,9 @@
             {#if value}
                 <section>
                     {#if results.length > 0}
-                        <h6 class="text-micro uppercase">{results.length} results found</h6>
+                        <h6 class="text-micro uppercase">
+                            {results.length} resultados encontrados
+                        </h6>
                         <ul class="mt-2 flex flex-col gap-1">
                             {#each results as hit, i (hit.uid)}
                                 {@const relevantSubtitle = getRelevantSubtitle(hit)}
@@ -219,13 +221,13 @@
                         </ul>
                     {:else}
                         <p class="text-caption">
-                            No results found for <span class="font-bold">{value}</span>
+                            No se encontraron resultados para <span class="font-bold">{value}</span>
                         </p>
                     {/if}
                 </section>
             {/if}
             <section>
-                <h6 class="text-micro uppercase">Recommended</h6>
+                <h6 class="text-micro uppercase">Recomendado</h6>
                 <ul class="mt-2 flex flex-col gap-1">
                     {#each recommended as hit, i (hit.uid)}
                         {@const index = i + (results.length ? results.length : 0)}

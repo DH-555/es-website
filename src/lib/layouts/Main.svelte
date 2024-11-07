@@ -102,11 +102,11 @@
 
     let navLinks: NavLink[] = [
         {
-            label: 'Docs',
+            label: 'Documentación',
             href: '/docs'
         },
         {
-            label: 'Community',
+            label: 'Comunidad',
             href: '/community'
         },
         {
@@ -114,16 +114,16 @@
             href: '/blog'
         },
         {
-            label: 'Integrations',
+            label: 'Integraciones',
             href: '/integrations'
         },
         {
-            label: 'Changelog',
+            label: 'Cambios',
             href: '/changelog',
             showBadge: hasNewChangelog?.() && !$page.url.pathname.includes('/changelog')
         },
         {
-            label: 'Pricing',
+            label: 'Tarifas',
             href: '/pricing'
         }
     ];
@@ -140,15 +140,16 @@
             return true;
         }
 
-
         return $scrollInfo.deltaDirChange < 200;
     })();
 
     function updateSideNav() {
-        if(browser) {
+        if (browser) {
             const integrationsSide = document.getElementById('integrations-side');
             if (integrationsSide) {
-                $isHeaderHidden ? integrationsSide.classList.remove('menu-visible') : integrationsSide.classList.add('menu-visible');
+                $isHeaderHidden
+                    ? integrationsSide.classList.remove('menu-visible')
+                    : integrationsSide.classList.add('menu-visible');
             }
         }
     }
@@ -183,7 +184,7 @@
         <div class="web-mobile-header-end">
             {#if !$isMobileNavOpen}
                 <a href={PUBLIC_APPWRITE_DASHBOARD} class="web-button">
-                    <span class="text">Get started</span>
+                    <span class="text">Comenzar ahora</span>
                 </a>
             {/if}
             <button
@@ -264,7 +265,7 @@
                     class="web-button is-text web-u-inline-width-100-percent-mobile"
                 >
                     <span class="web-icon-star" aria-hidden="true" />
-                    <span class="text">Star on GitHub</span>
+                    <span class="text">Dejar estrella en GitHub</span>
                     <span class="web-inline-tag text-sub-body">{GITHUB_STARS}</span>
                 </a>
                 <IsLoggedIn />

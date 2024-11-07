@@ -41,15 +41,15 @@
                 active: './images/icons/illustrated/dark/auth.png',
                 inactive: './images/icons/illustrated/dark/auth-transparent.png'
             },
-            title: 'Auth',
-            subtitle: 'Secure login for all users',
+            title: 'Autenticación',
+            subtitle: 'Inicio de sesión seguro para todos los usuarios',
             description:
-                'Authenticate users securely with multiple login methods like Email/Password, SMS, OAuth, Anonymous, Magic URLs and more.',
+                'Autentica a los usuarios de forma segura con múltiples métodos de inicio de sesión, como correo electrónico/contraseña, SMS, OAuth, anónimo, URL mágicas y más.',
             features: [
-                '30+ login methods',
-                'Support for teams, roles and user labels',
-                'Rate-limits and advanced user protection',
-                'Custom SMTP and email templates'
+                '30+ métodos de inicio sesión',
+                'Soporte para equipos, roles y etiquetas de usuarios',
+                'Limitación de velocidad y protección de usuario avanzada',
+                'SMTP personalizado y plantillas de email propias'
             ],
             shot: AuthShot
         },
@@ -58,16 +58,18 @@
                 active: './images/icons/illustrated/dark/databases.png',
                 inactive: './images/icons/illustrated/dark/databases-transparent.png'
             },
-            title: 'Databases',
-            subtitle: 'Store, query and manage data',
-            description: 'Scalable and robust database backed by your favorite technologies.',
+            title: 'Bases de datos',
+            subtitle: 'Almacena, solicita y administra datos',
+            description:
+                'Base de datos escalable y robusta respaldada por tus tecnologías favoritas.',
             features: [
-                'Never paused',
-                'Fast in-memory caching',
-                'Advanced permission models',
-                'Custom data validation',
-                'Relationships support'
+                'Nunca en pausa',
+                'Caché en memoria rápida',
+                'Modelos de permisos avanzados',
+                'Validación de datos personalizada',
+                'Soporte para relaciones'
             ],
+
             shot: DatabasesShot
         },
         functions: {
@@ -75,15 +77,17 @@
                 active: './images/icons/illustrated/dark/functions.png',
                 inactive: './images/icons/illustrated/dark/functions-transparent.png'
             },
-            title: 'Functions',
-            subtitle: 'Customize and extend your backend',
-            description: 'Deploy and scale serverless functions in secure, isolated runtimes.',
+            title: 'Funciones',
+            subtitle: 'Personaliza y extiende tu backend',
+            description:
+                'Despliega y escala funciones sin servidor en entornos seguros y aislados.',
             features: [
-                'Automatic deployment from GitHub',
-                'Trigger using GitHub, CLI, Event Listeners or HTTP requests',
-                'Support for 30+ runtimes in 13 languages',
-                'Custom domain support'
+                'Despliegue automático desde GitHub',
+                'Activación mediante GitHub, CLI, Listeners de eventos o solicitudes HTTP',
+                'Soporte para más de 30 entornos en 13 lenguajes',
+                'Soporte para dominios personalizados'
             ],
+
             shot: FunctionsShot
         },
         messaging: {
@@ -91,15 +95,15 @@
                 active: './images/icons/illustrated/dark/messaging.png',
                 inactive: './images/icons/illustrated/dark/messaging-transparent.png'
             },
-            title: 'Messaging',
-            subtitle: 'Communicate with your users',
+            title: 'Mensajería',
+            subtitle: 'Comunícate con tus usuarios',
             description:
-                'Set up a full-functioning messaging service for your application that covers multiple channels under one unified platform.',
+                'Configura un servicio de mensajería completamente funcional para tu aplicación que cubra múltiples canales en una plataforma unificada.',
             features: [
-                'Draft and preview your messages before delivery',
-                'Segment your users for specific targeting',
-                'Send push notifications, emails, and SMS',
-                'Supports real-time and location-based messaging'
+                'Redacta y previsualiza tus mensajes antes de enviarlos',
+                'Segmenta a tus usuarios para un targeting específico',
+                'Envía notificaciones push, correos electrónicos y SMS',
+                'Soporta mensajería en tiempo real y basada en ubicación'
             ],
             shot: MessagingShot
         },
@@ -108,15 +112,16 @@
                 active: './images/icons/illustrated/dark/storage.png',
                 inactive: './images/icons/illustrated/dark/storage-transparent.png'
             },
-            title: 'Storage',
-            subtitle: 'Upload and manage files',
+            title: 'Almacenamiento',
+            subtitle: 'Sube y gestiona archivos',
             description:
-                'Securely store files with advanced compression, encryption and image transformations.',
+                'Almacena archivos de manera segura con compresión avanzada, cifrado y transformaciones de imágenes.',
             features: [
-                'File encryption at rest and transit',
-                'Built-in image transformation capabilities',
-                'Advanced compression with WebP/Brotli support'
+                'Cifrado de archivos en reposo y en tránsito',
+                'Capacidades integradas de transformación de imágenes',
+                'Compresión avanzada con soporte para WebP/Brotli'
             ],
+
             shot: StorageShot
         },
         realtime: {
@@ -124,14 +129,16 @@
                 active: './images/icons/illustrated/dark/realtime.png',
                 inactive: './images/icons/illustrated/dark/realtime-transparent.png'
             },
-            title: 'Realtime',
-            subtitle: 'Realtime events for every service',
-            description: 'Subscribe and react to any Appwrite event using the Realtime API.',
+            title: 'En tiempo real',
+            subtitle: 'Eventos en tiempo real para cada servicio',
+            description:
+                'Suscríbete y reacciona a cualquier evento de Appwrite utilizando la API en tiempo real.',
             features: [
-                'Unlimited subscriptions',
-                'Built-in permission management',
-                'Support for DBs, Auth, Storage & Functions'
+                'Suscripciones ilimitadas',
+                'Gestión de permisos integrada',
+                'Soporte para bases de datos, autenticación, almacenamiento y funciones'
             ],
+
             shot: RealtimeShot
         }
     };
@@ -239,14 +246,14 @@
                 {#if scrollInfo.percentage > -0.1}
                     <span
                         class="web-badges text-micro uppercase !text-white"
-                        transition:slide={{ axis: 'x' }}>Products_</span
+                        transition:slide={{ axis: 'x' }}>Productos_</span
                     >
 
                     <h2
                         class="text-display font-aeonik-pro text-primary"
                         transition:fly={{ y: 16, delay: 250 }}
                     >
-                        Your backend, minus the hassle
+                        Tu backend, sin lo complicado.
                     </h2>
                     <p
                         class="text-description mx-auto max-w-[700px]"
@@ -255,8 +262,9 @@
                             delay: 400
                         }}
                     >
-                        Build secure and scalable applications with less code. Add authentication,
-                        databases, storage, and more using Appwrite's development platform.
+                        Construya aplicaciones seguras y escalables con menos código. Agregue
+                        autenticación, bases de datos, almacenamiento y más utilizando la plataforma
+                        de desarrollo de Appwrite.
                     </p>
                 {/if}
             </div>

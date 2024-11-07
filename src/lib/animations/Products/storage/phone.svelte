@@ -13,11 +13,11 @@
 
 <div data-theme-ignore class="inner-phone light">
     <div class="header">
-        <p class="title">Your tasks</p>
+        <p class="title">Tus tareas</p>
         <span class="icon-menu" aria-label="menu" />
     </div>
 
-    <div class="date">Today</div>
+    <div class="date">Hoy</div>
     <div class="tasks">
         {#each fixedTasks as task (task.id)}
             <div class="task" data-checked={task.checked ? '' : undefined} in:fly={{ x: -16 }}>
@@ -33,10 +33,10 @@
 
     <div class="overlay" id="overlay-{$elId}">
         <div class="drawer" id="drawer-{$elId}">
-            <p class="title">Edit images for website</p>
-            <p class="subtitle">Edit the attached images to use in the website</p>
+            <p class="title">Editar imágenes para la web</p>
+            <p class="subtitle">Edita las imágenes adjuntas para usarlas en este sitio web</p>
 
-            <div class="upload" id="upload-btn-{$elId}">Upload media...</div>
+            <div class="upload" id="upload-btn-{$elId}">Subiendo archivos...</div>
             <div class="images">
                 {#each $state.files.slice(1) as file}
                     <img src={file.src} alt="" transition:fly={{ x: 16 }} />
@@ -46,9 +46,9 @@
     </div>
 </div>
 <div class="upload-media" id="upload-{$elId}">
-    <p class="title">Upload media</p>
+    <p class="title">Subir archivos</p>
     <div class="drop-zone">
-        <span id="upload-text-{$elId}"> Drop media here </span>
+        <span id="upload-text-{$elId}"> Arrastra archivos aquí </span>
         <div class="loading-overlay" id="upload-loading-{$elId}">
             <div class="loader" />
         </div>

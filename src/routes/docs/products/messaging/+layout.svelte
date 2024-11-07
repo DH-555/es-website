@@ -4,103 +4,103 @@
 
     const parent: NavParent = {
         href: '/docs',
-        label: 'Messaging'
+        label: 'Mensajería'
     };
 
     const navigation: NavTree = [
         {
-            label: 'Getting started',
+            label: 'Empezando',
             items: [
                 {
-                    label: 'Overview',
+                    label: 'Visión general',
                     href: '/docs/products/messaging'
                 }
             ]
         },
         {
-            label: 'Concepts',
+            label: 'Conceptos',
             items: [
                 {
-                    label: 'Topics',
+                    label: 'Tópicos',
                     href: '/docs/products/messaging/topics'
                 },
                 {
-                    label: 'Targets',
+                    label: 'Objetivos',
                     href: '/docs/products/messaging/targets'
                 },
                 {
-                    label: 'Messages',
+                    label: 'Mensajes',
                     href: '/docs/products/messaging/messages'
                 }
             ]
         },
         {
-            label: 'Providers',
+            label: 'Proveedores',
             items: [
                 {
-                    label: 'Push with APNs',
+                    label: 'Push con APNs',
                     href: '/docs/products/messaging/apns'
                 },
                 {
-                    label: 'Push with FCM',
+                    label: 'Push con FCM',
                     href: '/docs/products/messaging/fcm'
                 },
                 {
-                    label: 'Email with Mailgun',
+                    label: 'Email con Mailgun',
                     href: '/docs/products/messaging/mailgun'
                 },
                 {
-                    label: 'Email with SendGrid',
+                    label: 'Email con SendGrid',
                     href: '/docs/products/messaging/sendgrid'
                 },
                 {
-                    label: 'Email with SMTP',
+                    label: 'Email con SMTP',
                     href: '/docs/products/messaging/smtp'
                 },
                 {
-                    label: 'SMS with Twilio',
+                    label: 'SMS con Twilio',
                     href: '/docs/products/messaging/twilio'
                 },
                 {
-                    label: 'SMS with MSG91',
+                    label: 'SMS con MSG91',
                     href: '/docs/products/messaging/msg91'
                 },
                 {
-                    label: 'SMS with Telesign',
+                    label: 'SMS con Telesign',
                     href: '/docs/products/messaging/telesign'
                 },
                 {
-                    label: 'SMS with Textmagic',
+                    label: 'SMS con Textmagic',
                     href: '/docs/products/messaging/textmagic'
                 },
                 {
-                    label: 'SMS with Vonage',
+                    label: 'SMS con Vonage',
                     href: '/docs/products/messaging/vonage'
                 }
             ]
         },
         {
-            label: 'Journeys',
+            label: 'Recorridos',
             items: [
                 {
-                    label: 'Send push notifications',
+                    label: 'Envía notificaciones push',
                     href: '/docs/products/messaging/send-push-notifications'
                 },
                 {
-                    label: 'Send email messages',
+                    label: 'Envía emails',
                     href: '/docs/products/messaging/send-email-messages'
                 },
                 {
-                    label: 'Send SMS messages',
+                    label: 'Envía mensajes SMS',
                     href: '/docs/products/messaging/send-sms-messages'
                 }
             ]
         },
         {
-            label: 'References',
+            label: 'Referencias',
             items: [
                 {
-                    label: 'API reference',
+                    label: 'Referencias API',
                     href: '/docs/references/cloud/client-web/messaging'
                 }
             ]

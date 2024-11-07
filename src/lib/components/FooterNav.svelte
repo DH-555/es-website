@@ -14,7 +14,7 @@
 
     const links: Record<string, { label: string; href: string; target?: string; rel?: string }[]> =
         {
-            'Quick starts': [
+            'Inicio rápido': [
                 { label: 'Web', href: '/docs/quick-starts/web' },
                 { label: 'Next.js', href: '/docs/quick-starts/nextjs' },
                 { label: 'React', href: '/docs/quick-starts/react' },
@@ -31,22 +31,22 @@
                 { label: 'Astro', href: '/docs/quick-starts/astro' },
                 { label: 'Solid', href: '/docs/quick-starts/solid' }
             ],
-            Products: [
-                { label: 'Auth', href: '/docs/products/auth' },
-                { label: 'Databases', href: '/docs/products/databases' },
-                { label: 'Functions', href: '/docs/products/functions' },
-                { label: 'Messaging', href: '/products/messaging' },
-                { label: 'Storage', href: '/docs/products/storage' },
-                { label: 'Realtime', href: '/docs/apis/realtime' }
+            Productos: [
+                { label: 'Autenticación', href: '/docs/products/auth' },
+                { label: 'Bases de datos', href: '/docs/products/databases' },
+                { label: 'Funciones', href: '/docs/products/functions' },
+                { label: 'Mensajería', href: '/products/messaging' },
+                { label: 'Almacenamiento', href: '/docs/products/storage' },
+                { label: 'Tiempo-real', href: '/docs/apis/realtime' }
             ],
-            Learn: [
-                { label: 'Docs', href: '/docs' },
-                { label: 'Integrations', href: '/integrations' },
-                { label: 'Community', href: '/community' },
+            Aprende: [
+                { label: 'Documentación', href: '/docs' },
+                { label: 'Integraciones', href: '/integrations' },
+                { label: 'Comunidad', href: '/community' },
                 { label: 'Init', href: '/init' },
-                { label: 'Threads', href: '/threads' },
+                { label: 'Hilos', href: '/threads' },
                 { label: 'Blog', href: '/blog' },
-                { label: 'Changelog', href: '/changelog' },
+                { label: 'Cambios', href: '/changelog' },
                 {
                     label: 'Roadmap',
                     href: 'https://github.com/orgs/appwrite/projects',
@@ -54,7 +54,7 @@
                     rel: 'noopener noreferrer'
                 },
                 {
-                    label: 'Source code',
+                    label: 'Código fuente',
                     href: 'https://github.com/appwrite',
                     target: '_blank',
                     rel: 'noopener noreferrer'
@@ -66,27 +66,27 @@
                 //     rel: 'noopener noreferrer'
                 // }
             ],
-            Programs: [
-                { label: 'Heroes', href: '/heroes' },
+            Programas: [
+                { label: 'Héroes', href: '/heroes' },
                 { label: 'Startups', href: '/startups' }
             ],
-            About: [
-                { label: 'Company', href: '/company' },
-                { label: 'Pricing', href: '/pricing' },
+            Sobre: [
+                { label: 'Empresa', href: '/company' },
+                { label: 'Tarifas', href: '/pricing' },
                 {
-                    label: 'Careers',
+                    label: 'Empleos',
                     href: 'https://appwrite.careers',
                     target: '_blank',
                     rel: 'noopener noreferrer'
                 },
                 {
-                    label: 'Store',
+                    label: 'Tienda',
                     href: 'https://appwrite.store',
                     target: '_blank',
                     rel: 'noopener noreferrer'
                 },
-                { label: 'Contact us', href: '/contact-us' },
-                { label: 'Assets', href: '/assets' }
+                { label: 'Contacto', href: '/contact-us' },
+                { label: 'Recursos', href: '/assets' }
             ]
         };
 </script>
@@ -101,7 +101,7 @@
         {#each Object.entries(links) as [title, items]}
             <li class="web-footer-nav-main-item web-is-not-mobile">
                 <h2
-                    class="web-footer-nav-main-title web-is-not-mobile text-caption uppercase font-medium"
+                    class="web-footer-nav-main-title web-is-not-mobile text-caption font-medium uppercase"
                 >
                     {title}
                 </h2>

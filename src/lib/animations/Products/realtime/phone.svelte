@@ -46,7 +46,7 @@
     <div data-theme-ignore class="inner-phone light">
         <div class="header">
             <div class="row">
-                <p class="title">My Team's tasks</p>
+                <p class="title">Tareas de mi equipo</p>
                 <div class="flow gap-8">
                     <div class="tgl-avatars">
                         {#each $state.users as user}
@@ -62,11 +62,11 @@
             <div class="row">
                 <div class="search">
                     <span class="web-icon-search" />
-                    <span class="text"> Search </span>
+                    <span class="text"> Buscar </span>
                 </div>
                 <div class="flow gap-8">
-                    <button class="btn">Filter</button>
-                    <button class="btn">Sort</button>
+                    <button class="btn">Filtrar</button>
+                    <button class="btn">Ordenar</button>
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
                     <div class="flow-v mbs-8 gap-12">
                         <button class="dashed-btn" id="add-{col}-{$elId}">
                             <span class="icon-plus" />
-                            <span class="text">New Task</span>
+                            <span class="text">Nueva tarea</span>
                         </button>
                         {#each tasks as task (task.title)}
                             <div
@@ -131,7 +131,7 @@
 
     <div class="graph-box" id="graph-box-{$elId}">
         <p class="title">{formatNumber(connections)}</p>
-        <p class="subtitle">Realtime Connections</p>
+        <p class="subtitle">Conexiones en timpo real</p>
 
         <svg
             width="324"

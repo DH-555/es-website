@@ -4,13 +4,13 @@
 
 <img src="/images/bgs/pre-footer.png" alt="" class="web-pre-footer-bg" style="z-index:-1" />
 
-<div class="web-u-row-gap-80 relative grid md:grid-cols-2 gap-8">
+<div class="web-u-row-gap-80 relative grid gap-8 md:grid-cols-2">
     <section class="web-hero flex items-center justify-center gap-y-8">
         <h2 class="text-display font-aeonik-pro text-primary max-w-[500px] text-center">
-            Start building today
+            Empieza a contruir hoy
         </h2>
         <a href={PUBLIC_APPWRITE_DASHBOARD} class="web-button is-transparent web-self-center">
-            <span class="text">Get started</span>
+            <span class="text">Empezar ahora</span>
         </a>
     </section>
     <section
@@ -18,7 +18,7 @@
     >
         <header class="web-strip-plans-header">
             <div class="web-strip-plans-header-wrapper web-u-row-gap-24">
-                <h3 class="text-title font-aeonik-pro text-primary">Our plans</h3>
+                <h3 class="text-title font-aeonik-pro text-primary">Nuestros planes</h3>
             </div>
         </header>
 
@@ -26,18 +26,18 @@
             <li class="web-strip-plans-item web-strip-plans-container-query">
                 <div class="web-strip-plans-item-wrapper">
                     <div class="web-strip-plans-plan">
-                        <h4 class="title text-description">Free</h4>
+                        <h4 class="title text-description">Gratis</h4>
                         <div class="text-title font-aeonik-pro text-primary">$0</div>
                         <div class="info text-caption font-medium" />
                     </div>
                     <p class="web-strip-plans-info text-caption font-medium">
-                        For personal hobby projects and students.
+                        Para proyectos personales y estudiantes.
                     </p>
                     <a
                         href={`${PUBLIC_APPWRITE_DASHBOARD}/register`}
                         class="web-button is-secondary is-full-width-mobile web-u-cross-child-end"
                     >
-                        <span class="text">Get started</span>
+                        <span class="text">Empezar ahora</span>
                     </a>
                 </div>
             </li>
@@ -46,10 +46,11 @@
                     <div class="web-strip-plans-plan">
                         <h4 class="title text-description">Pro</h4>
                         <div class="text-title font-aeonik-pro text-primary">$15</div>
-                        <div class="info text-caption font-medium">per member/month</div>
+                        <div class="info text-caption font-medium">por miembro/mes</div>
                     </div>
                     <p class="web-strip-plans-info text-caption font-medium">
-                        For pro developers and teams that need to scale their products.
+                        Para desarrolladores profesionales y equipos que necesitan escalar sus
+                        productos.
                     </p>
                     <a
                         href={`${PUBLIC_APPWRITE_DASHBOARD}/console?type=createPro`}
@@ -58,43 +59,44 @@
                         rel="noopener noreferrer"
                     >
                         <!-- <span class="text">Start trial</span> -->
-                        <span class="text">Start building</span>
+                        <span class="text">Empezar ahora</span>
                     </a>
                 </div>
             </li>
             <li class="web-strip-plans-item web-strip-plans-container-query">
                 <div class="web-strip-plans-item-wrapper">
                     <div class="web-strip-plans-plan">
-                        <h4 class="title text-description">Scale</h4>
+                        <h4 class="title text-description">Escale</h4>
                         <div class="text-title font-aeonik-pro text-primary">$599</div>
-                        <div class="info text-caption font-medium">per org/month</div>
+                        <div class="info text-caption font-medium">por organización/mes</div>
                     </div>
                     <p class="web-strip-plans-info text-caption font-medium">
-                        For pro developers and production projects that need the ability to scale.
+                        Para desarrolladores profesionales y proyectos de producción que necesitan
+                        la capacidad de escalar.
                     </p>
                     <button
                         class="web-button is-full-width-mobile is-secondary web-u-cross-child-end"
                         disabled
                     >
-                        <span class="text">Coming soon</span>
+                        <span class="text">Próximamente</span>
                     </button>
                 </div>
             </li>
             <li class="web-strip-plans-item web-strip-plans-container-query">
                 <div class="web-strip-plans-item-wrapper">
                     <div class="web-strip-plans-plan">
-                        <h4 class="title web-description">Enterprise</h4>
+                        <h4 class="title web-description">Empresas</h4>
                         <div class="web-title web-u-color-text-primary">Custom</div>
-                        <div class="info web-caption-500">per org/month</div>
+                        <div class="info web-caption-500">por organización/mes</div>
                     </div>
                     <p class="web-strip-plans-info web-caption-500">
-                        For enterprises that need more power and premium support.
+                        Para empresas que necesitan más poder y soporte premium.
                     </p>
                     <a
                         href="/contact-us/enterprise"
                         class="web-button is-secondary is-full-width-mobile web-u-cross-child-end"
                     >
-                        <span class="text">Contact us</span>
+                        <span class="text">Contáctanos</span>
                     </a>
                 </div>
             </li>

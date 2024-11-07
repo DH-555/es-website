@@ -19,16 +19,16 @@
                             >{$page.status}</span
                         >
                         <h1 class="text-headline font-aeonik-pro text-primary">
-                            {$page.error?.message ?? 'An error has occured'}
+                            {$page.error?.message ?? 'Ha ocurrido un error'}
                         </h1>
                         {#if $page.status === 404}
                             <p class="text-description">
-                                Sorry, it seems that the page you are looking for does not exist.
-                                Feel free to use our navigation menu or the button below to explore
-                                more of Appwrite's documentation.
+                                Lo sentimos, parece que la página que estás buscando no existe.
+                                Si lo deseas, puedes usar nuestro menú de navegación o el botón
+                                de abajo para explorar más de la documentación de Appwrite.
                             </p>
                         {/if}
-                        <a href="/" class="web-button self-center">Back to homepage</a>
+                        <a href="/" class="web-button self-center">Volver a la página principal</a>
                     </div>
                 </div>
             </div>

@@ -8,9 +8,9 @@
 
 <div class="pseudo-table">
     <div class="header">
-        <span class="text-micro uppercase">Message ID</span>
-        <span class="text-micro uppercase">Type</span>
-        <span class="text-micro uppercase" style:text-align="center">Status</span>
+        <span class="text-micro uppercase">ID del mensaje</span>
+        <span class="text-micro uppercase">Tipo</span>
+        <span class="text-micro uppercase" style:text-align="center">Estado</span>
     </div>
     {#each $state.messages.slice(0, $state.tableSlice) as task (task.id)}
         <div class="row" transition:slide={{ duration: 150 }} animate:flip={{ duration: 150 }}>

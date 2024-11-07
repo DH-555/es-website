@@ -1,6 +1,6 @@
 <div class="web-big-padding-section-level-2">
     <div class="container">
-        <h3 class="text-label text-primary text-center">Keep exploring similar integrations</h3>
+        <h3 class="text-label text-primary text-center">Explora intefraciones similares</h3>
         <ul class="l-grid-1 mt-8">
             <li>
                 <a
@@ -16,11 +16,11 @@
                             width="32"
                             height="32"
                         />
-                        <h4 class="text-body text-primary">Auth</h4>
+                        <h4 class="text-body text-primary">Autenticación</h4>
                         <span class="icon-arrow-right ml-0" aria-hidden="true"></span>
                     </div>
                     <p class="text-sub-body ml-1">
-                        Build secure authentication and manage your users.
+                        Construye una autenticación segura y gestiona tus usuarios.
                     </p>
                 </a>
             </li>
@@ -38,11 +38,12 @@
                             width="32"
                             height="32"
                         />
-                        <h4 class="text-body text-primary">Functions</h4>
+                        <h4 class="text-body text-primary">Funciones</h4>
                         <span class="icon-arrow-right ml-0" aria-hidden="true"></span>
                     </div>
                     <p class="text-sub-body ml-1">
-                        Scale big and unlock limitless potential with Appwrite functions.
+                        Escala a lo grande y desbloquea un potencial ilimitado con las funciones de
+                        Appwrite.
                     </p>
                 </a>
             </li>
@@ -60,11 +61,12 @@
                             width="32"
                             height="32"
                         />
-                        <h4 class="text-body text-primary">Databases</h4>
+                        <h4 class="text-body text-primary">Bases de datos</h4>
                         <span class="icon-arrow-right ml-0" aria-hidden="true"></span>
                     </div>
                     <p class="text-sub-body ml-1">
-                        Store and query structured data, ensuring scalable storage.
+                        Almacena y consulta datos estructurados, asegurando un almacenamiento
+                        escalable.
                     </p>
                 </a>
             </li>
@@ -82,11 +84,12 @@
                             width="32"
                             height="32"
                         />
-                        <h4 class="text-body text-primary">Messaging</h4>
+                        <h4 class="text-body text-primary">Mensajería</h4>
                         <span class="icon-arrow-right ml-0" aria-hidden="true"></span>
                     </div>
                     <p class="text-sub-body ml-1">
-                        Manage your files’ project, using convenient APIs and utilities.
+                        Gestiona el proyecto de tus archivos utilizando APIs y utilidades
+                        convenientes.
                     </p>
                 </a>
             </li>
@@ -104,11 +107,11 @@
                             width="32"
                             height="32"
                         />
-                        <h4 class="text-body text-primary">Realtime</h4>
+                        <h4 class="text-body text-primary">Tiempo-real</h4>
                         <span class="icon-arrow-right ml-0" aria-hidden="true"></span>
                     </div>
                     <p class="text-sub-body ml-1">
-                        Utilize realtime information from all Appwrite services.
+                        Utiliza información en tiempo real de todos los servicios de Appwrite.
                     </p>
                 </a>
             </li>

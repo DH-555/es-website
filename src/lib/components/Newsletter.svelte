@@ -91,12 +91,13 @@
                         >
                             <section class="web-gap-5 flex flex-col">
                                 <h1 class="text-title font-aeonik-pro text-primary">
-                                    Subscribe to our newsletter
+                                    Suscríbete a nuestra newsletter
                                 </h1>
                                 <p class="text-description web-u-padding-block-end-40">
-                                    Sign up to our company blog and get the latest insights from
-                                    Appwrite. Learn more about engineering, product design, building
-                                    community, and tips & tricks for using Appwrite.
+                                    Regístrate en nuestro blog corporativo y obtén las últimas
+                                    novedades de Appwrite. Aprende más sobre ingeniería, diseño de
+                                    productos, creación de comunidad y consejos y trucos para usar
+                                    Appwrite.
                                 </p>
                             </section>
                         </div>
@@ -132,7 +133,8 @@
                             </svg>
 
                             <span class="text">
-                                Thank you for subscribing! An email has been sent to your inbox.
+                                ¡Gracias por suscribirte! Se ha enviado un correo electrónico a tu
+                                bandeja de entrada.
                             </span>
                         </div>
                     {:else}
@@ -142,7 +144,7 @@
                             class="flex flex-col gap-4"
                         >
                             <div class="flex flex-col gap-1">
-                                <label for="name">Your name</label>
+                                <label for="name">Tu nombre</label>
                                 <input
                                     class="web-input-text"
                                     type="text"
@@ -154,7 +156,7 @@
                                 />
                             </div>
                             <div class="flex flex-col gap-1">
-                                <label for="email">Your email</label>
+                                <label for="email">Tu email</label>
                                 <input
                                     class="web-input-text"
                                     type="email"
@@ -166,11 +168,11 @@
                                 />
                             </div>
                             <button type="submit" class="web-button" disabled={submitting}
-                                >Sign up</button
+                                >Registro</button
                             >
                             {#if error}
                                 <span class="text">
-                                    Something went wrong. Please try again later.
+                                    Algo salió mal. Por favor, inténtalo de nuevo más tarde.
                                 </span>
                             {/if}
                         </form>

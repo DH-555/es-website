@@ -25,51 +25,51 @@ export type IntegrationCategory = {
     description: string;
 }
 
-const categoryDescriptions : IntegrationCategory[] = [
+const categoryDescriptions: IntegrationCategory[] = [
     {
         slug: 'ai',
-        heading: 'AI',
-        description: 'Machine learning and AI capabilities'
+        heading: 'IA',
+        description: 'Aprendizaje automático e Inteligencia Artificial'
     },
     {
         slug: 'auth',
-        heading: 'Auth',
-        description: 'User authentication and authorization'
+        heading: 'Autenticación',
+        description: 'Autenticación y autorización de usuarios'
     },
     {
         slug: 'databases',
-        heading: 'Databases',
-        description: 'Manage database systems'
+        heading: 'Bases de datos',
+        description: 'Administra sistemas de bases de datos'
     },
     {
         slug: 'logging',
-        heading: 'Logging',
-        description: 'Monitor and analyze application logs'
+        heading: 'Registros',
+        description: 'Monitoriza y analiza los registros de tu aplicación'
     },
     {
         slug: 'messaging',
-        heading: 'Messaging',
-        description: 'Real-time communication platforms'
+        heading: 'Mensajería',
+        description: 'Plataformas de comunicación en timpo real'
     },
     {
         slug: 'payments',
-        heading: 'Payments',
-        description: 'Secure online payment processing'
+        heading: 'Pagos',
+        description: 'Procesamiento de pagos seguros online'
     },
     {
         slug: 'search',
-        heading: 'Search',
-        description: 'Implement search functionalities'
+        heading: 'Búsqueda',
+        description: 'Implementa funcionalidades de búsqueda'
     },
     {
         slug: 'storage',
-        heading: 'Storage',
-        description: 'Storage for data and media'
+        heading: 'Almacenamiento',
+        description: 'Almacenamiento de archivos y multimedia'
     },
     {
         slug: 'deployments',
-        heading: 'Deployments',
-        description: 'Seamlessly deploy your code'
+        heading: 'Despliegues',
+        description: 'Depliega tu código de forma directa'
     }
 ]
 
@@ -103,7 +103,7 @@ export const load = () => {
     const integrationsWithDescriptions = Object.entries(groupedIntegrations).map(
         ([category, integrations]) => {
             const integrationCategory = categoryDescriptions.find(
-                ( key ) => key.slug === category.toLowerCase()
+                (key) => key.slug === category.toLowerCase()
             );
             return {
                 category,
@@ -119,7 +119,7 @@ export const load = () => {
     const featuredIntegrationsWithCategoryHeadings = Object.entries(featuredIntegrations).map(
         ([_, integration]) => {
             const integrationCategory = categoryDescriptions.find(
-                ( key ) => key.slug === integration.category.toLowerCase()
+                (key) => key.slug === integration.category.toLowerCase()
             );
             return {
                 heading: integrationCategory?.heading,

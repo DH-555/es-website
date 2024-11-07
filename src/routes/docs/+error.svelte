@@ -16,13 +16,13 @@
                 </h1>
                 {#if $page.status === 404}
                     <p class="text-description">
-                        Sorry, it seems that the page you are looking for does not exist. Feel free
-                        to use our navigation menu or the button below to explore more of Appwrite's
-                        documentation.
+                        Lo sentimos, pero parece que la página que estás buscando no existe. Utiliza
+                        nuestro menú de navegación o el botón a continuación para explorar más de la
+                        documentación de Appwrite.
                     </p>
                 {/if}
                 <a href="/docs" class="web-button is-secondary mt-3 self-center">
-                    <span>Back to docs</span>
+                    <span>Volver a la documentación</span>
                 </a>
             </div>
         </div>

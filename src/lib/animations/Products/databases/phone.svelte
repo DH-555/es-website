@@ -8,11 +8,11 @@
 
 <div data-theme-ignore class="inner-phone light">
     <div class="header">
-        <p class="title">Your tasks</p>
+        <p class="title">Tus tareas</p>
         <span class="icon-menu" aria-label="menu" />
     </div>
 
-    <div class="date">Today</div>
+    <div class="date">Hoy</div>
     <div class="tasks">
         {#each $state.tasks as task (task.id)}
             <div class="task" data-checked={task.checked ? '' : undefined} in:fly={{ x: -16 }}>

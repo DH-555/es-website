@@ -10,6 +10,6 @@
     class={classNames('web-button web-u-inline-width-100-percent-mobile', classes)}
     href={PUBLIC_APPWRITE_DASHBOARD}
 >
-    <span class="hidden group-[&[data-logged-in]]/body:block">Go to Console</span>
-    <span class="block group-[&[data-logged-in]]/body:hidden">Get started</span>
+    <span class="hidden group-[&[data-logged-in]]/body:block">Ir a la consola</span>
+    <span class="block group-[&[data-logged-in]]/body:hidden">Empezar ahora</span>
 </a>

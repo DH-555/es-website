@@ -17,59 +17,61 @@
     import GradientText from '$lib/components/ui/GradientText.svelte';
     import Badge from '$lib/components/ui/Badge.svelte';
 
-    const title = 'Appwrite - Build like a team of hundreds';
+    const title = 'Appwrite - Construya como un equipo de cientos';
     const description = DEFAULT_DESCRIPTION;
     const ogImage = `${DEFAULT_HOST}/images/open-graph/website.png`;
 
     const infoBoxes: Array<{ label: string; description: string; icon: string }> = [
         {
-            label: 'Self-Hosted',
-            description: 'Own your data or host it on a cloud region of choice.',
+            label: 'Autohospedado',
+            description: 'Posee tus datos o hospédalos en una región en la nube de tu elección.',
             icon: '/images/icons/gradients/self-hosted.svg'
         },
         {
-            label: 'Encryption',
-            description: 'Built-in data encryption both in rest and in transit.',
+            label: 'Cifrado',
+            description: 'Cifrado de datos incorporado, tanto en reposo como en tránsito.',
             icon: '/images/icons/gradients/lock.svg'
         },
         {
-            label: 'Abuse protection',
-            description: 'Protect your APIs from abuse with built-in protection.',
+            label: 'Protección contra abusos',
+            description: 'Protege tus APIs de abusos con protección integrada.',
             icon: '/images/icons/gradients/shield.svg'
         },
         {
-            label: 'Data migrations',
-            description: 'Easily transfer data from 3rd parties or between Cloud and self-hosted.',
+            label: 'Migraciones de datos',
+            description:
+                'Transfiere fácilmente datos de terceros o entre la nube y el autohospedado.',
             icon: '/images/icons/gradients/database.svg'
         },
         {
             label: 'GDPR',
-            description: 'Safeguard user data and privacy with provided GDPR regulations.',
+            description:
+                'Protege los datos y la privacidad del usuario con las regulaciones GDPR proporcionadas.',
             icon: '/images/icons/gradients/star.svg'
         },
         {
             label: 'SOC-2',
-            description: 'Ensure the highest level of security and privacy protection.',
+            description: 'Asegura el más alto nivel de seguridad y protección de la privacidad.',
             icon: '/images/icons/gradients/soc-2.svg'
         },
         {
             label: 'HIPAA',
-            description: 'Protect sensitive user health data.',
+            description: 'Protege datos sensibles de salud de los usuarios.',
             icon: '/images/icons/gradients/hipaa.svg'
         }
     ];
 </script>
 
 <svelte:head>
-    <!-- Titles -->
+    <!-- Títulos -->
     <title>{title}</title>
     <meta property="og:title" content={title} />
     <meta name="twitter:title" content={title} />
-    <!-- Description -->
+    <!-- Descripción -->
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
     <meta name="twitter:description" content={description} />
-    <!-- Image -->
+    <!-- Imagen -->
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -126,31 +128,31 @@
                         class="web-hero-banner-button mb-4"
                     >
                         <span class="web-icon-star shrink-0" aria-hidden="true" />
-                        <span class="text-caption font-medium shrink-0">New</span>
+                        <span class="text-caption shrink-0 font-medium">Nuevo</span>
                         <div class="web-hero-banner-button-sep" />
                         <span class="text-caption web-u-trim-1"
-                            >Appwrite is now CCPA compliant.</span
+                            >Appwrite ahora cumple con la CCPA.</span
                         >
                         <span class="web-icon-arrow-right shrink-0" aria-hidden="true" />
                     </a>
                     <Hero>
                         <GradientText slot="title"
-                            >Build like a team of hundreds<span class="text-accent">_</span
+                            >Construya como un equipo de cientos<span class="text-accent">_</span
                             ></GradientText
                         >
 
                         <svelte:fragment slot="description">
-                            Build your entire backend within minutes and scale effortlessly using
-                            Appwrite's open-source platform. Add Authentication, Databases,
-                            Functions, Storage, and Messaging to your projects using the frameworks
-                            and languages of your choice.
+                            Construya todo su backend en minutos y escale sin esfuerzo usando la
+                            plataforma de código abierto de Appwrite. Agregue Autenticación, Bases
+                            de Datos, Funciones, Almacenamiento y Mensajería a tus proyectos
+                            utilizando los frameworks y lenguajes de tu elección.
                         </svelte:fragment>
                         <a
                             href={PUBLIC_APPWRITE_DASHBOARD}
                             class="web-button mt-8 w-full lg:w-fit"
                             slot="cta"
                         >
-                            Get started
+                            Empezar ahora
                         </a>
                     </Hero>
                 </section>
@@ -172,7 +174,7 @@
                     <h2
                         class="text-title font-aeonik-pro text-primary web-u-max-width-600 mx-auto text-center"
                     >
-                        Trusted by developers from the world's leading organizations
+                        Confiado por desarrolladores de las principales organizaciones del mundo
                     </h2>
                     <ul class="web-grid-3c-4c-6c is-for-logos web-u-padding-block-start-80">
                         <li>
@@ -292,13 +294,14 @@
             <div class="my-[7.5rem]">
                 <div class="container">
                     <section class="web-hero is-align-start">
-                        <Badge>PRIVACY & SECURITY_</Badge>
+                        <Badge>PRIVACIDAD Y SEGURIDAD_</Badge>
                         <h2 class="text-display font-aeonik-pro text-primary max-w-[700px]">
-                            Self-host your data or take it to the Cloud
+                            Aloja tus datos o llévalos a la Nube
                         </h2>
                         <p class="text-secondary mt-5 max-w-[700px] text-xl font-medium">
-                            Migrate your data from and to any platform at any time with Appwrite
-                            Migrations. With built-in security and privacy for peace of mind.
+                            Migra tus datos desde y hacia cualquier plataforma en cualquier momento
+                            con Appwrite Migrations. Con seguridad y privacidad integradas para tu
+                            tranquilidad.
                         </p>
                     </section>
                     <div class="mt-20 overflow-hidden">
@@ -327,7 +330,7 @@
                 <div class="container">
                     <div class="web-hero">
                         <div class="text-display font-aeonik-pro text-primary">
-                            Loved by developers like you
+                            Amado por desarrolladores como tú
                         </div>
                     </div>
                     <ul class="web-multi-columns-1 mt-20">
@@ -338,10 +341,10 @@
                                 icon="product-hunt"
                                 avatarSrc="/images/community/avatars/terry.png"
                             >
-                                Been a huge supporter of Appwrite for over a year, championing it
-                                even at the companies I was working at. Their community is
-                                second-to-none, speed of feature release is exceptional, and the
-                                support in their Discord is incredible.
+                                He apoyado a Appwrite durante más de un año, incluso en las empresas
+                                en las que trabajaba. Su comunidad es inigualable, la velocidad de
+                                lanzamiento de funciones es excepcional y el soporte en su Discord
+                                es increíble.
                             </DeveloperCard>
                         </li>
                         <li>
@@ -351,10 +354,10 @@
                                 icon="linkedin"
                                 avatarSrc="/images/community/avatars/varun.png"
                             >
-                                Recently, I embarked on a journey to create a Real-Time Chat
-                                Application that would redefine seamless communication. Along the
-                                way, I discovered an incredible tool that transformed my backend
-                                game - Appwrite!
+                                Recientemente, comencé un viaje para crear una Aplicación de Chat en
+                                Tiempo Real que redefiniría la comunicación sin interrupciones. En
+                                el camino, descubrí una herramienta increíble que transformó mi
+                                trabajo en el backend: ¡Appwrite!
                             </DeveloperCard>
                         </li>
                         <li>
@@ -364,14 +367,15 @@
                                 icon="x"
                                 avatarSrc="/images/community/avatars/kap.png"
                             >
-                                Backend Engineers, you will agree with me that building the
-                                authentication process for your app with each new API development is
-                                a pain. Here's my secret: I let <a
+                                Ingenieros de Backend, estarán de acuerdo conmigo en que construir
+                                el proceso de autenticación para su aplicación con cada nuevo
+                                desarrollo de API es un dolor. Aquí está mi secreto: dejo que <a
                                     href="https://twitter.com/appwrite"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     class="web-link underline">@appwrite</a
-                                > handle my authentication process while I focus on the business logic.
+                                > maneje mi proceso de autenticación mientras me concentro en la lógica
+                                de negocio.
                             </DeveloperCard>
                         </li>
                         <li>
@@ -381,8 +385,8 @@
                                 icon="product-hunt"
                                 avatarSrc="/images/community/avatars/stephen.png"
                             >
-                                Absolutely in love with Appwrite and the commitment to the
-                                community!
+                                ¡Absolutamente enamorado de Appwrite y su compromiso con la
+                                comunidad!
                             </DeveloperCard>
                         </li>
                         <li>
@@ -392,10 +396,10 @@
                                 icon="product-hunt"
                                 avatarSrc="/images/community/avatars/terieyenike.png"
                             >
-                                I have used Appwrite twice, and the experience of using it was great
-                                as I got to build a full-stack application. I would gladly recommend
-                                it to anyone looking to explore an alternative database option.
-                                Appwrite is simply the best.
+                                He usado Appwrite dos veces, y la experiencia fue excelente, ya que
+                                pude construir una aplicación de pila completa. Lo recomendaría a
+                                cualquiera que busque explorar una opción alternativa de base de
+                                datos. Appwrite es simplemente el mejor.
                             </DeveloperCard>
                         </li>
                         <li>
@@ -405,15 +409,15 @@
                                 icon="x"
                                 avatarSrc="/images/community/avatars/souvik.png"
                             >
-                                If you're looking for a backend server that is both powerful and
-                                easy to use, check out <a
+                                Si estás buscando un servidor backend que sea poderoso y fácil de
+                                usar, revisa <a
                                     href="https://twitter.com/appwrite"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     class="web-link underline">@appwrite</a
-                                >. With its robust feature set and open-source nature, it's the
-                                perfect choice for developers who want to build secure and scalable
-                                applications.
+                                >. Con su sólido conjunto de características y su naturaleza de
+                                código abierto, es la elección perfecta para desarrolladores que
+                                quieren construir aplicaciones seguras y escalables.
                             </DeveloperCard>
                         </li>
                     </ul>
@@ -443,14 +447,17 @@
                     <section class="web-hero is-align-start">
                         <span class="web-badges text-micro uppercase !text-white">SDKs_</span>
                         <h2 class="text-display font-aeonik-pro text-primary max-w-[600px]">
-                            Code the way you want
+                            Programa como desees
                         </h2>
                         <p class="text-secondary mt-5 max-w-[600px] text-xl font-medium">
-                            We support many SDKs making Appwrite flexible to your needs and ensuring
-                            you can code with the language you want at any time.
+                            Soportamos muchos SDKs, haciendo que Appwrite sea flexible a tus
+                            necesidades y asegurando que puedas programar con el lenguaje que desees
+                            en cualquier momento.
                         </p>
                         <Technologies />
-                        <a href="/docs/sdks" class="web-button is-secondary">Explore all SDKs</a>
+                        <a href="/docs/sdks" class="web-button is-secondary"
+                            >Explora todos los SDKs</a
+                        >
                     </section>
                 </div>
             </div>
@@ -473,9 +480,9 @@
                 <div class="container relative">
                     <div class="grid md:grid-cols-2">
                         <section class="web-hero is-align-start">
-                            <span class="web-badges text-micro uppercase !text-white">Scale_</span>
+                            <span class="web-badges text-micro uppercase !text-white">Escala_</span>
                             <h2 class="text-display font-aeonik-pro text-primary max-w-[600px]">
-                                We scale for you
+                                Escalamos por ti
                             </h2>
                         </section>
                         <ul
@@ -483,19 +490,19 @@
                         >
                             <li class="web-big-list-info-item">
                                 <div class="text-headline font-aeonik-pro text-primary">90K</div>
-                                <div class="text">Projects</div>
+                                <div class="text">Proyectos</div>
                             </li>
                             <li class="web-big-list-info-item">
                                 <div class="text-headline font-aeonik-pro text-primary">+1B</div>
-                                <div class="text">Requests served</div>
+                                <div class="text">Solicitudes atendidas</div>
                             </li>
                             <li class="web-big-list-info-item">
                                 <div class="text-headline font-aeonik-pro text-primary">20K</div>
-                                <div class="text">Organizations</div>
+                                <div class="text">Organizaciones</div>
                             </li>
                             <li class="web-big-list-info-item">
                                 <div class="text-headline font-aeonik-pro text-primary">99.99%</div>
-                                <div class="text">Guaranteed uptime</div>
+                                <div class="text">Disponibilidad garantizada</div>
                             </li>
                         </ul>
                     </div>

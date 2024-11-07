@@ -28,10 +28,10 @@ return res.json({ success: true });`.trim();
         <span class="web-icon-github" in:fade />
     {/if}
     {#if $state.submit === 'loading'}
-        <span in:fade>Pushing to GitHub...</span>
+        <span in:fade>Subiendo a GitHub...</span>
         <div class="loader is-small" in:fade />
     {:else if $state.submit === 'success'}
-        <span>Deployed to Appwrite Cloud</span>
+        <span>Desplegado en Appwrite cloud</span>
         <span class="web-icon-check" />
     {/if}
 </div>

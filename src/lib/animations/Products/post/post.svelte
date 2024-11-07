@@ -18,29 +18,29 @@
 <div class="gradient-box auth" id="post-auth-{$elId}">
     <div class="flex items-center gap-2">
         <p class="icon-user-group" />
-        <p class="f-eyebrow">Authentication</p>
+        <p class="f-eyebrow">Autenticación</p>
     </div>
     <p class="f-display mbs-16">
         {formatK(toScale($authentication, [0, 1], [0, 4000]))}
     </p>
     <div class="mbs-4 flex items-center justify-between">
-        <p class="f-sub">Users</p>
-        <p class="f-idk">Sessions: 20K</p>
+        <p class="f-sub">Usuarios</p>
+        <p class="f-idk">Sesiones: 20K</p>
     </div>
 </div>
 
 <div class="gradient-box storage" id="post-storage-{$elId}">
     <div class="flex items-center gap-2">
         <p class="icon-folder" />
-        <p class="f-eyebrow">Storage</p>
+        <p class="f-eyebrow">Almacenamiento</p>
     </div>
     <p class="f-display mbs-16">
         {toScale($storage, [0, 1], [0, 8]).toFixed(1)}
         <span class="f-tiny-display">GB</span>
     </p>
     <div class="mbs-4 flex items-center justify-between">
-        <p class="f-sub">Storage</p>
-        <p class="f-idk">Buckets: 44</p>
+        <p class="f-sub">Almacenamiento</p>
+        <p class="f-idk">Cubos: 44</p>
     </div>
 </div>
 
@@ -49,54 +49,54 @@
         {toScale($bandwidth, [0, 1], [0, 1.2]).toFixed(2)}
         <span class="f-tiny-display">GB</span>
     </p>
-    <p class="f-sub">Bandwidth</p>
+    <p class="f-sub">Ancho de banda</p>
     <img class="mbs-16" src="./images/animations/bandwidth-graph.svg" alt="" />
 </div>
 
 <div class="gradient-box functions" id="post-functions-{$elId}">
     <div class="flex items-center gap-2">
         <p class="icon-lightning-bolt" />
-        <p class="f-eyebrow">Functions</p>
+        <p class="f-eyebrow">Funciones</p>
     </div>
     <p class="f-display mbs-16">
         {toScale($executions, [0, 1], [0, 846]).toFixed(0)}
     </p>
     <div class="mbs-4 flex items-center justify-between">
-        <p class="f-sub">Executions</p>
+        <p class="f-sub">Ejecuciones</p>
     </div>
 </div>
 
 <div class="gradient-box databases" id="post-databases-{$elId}">
     <div class="flex items-center gap-2">
         <p class="icon-database" />
-        <p class="f-eyebrow">Databases</p>
+        <p class="f-eyebrow">Bases de datos</p>
     </div>
     <p class="f-display mbs-16">
         {toScale($databases, [0, 1], [0, 8]).toFixed(0)}
     </p>
     <div class="mbs-4 flex items-center justify-between">
-        <p class="f-sub">Databases</p>
-        <p class="f-idk">Documents: 20</p>
+        <p class="f-sub">Bases de datos</p>
+        <p class="f-idk">Documentos: 20</p>
     </div>
 </div>
 
 <div class="gradient-box requests" id="post-requests-{$elId}">
     <p class="f-display">{formatK(toScale($requests, [0, 1], [0, 6849]))}</p>
-    <p class="f-sub">Requests</p>
+    <p class="f-sub">Peticiones</p>
     <img class="mbs-16" src="./images/animations/requests-graph.svg" alt="" />
 </div>
 
 <div class="gradient-box realtime" id="post-realtime-{$elId}">
     <p class="f-display">{formatK(toScale($realtime, [0, 1], [0, 100000]))}</p>
-    <p class="f-sub">Realtime connections</p>
+    <p class="f-sub">Conexiones en tiempo real</p>
     <img class="mbs-16" src="./images/animations/realtime-graph.svg" alt="" />
 </div>
 
 <div class="gradient-overlay flex flex-col">
-    <h3>See your products grow</h3>
+    <h3>Ve tus productos crecer</h3>
     <p>
-        Keep track of your projects progress on the Appwrite Console and see them grow into products
-        users love and use every day.
+        Mantén un seguimiento del progreso de tus proyectos en la Consola de Appwrite y observa cómo
+        se convierten en productos que los usuarios aman y utilizan todos los días.
     </p>
 </div>
 

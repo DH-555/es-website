@@ -51,7 +51,7 @@
             on:click={() => ($layoutState.showSearch = true)}
         >
             <span class="web-icon-search" />
-            <span class="text">Search in docs</span>
+            <span class="text">Buscar en la documentación</span>
         </button>
         <div class="web-side-nav-scroll">
             {#if parent}
@@ -77,7 +77,7 @@
                         {/if}
                     {:else}
                         {#if navGroup.label}
-                            <h2 class="web-side-nav-header text-micro uppercase whitespace-nowrap">
+                            <h2 class="web-side-nav-header text-micro whitespace-nowrap uppercase">
                                 {navGroup.label}
                             </h2>
                         {/if}
@@ -121,7 +121,7 @@
                 class="web-button is-text web-u-inline-width-100-percent-mobile"
             >
                 <span class="web-icon-star" aria-hidden="true" />
-                <span class="text">Star on GitHub</span>
+                <span class="text">Poner estrella en GitHub</span>
                 <span class="web-inline-tag text-sub-body">{GITHUB_STARS}</span>
             </a>
         </div>

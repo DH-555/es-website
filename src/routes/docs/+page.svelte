@@ -8,41 +8,46 @@
     import CodeCard, { type CodeCardProps } from './CodeCard.svelte';
     import Sidebar from './Sidebar.svelte';
 
-    const title = 'Docs' + TITLE_SUFFIX;
+    const title = 'Documentación' + TITLE_SUFFIX;
     const description =
-        'Learn how to build like a team of hundreds. Get started with Authentication, Databases, Storage, Functions, and Messaging in your preferred framework.';
+        'Aprende a desarrollar como un equipo de cientos. Empieza con Autenticación, Bases de Datos, Almacenamiento, Funciones y Mensajería en tu framework preferido.';
     const ogImage = DEFAULT_HOST + '/images/open-graph/docs.png';
 
     const tutorials: CodeCardProps[] = [
         {
             href: '/docs/tutorials/react',
             cover: '/images/tutorials/react.png',
-            title: 'React tutorial',
-            description: 'Learn Appwrite Auth, Databases, and more with React.'
+            title: 'Tutorial para React',
+            description:
+                'Aprende a usar la Autenticación, bases de datos y más de Appwrite con React.'
         },
         {
             href: '/docs/tutorials/sveltekit',
             cover: '/images/tutorials/svelte.png',
-            title: 'SvelteKit tutorial',
-            description: 'Learn Appwrite Auth, Databases, and more with SvelteKit.'
+            title: 'Tutorial para SvelteKit',
+            description:
+                'Aprende a usar la Autenticación, bases de datos y más de Appwrite con SvelteKit.'
         },
         {
             href: '/docs/tutorials/vue',
             cover: '/images/tutorials/vue.png',
-            title: 'Vue tutorial',
-            description: 'Learn Appwrite Auth, Databases, and more with Vue.'
+            title: 'Tutorial para Vue',
+            description:
+                'Aprende a usar la Autenticación, bases de datos y más de Appwrite con Vue.'
         },
         {
             href: '/docs/tutorials/android',
             cover: '/images/tutorials/android.png',
-            title: 'Android tutorial',
-            description: 'Learn Appwrite Auth, Databases, and more with Android.'
+            title: 'Tutorial para Android',
+            description:
+                'Aprende a usar la Autenticación, bases de datos y más de Appwrite con Android.'
         },
         {
             href: '/docs/tutorials/flutter',
             cover: '/images/tutorials/flutter.png',
-            title: 'Flutter tutorial',
-            description: 'Learn Appwrite Auth, Databases, and more with Flutter.'
+            title: 'Tutorial para Flutter',
+            description:
+                'Aprende a usar la Autenticación, bases de datos y más de Appwrite con Flutter.'
         }
     ];
 </script>
@@ -70,7 +75,7 @@
     <main class="web-main-section relative lg:overflow-hidden" id="main">
         <div class="web-u-opacity-40-mobile bg-blur absolute w-[calc(50%-18rem)]" style="right: 0;">
             <div class="left-0">
-                <img src="/images/bgs/docs-blur-1.svg" alt="" class="max-w-max"/>
+                <img src="/images/bgs/docs-blur-1.svg" alt="" class="max-w-max" />
             </div>
         </div>
 
@@ -80,26 +85,27 @@
 
         <section class="web-hero is-align-start e-hero-docs relative">
             <h1 class="text-display font-aeonik-pro text-primary max-w-[600px]">
-                Learn how to build like a team of hundreds<span class="web-u-color-text-accent"
+                Aprende a desarollar como un equipo de cientos<span class="web-u-color-text-accent"
                     >_
                 </span>
             </h1>
             <p class="text-description max-w-[600px]">
-                Appwrite helps you build secure and scalable apps, faster. Leverage Appwrite's
-                powerful APIs to stop fighting technologies and start delivering value.
+                Appwrite te ayuda a construir aplicaciones seguras y escalables, más rápido.
+                Aprovecha las potentes API de Appwrite para dejar de luchar con las tecnologías y
+                empezar a entregar valor.
             </p>
         </section>
         <section class="web-hero is-align-start tech-hero">
             <h2 class="text-title font-aeonik-pro text-primary max-w-[600px]">
-                Get started with your technologies
+                Empieza con tus tecnologías
             </h2>
             <p class="text-description max-w-[600px]">
-                Start building with your preferred web, mobile, and native frameworks by following a
-                quick start guide.
+                Empieza a construir con tu plataforma preferida: web, móvil y frameworks
+                multiplataforma siguiendo las guías de inicio rápido.
             </p>
             <Technologies />
             <a href="/docs/sdks" class="web-button is-secondary" style:align-self="start">
-                <span class="text-sub-body font-medium">Explore all technologies</span>
+                <span class="text-sub-body font-medium">Explora todas las tecnologías</span>
             </a>
             <div class="web-is-not-mobile spline-wrapper absolute">
                 <img
@@ -122,9 +128,12 @@
             <div class="bg-overlay" />
         </section>
         <section>
-            <h2 class="text-title font-aeonik-pro text-primary max-w-[600px]">Show me some code</h2>
+            <h2 class="text-title font-aeonik-pro text-primary max-w-[600px]">
+                Muéstrame el código
+            </h2>
             <p class="text-description mt-4 max-w-[600px]">
-                If you learn best from code examples, follow one of our tutorials.
+                Si aprendes mejor a partir de ejemplos de código, sigue alguno de nuestros
+                tutoriales.
             </p>
             <Carousel size="medium">
                 {#each tutorials as tutorial}
@@ -136,11 +145,11 @@
         </section>
         <section class="web-hero is-align-start is-no-max-width">
             <h2 class="text-title font-aeonik-pro text-primary max-w-[600px]">
-                Explore capabilities
+                Explora las posibilidades
             </h2>
             <p class="text-description max-w-[600px]">
-                All the core functionalities you need with a scalable and flexible API. Explore
-                Appwrite's product offerings.
+                Todas las funcionalidades principales que necisitas para una API escalable y
+                flexible. Explora los productos que ofrece Appwrite.
             </p>
             <div class="mt-6">
                 <ul class="web-grid-row-4 web-grid-row-4-m-1">
@@ -162,7 +171,8 @@
                             />
                             <h4 class="text-sub-body text-primary mt-2 font-medium">Auth</h4>
                             <p class="text-sub-body mt-1">
-                                Sign in users with multiple OAuth providers.
+                                Permite iniciar sesión a los usuarios ofreciendo múltiples
+                                proveedores de OAuth.
                             </p>
                         </a>
                     </li>
@@ -182,8 +192,12 @@
                                 width="40"
                                 height="40"
                             />
-                            <h4 class="text-sub-body text-primary mt-2 font-medium">Databases</h4>
-                            <p class="text-sub-body mt-1">Store your application and user data.</p>
+                            <h4 class="text-sub-body text-primary mt-2 font-medium">
+                                Bases de datos
+                            </h4>
+                            <p class="text-sub-body mt-1">
+                                Almacena datos de tu aplicación y sus usuarios
+                            </p>
                         </a>
                     </li>
                     <li>
@@ -202,9 +216,9 @@
                                 width="40"
                                 height="40"
                             />
-                            <h4 class="text-sub-body text-primary mt-2 font-medium">Functions</h4>
+                            <h4 class="text-sub-body text-primary mt-2 font-medium">Funciones</h4>
                             <p class="text-sub-body mt-1">
-                                Extend and customize your server's functionality.
+                                Expande y personaliza las funcionalidades de tu servidor
                             </p>
                         </a>
                     </li>
@@ -224,9 +238,9 @@
                                 width="40"
                                 height="40"
                             />
-                            <h4 class="text-sub-body text-primary mt-2 font-medium">Messaging</h4>
+                            <h4 class="text-sub-body text-primary mt-2 font-medium">Mensajería</h4>
                             <p class="text-sub-body mt-1">
-                                Send and schedule email, SMS, and push notifications.
+                                Envía y programa emails, SMS, y notificaciones push.
                             </p>
                         </a>
                     </li>
@@ -246,9 +260,11 @@
                                 width="40"
                                 height="40"
                             />
-                            <h4 class="text-sub-body text-primary mt-2 font-medium">Storage</h4>
+                            <h4 class="text-sub-body text-primary mt-2 font-medium">
+                                Almacenamiento
+                            </h4>
                             <p class="text-sub-body mt-1">
-                                Store images, videos, documents, and files.
+                                Almacena imágenes, vídeos, documentos y archivos.
                             </p>
                         </a>
                     </li>
@@ -268,8 +284,10 @@
                                 width="40"
                                 height="40"
                             />
-                            <h4 class="text-sub-body text-primary mt-2 font-medium">Realtime</h4>
-                            <p class="text-sub-body mt-1">Respond to server events in realtime.</p>
+                            <h4 class="text-sub-body text-primary mt-2 font-medium">Tiempo-real</h4>
+                            <p class="text-sub-body mt-1">
+                                Responde a los eventos del servidor en tiempo real.
+                            </p>
                         </a>
                     </li>
                 </ul>
@@ -277,11 +295,11 @@
         </section>
         <section class="web-hero is-align-start is-no-max-width">
             <h2 class="text-title font-aeonik-pro text-primary max-w-[600px]">
-                Explore ways to integrate
+                Explora formas de integración
             </h2>
             <p class="text-description max-w-[600px]">
-                Choose how you integrate with Appwrite. Explore references for the Appwrite SDK,
-                REST API, GraphQL API, or Realtime API.
+                Elije como integrar con Appwrite. Explora las referencias del SDK de Appwrite, la
+                API REST, la API de GraphQL o la API en tiempo real.
             </p>
             <div class="mt-6">
                 <ul class="web-grid-row-2">
@@ -289,7 +307,7 @@
                         <a href="/docs/sdks" class="web-card is-normal">
                             <h4 class="text-sub-body text-primary mt-2 font-medium">SDKs</h4>
                             <p class="text-sub-body mt-1">
-                                Light-weight SDKs for your favorite platforms.
+                                SDKs ligeros para tus plataformas favoritas.
                             </p>
                         </a>
                     </li>
@@ -297,7 +315,7 @@
                         <a href="/docs/apis/rest" class="web-card is-normal">
                             <h4 class="text-sub-body text-primary mt-2 font-medium">REST API</h4>
                             <p class="text-sub-body mt-1">
-                                Integrate with HTTP requests without the needing an SDK.
+                                Integra con peticiones HTTP sin necesitar un SDK
                             </p>
                         </a>
                     </li>
@@ -305,17 +323,17 @@
                         <a href="/docs/apis/graphql" class="web-card is-normal">
                             <h4 class="text-sub-body text-primary mt-2 font-medium">GraphQL</h4>
                             <p class="text-sub-body mt-1">
-                                Leverage GraphQL through our SDKs or integrate directly with REST
-                                endpoints.
+                                Usa GraphQL a través de nuestros SDKs o integra directamente con los
+                                endpoints REST.
                             </p>
                         </a>
                     </li>
                     <li>
                         <a href="/docs/apis/realtime" class="web-card is-normal">
-                            <h4 class="text-sub-body text-primary mt-2 font-medium">Realtime</h4>
+                            <h4 class="text-sub-body text-primary mt-2 font-medium">Tiempo-real</h4>
                             <p class="text-sub-body mt-1">
-                                Respond to auth, databases, storage, and function events in
-                                realtime.
+                                Responde a eventos de autenticación, bases de datos, almacenamiento
+                                y funciones en tiempo real.
                             </p>
                         </a>
                     </li>
@@ -323,19 +341,20 @@
             </div>
         </section>
         <section class="web-hero is-align-start is-no-max-width">
-            <h2 class="text-title font-aeonik-pro text-primary max-w-[600px]">
-                Migrate to Appwrite
-            </h2>
+            <h2 class="text-title font-aeonik-pro text-primary max-w-[600px]">Migra a Appwrite</h2>
             <p class="text-description max-w-[600px]">
-                Own your data with automatic data migrations.
+                Posee tus propios datos con migración de datos automática
             </p>
             <div class="mt-6">
                 <ul class="web-grid-row-4">
                     <li>
                         <a href="/docs/advanced/migrations/self-hosted" class="web-card is-normal">
-                            <h4 class="text-sub-body text-primary mt-2 font-medium">Self-hosted</h4>
+                            <h4 class="text-sub-body text-primary mt-2 font-medium">
+                                Auto-alojamiento
+                            </h4>
                             <p class="text-sub-body mt-1">
-                                Move data from self-hosted to Appwrite Cloud.
+                                Mueve los datos desde el auto-alojamiento a Appwrite Cloud o al
+                                revés.
                             </p>
                         </a>
                     </li>
@@ -343,7 +362,7 @@
                         <a href="/docs/advanced/migrations/firebase" class="web-card is-normal">
                             <h4 class="text-sub-body text-primary mt-2 font-medium">Firebase</h4>
                             <p class="text-sub-body mt-1">
-                                Migrate users and data from Firebase to Appwrite.
+                                Migra usuarios y datos desde Firebase a Appwrite.
                             </p>
                         </a>
                     </li>
@@ -351,7 +370,7 @@
                         <a href="/docs/advanced/migrations/supabase" class="web-card is-normal">
                             <h4 class="text-sub-body text-primary mt-2 font-medium">Supabase</h4>
                             <p class="text-sub-body mt-1">
-                                Migrate users and data from Supabase to Appwrite.
+                                Migra usuarios y datos desde Supabasea Appwrite.
                             </p>
                         </a>
                     </li>
@@ -359,7 +378,7 @@
                         <a href="/docs/advanced/migrations/nhost" class="web-card is-normal">
                             <h4 class="text-sub-body text-primary mt-2 font-medium">Nhost</h4>
                             <p class="text-sub-body mt-1">
-                                Migrate users and data from NHost to Appwrite.
+                                Migra usuarios y datos desde NHost a Appwrite.
                             </p>
                         </a>
                     </li>

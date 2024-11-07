@@ -11,21 +11,21 @@
         <div class="icon" />
         <div class="content">
             <div class="header">
-                <h3 class="title">New task assigned to you</h3>
-                <span class="time">now</span>
+                <h3 class="title">Nueva tarea asignada</h3>
+                <span class="time">ahora</span>
             </div>
-            <p class="message">You were assigned a new task in your board. Tap to check it out.</p>
+            <p class="message">Se te ha asignado una tarea. Pulsa para verla.</p>
         </div>
     </div>
 {/if}
 
 <div data-theme-ignore class="inner-phone light">
     <div class="header">
-        <p class="title">Your tasks</p>
+        <p class="title">Tus tareas</p>
         <span class="icon-menu" aria-label="menu" />
     </div>
 
-    <div class="date">Today</div>
+    <div class="date">Hoy</div>
     <div class="tasks">
         {#each $state.tasks as task (task.id)}
             <div class="task" data-checked={task.checked ? '' : undefined} in:fly={{ x: -16 }}>

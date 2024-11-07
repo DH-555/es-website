@@ -1,7 +1,7 @@
 <script lang="ts">
-    export let heading: string = 'Start building with Appwrite today';
+    export let heading: string = 'Empieza a construir con Appwrite hoy';
     export let url: string = 'https://cloud.appwrite.io';
-    export let label: string = 'Get started';
+    export let label: string = 'Empezar ahora';
 </script>
 
 <div class="call-to-action">

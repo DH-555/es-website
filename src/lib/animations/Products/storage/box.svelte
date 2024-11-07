@@ -8,9 +8,9 @@
 
 <div class="pseudo-table">
     <div class="header">
-        <span class="text-micro uppercase">Filename</span>
-        <span class="text-micro uppercase">Type</span>
-        <span class="text-micro uppercase">Size</span>
+        <span class="text-micro uppercase">Nombre del archivo</span>
+        <span class="text-micro uppercase">Tipo</span>
+        <span class="text-micro uppercase">Tamaño</span>
     </div>
     {#each $state.files as file (file.src)}
         <div class="row" in:slide={{ duration: 150 }} animate:flip={{ duration: 150 }}>

@@ -43,7 +43,7 @@
                 class="web-button is-text web-u-inline-width-100-percent-mobile"
             >
                 <span class="web-icon-star" aria-hidden="true" />
-                <span class="text">Star on GitHub</span>
+                <span class="text">Dejar estrella en GitHub</span>
                 <span class="web-inline-tag text-sub-body">{GITHUB_STARS}</span>
             </a>
         </div>

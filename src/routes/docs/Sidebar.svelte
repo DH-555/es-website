@@ -5,17 +5,17 @@
         {
             items: [
                 {
-                    label: 'Home',
+                    label: 'Inicio',
                     href: '/docs',
                     icon: 'icon-home'
                 },
                 {
-                    label: 'Quick start',
+                    label: 'inicio rápido',
                     href: '/docs/quick-starts',
                     icon: 'icon-play'
                 },
                 {
-                    label: 'Tutorials',
+                    label: 'Tutoriales',
                     href: '/docs/tutorials',
                     icon: 'icon-book-open'
                 },
@@ -25,7 +25,7 @@
                     icon: 'icon-cog'
                 },
                 {
-                    label: 'API reference',
+                    label: 'Referencias API',
                     href: '/docs/references',
                     icon: 'icon-document',
                     isParent: true
@@ -33,40 +33,40 @@
             ]
         },
         {
-            label: 'Products',
+            label: 'Productos',
             items: [
                 {
-                    label: 'Auth',
+                    label: 'Autenticación',
                     href: '/docs/products/auth',
                     icon: 'icon-user-group',
                     isParent: true
                 },
                 {
-                    label: 'Databases',
+                    label: 'Bases de datos',
                     href: '/docs/products/databases',
                     icon: 'icon-database',
                     isParent: true
                 },
                 {
-                    label: 'Functions',
+                    label: 'Funciones',
                     href: '/docs/products/functions',
                     icon: 'icon-lightning-bolt',
                     isParent: true
                 },
                 {
-                    label: 'Messaging',
+                    label: 'Mensajería',
                     href: '/docs/products/messaging',
                     icon: 'icon-send',
                     isParent: true
                 },
                 {
-                    label: 'Storage',
+                    label: 'Almacenamiento',
                     href: '/docs/products/storage',
                     icon: 'icon-folder',
                     isParent: true
                 },
                 {
-                    label: 'AI',
+                    label: 'IA',
                     href: '/docs/products/ai',
                     icon: 'icon-chip',
                     isParent: true
@@ -77,7 +77,7 @@
             label: 'APIS',
             items: [
                 {
-                    label: 'Realtime',
+                    label: 'Tiempo-real',
                     href: '/docs/apis/realtime',
                     icon: 'icon-clock'
                 },
@@ -94,7 +94,7 @@
             ]
         },
         {
-            label: 'Tooling',
+            label: 'Herramientas',
             items: [
                 {
                     label: 'CLI',
@@ -103,51 +103,51 @@
                     isParent: true
                 },
                 {
-                    label: 'Command Center',
+                    label: 'Centro de comandos',
                     href: '/docs/tooling/command-center',
                     icon: 'web-icon-command'
                 },
                 {
-                    label: 'Assistant',
+                    label: 'Asistente',
                     href: '/docs/tooling/assistant',
                     icon: 'icon-sparkles'
                 },
                 {
-                    label: 'The Appwriter',
+                    label: 'El Appwriter',
                     href: '/docs/tooling/appwriter',
                     icon: 'icon-text'
                 }
             ]
         },
         {
-            label: 'Advanced',
+            label: 'Avanzado',
             items: [
                 {
-                    label: 'Platform',
+                    label: 'Plataforma',
                     href: '/docs/advanced/platform',
                     icon: 'web-icon-platform',
                     isParent: true
                 },
                 {
-                    label: 'Integrations',
+                    label: 'Integraciones',
                     href: '/integrations',
                     icon: 'icon-puzzle',
                     isParent: true
                 },
                 {
-                    label: 'Migrations',
+                    label: 'Migraciones',
                     href: '/docs/advanced/migrations',
                     icon: 'icon-refresh',
                     isParent: true
                 },
                 {
-                    label: 'Security',
+                    label: 'Seguridad',
                     href: '/docs/advanced/security',
                     icon: 'icon-shield-check',
                     isParent: true
                 },
                 {
-                    label: 'Self-hosting',
+                    label: 'Auto-hospedaje',
                     href: '/docs/advanced/self-hosting',
                     icon: 'icon-server',
                     isParent: true

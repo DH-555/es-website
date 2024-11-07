@@ -4,44 +4,44 @@
 
     const parent: NavParent = {
         href: '/docs',
-        label: 'Auth'
+        label: 'Autenticación'
     };
 
     const navigation: NavTree = [
         {
-            label: 'Getting started',
+            label: 'Empezando',
             items: [
                 {
-                    label: 'Overview',
+                    label: 'Visión general',
                     href: '/docs/products/auth'
                 },
                 {
-                    label: 'Quick start',
+                    label: 'Inicio rápido',
                     href: '/docs/products/auth/quick-start'
                 }
             ]
         },
         {
-            label: 'Concepts',
+            label: 'Conceptos',
             items: [
                 {
-                    label: 'Accounts',
+                    label: 'Cuentas',
                     href: '/docs/products/auth/accounts'
                 },
                 {
-                    label: 'Users',
+                    label: 'Uusarios',
                     href: '/docs/products/auth/users'
                 },
                 {
-                    label: 'Teams',
+                    label: 'Equipos',
                     href: '/docs/products/auth/teams'
                 },
                 {
-                    label: 'Labels',
+                    label: 'Etiquetas',
                     href: '/docs/products/auth/labels'
                 },
                 {
-                    label: 'Security',
+                    label: 'Seguridad',
                     href: '/docs/products/auth/security'
                 },
                 {
@@ -51,63 +51,63 @@
             ]
         },
         {
-            label: 'Journeys',
+            label: 'Recorridos',
             items: [
                 {
-                    label: 'Email and password login',
+                    label: 'Email y contraseña',
                     href: '/docs/products/auth/email-password'
                 },
                 {
-                    label: 'Phone (SMS) login',
+                    label: 'Teléfono (SMS)',
                     href: '/docs/products/auth/phone-sms'
                 },
                 {
-                    label: 'Magic URL login',
+                    label: 'Enlace/URL mágico',
                     href: '/docs/products/auth/magic-url'
                 },
                 {
-                    label: 'Email OTP login',
+                    label: 'Enlace temporal mediante email',
                     href: '/docs/products/auth/email-otp'
                 },
                 {
-                    label: 'OAuth2 login',
+                    label: 'OAuth2',
                     href: '/docs/products/auth/oauth2'
                 },
                 {
-                    label: 'Anonymous login',
+                    label: 'Anónimo',
                     href: '/docs/products/auth/anonymous'
                 },
                 {
-                    label: 'JWT login',
+                    label: 'JWT',
                     href: '/docs/products/auth/jwt'
                 },
                 {
-                    label: 'SSR login',
+                    label: 'SSR ',
                     href: '/docs/products/auth/server-side-rendering'
                 },
                 {
-                    label: 'Custom token login',
+                    label: 'Token personalizado',
                     href: '/docs/products/auth/custom-token'
                 },
                 {
-                    label: 'Multi-factor authentication',
+                    label: 'Autenticación multifactor',
                     href: '/docs/products/auth/mfa'
                 }
             ]
         },
         {
-            label: 'References',
+            label: 'Referencias',
             items: [
                 {
-                    label: 'Account API',
+                    label: 'API de cuentas',
                     href: '/docs/references/cloud/client-web/account'
                 },
                 {
-                    label: 'Users API',
+                    label: 'API de usuarios',
                     href: '/docs/references/cloud/server-nodejs/users'
                 },
                 {
-                    label: 'Teams API',
+                    label: 'API de equipos',
                     href: '/docs/references/cloud/client-web/teams'
                 }
             ]

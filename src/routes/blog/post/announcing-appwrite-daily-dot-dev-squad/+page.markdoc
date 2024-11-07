@@ -1,46 +1,46 @@
 ---
 layout: post
-title: Announcing the Appwrite daily.dev Squad 
-description: We’re excited to announce our new daily.dev public Squad, which you, too, can join!
-date: 2024-07-23
-cover: /images/blog/announcing-appwrite-daily-dot-dev-squad/daily.dev-squad.png
-timeToRead: 3
-author: laura-du-ry
-category: OSS
+título: Anunciando el Squad de Appwrite en daily.dev
+descripción: Estamos emocionados de anunciar nuestro nuevo Squad público en daily.dev, ¡al que tú también puedes unirte!
+fecha: 2024-07-23
+portada: /images/blog/announcing-appwrite-daily-dot-dev-squad/daily.dev-squad.png
+tiempoDeLectura: 3
+autor: laura-du-ry
+categoría: OSS
 ---
 
-We already share all of our blogs on the [daily.dev](http://daily.dev) platform, and now we also have a moderated Squad. This will make it easier for you to engage with our content and also share your content with the community.
+Ya compartimos todos nuestros blogs en la plataforma [daily.dev](http://daily.dev), y ahora también tenemos un Squad moderado. Esto hará más fácil que te involucres con nuestro contenido y también compartas tu contenido con la comunidad.
 
-# What is daily.dev?
+# ¿Qué es daily.dev?
 
-For those who might not be familiar with it, daily.dev is a platform that curates the latest news, articles, and resources for developers. It's a go-to place to stay updated with what's happening in the world of development, from the latest frameworks and libraries to best practices and industry trends.
+Para aquellos que quizás no estén familiarizados, daily.dev es una plataforma que selecciona las últimas noticias, artículos y recursos para desarrolladores. Es un lugar ideal para mantenerse actualizado con lo que está sucediendo en el mundo del desarrollo, desde los últimos frameworks y bibliotecas hasta las mejores prácticas y tendencias de la industria.
 
-# What is a Squad?
+# ¿Qué es un Squad?
 
-A Squad is a specialized group within daily.dev, where you can share knowledge, ask questions, and discuss topics that matter most to you. Think of it as an online group tailored specifically for developers. Squads can be centered around your team, a specific project, a community, or any topic you're passionate about. It's a space to learn, collaborate, and have fun.
+Un Squad es un grupo especializado dentro de daily.dev, donde puedes compartir conocimientos, hacer preguntas y discutir temas que más te importan. Piensa en ello como un grupo en línea adaptado específicamente para desarrolladores. Los Squads pueden centrarse en tu equipo, un proyecto específico, una comunidad o cualquier tema que te apasione. Es un espacio para aprender, colaborar y divertirse.
 
-# Join the Appwrite Squad
+# Únete al Squad de Appwrite
 
-We're excited to invite you to join the Appwrite Squad. Whether you're already a part of the Appwrite community or want to learn more about open source, coding, or Appwrite, our Squad is the perfect place to connect, learn, and share.
+Estamos emocionados de invitarte a unirte al Squad de Appwrite. Ya seas parte de la comunidad de Appwrite o quieras aprender más sobre código abierto, programación o Appwrite, nuestro Squad es el lugar perfecto para conectar, aprender y compartir.
 
-By joining our Squad, you'll be able to:
+Al unirte a nuestro Squad, podrás:
 
-- Stay updated with the latest Appwrite news and updates.
-- Find useful engineering resources.
-- Engage with the Appwrite team and other developers.
-- Share your insights and resources.
-- Participate in discussions about development trends, best practices, and more.
+- Mantenerte actualizado con las últimas noticias y actualizaciones de Appwrite.
+- Encontrar recursos útiles de ingeniería.
+- Interactuar con el equipo de Appwrite y otros desarrolladores.
+- Compartir tus ideas y recursos.
+- Participar en discusiones sobre tendencias de desarrollo, mejores prácticas y más.
 
-# How to join
+# Cómo unirse
 
-Joining our Squad is simple:
+Unirse a nuestro Squad es simple:
 
-1. **Visit daily.dev** and create an account if you don't already have one.
-2. **Search for "Appwrite Squad"** and click join or follow [**this link**](https://apwr.dev/dailydev).
-3. **Start engaging** with posts, share your thoughts, and invite other developers to join us!
+1. **Visita daily.dev** y crea una cuenta si aún no tienes una.
+2. **Busca "Appwrite Squad"** y haz clic en unirse o sigue [**este enlace**](https://apwr.dev/dailydev).
+3. **Comienza a interactuar** con publicaciones, comparte tus pensamientos e invita a otros desarrolladores a unirse a nosotros.
 
-We can't wait to see you there and start building a vibrant community together. Let's make the Appwrite Squad a place where knowledge is shared, questions are answered, and connections are made.
+Estamos ansiosos por verte allí y comenzar a construir una comunidad vibrante juntos. Hagamos del Squad de Appwrite un lugar donde se comparta conocimiento, se respondan preguntas y se creen conexiones.
 
-[Learn more about Squads](https://docs.daily.dev/docs/squads/creating-your-squad)
+[Aprende más sobre Squads](https://docs.daily.dev/docs/squads/creating-your-squad)
 
-[Join us on Discord](https://appwrite.io/discord)
+[Únete a nosotros en Discord](https://appwrite.io/discord)

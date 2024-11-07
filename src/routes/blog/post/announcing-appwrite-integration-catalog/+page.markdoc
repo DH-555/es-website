@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Announcing Appwrite's new Integrations Catalog"
-description: We are beyond excited to announce the launch of our brand-new Appwrite Integrations Catalog. 
+title: "Anuncio del nuevo Catálogo de Integraciones de Appwrite"
+description: Estamos emocionados de anunciar el lanzamiento de nuestro nuevo Catálogo de Integraciones de Appwrite.
 date: 2024-07-29
 cover: /images/blog/integrations-catalog.png
 timeToRead: 12
@@ -10,127 +10,127 @@ category: product
 featured: false
 ---
 
-Our new Integrations Catalog is designed to empower you by providing a seamless way to integrate your favorite tools, libraries, and services with Appwrite, making your development process even more efficient and enjoyable.
+Nuestro nuevo Catálogo de Integraciones está diseñado para empoderarte al proporcionar una forma fluida de integrar tus herramientas, bibliotecas y servicios favoritos con Appwrite, haciendo que tu proceso de desarrollo sea aún más eficiente y agradable.
 
-# One-stop shop for all your integrations
+# Un lugar único para todas tus integraciones
 
-You’re building your next big project on top of Appwrite; your backend is all set up and ready to go to production. But then you realize you need a way to sell subscriptions and send emails, and you’ve decided at the last minute you want to add more OAuth2 providers. Imagine you had to build all these integrations for your app from scratch in a short space of time. With the new [Integrations Catalog](https://appwrite.io/integrations), we have done the heavy lifting for you. You’ll find integrations for both Cloud and Self-hosted that cater to every aspect of your development needs, allowing you to build your app exactly as you intended.
+Estás construyendo tu próximo gran proyecto sobre Appwrite; tu backend está listo para salir a producción. Pero luego te das cuenta de que necesitas una forma de vender suscripciones y enviar correos electrónicos, y has decidido en el último minuto que quieres agregar más proveedores OAuth2. Imagina tener que construir todas estas integraciones para tu aplicación desde cero en un corto periodo de tiempo. Con el nuevo [Catálogo de Integraciones](https://appwrite.io/integrations), hemos hecho el trabajo pesado por ti. Encontrarás integraciones tanto para la Nube como para autoalojadas que atienden cada aspecto de tus necesidades de desarrollo, permitiéndote construir tu aplicación exactamente como lo habías previsto.
 
-# What’s inside the Appwrite Integrations Catalog?
+# ¿Qué hay en el Catálogo de Integraciones de Appwrite?
 
-We’ve bundled all integrations into different categories. Here are a few notable providers (with many more to come!). Check out the full catalog on the Integrations page. 
+Hemos agrupado todas las integraciones en diferentes categorías. Aquí hay algunos proveedores notables (¡con muchos más por venir!). Consulta el catálogo completo en la página de Integraciones.
 
-## Authentication
+## Autenticación
 
-- [Phone auth](https://appwrite.io/docs/products/auth/phone-sms)
+- [Autenticación por teléfono](https://appwrite.io/docs/products/auth/phone-sms)
 
-Phone auth allows you to authenticate users using One-Time Passwords (OTPs) sent to their mobile phones via SMS, making it a highly-convenient passwordless alternative to email-password authentication. You can use Twilio to enable phone authentication for your apps.
+La autenticación por teléfono te permite autenticar a los usuarios utilizando contraseñas de un solo uso (OTP) enviadas a sus teléfonos móviles a través de SMS, lo que la convierte en una alternativa altamente conveniente sin contraseña a la autenticación por correo electrónico y contraseña. Puedes usar Twilio para habilitar la autenticación por teléfono para tus aplicaciones.
 
 - [OAuth2](https://appwrite.io/docs/products/auth/oauth2)
 
-You can set up OAuth2 with over 30 providers. OAuth is a way for apps to request limited access to a user's account on another service without needing the user's password. This keeps the user’s account more secure while making signing up and logging in all the more convenient. 
+Puedes configurar OAuth2 con más de 30 proveedores. OAuth es una forma en que las aplicaciones pueden solicitar acceso limitado a la cuenta de un usuario en otro servicio sin necesitar la contraseña del usuario. Esto mantiene la cuenta del usuario más segura mientras hace que el registro y el inicio de sesión sean aún más convenientes.
 
-Some of Appwrite’s OAuth integrations include Amazon, Appwrite, Discord, Google, and Notion.
+Algunas de las integraciones OAuth de Appwrite incluyen Amazon, Appwrite, Discord, Google y Notion.
 
-## Deployments
+## Despliegues
 
 - [GitHub](https://appwrite.io/docs/advanced/self-hosting/functions)
 
-We've integrated GitHub to simplify your development workflow with Appwrite Functions. This integration enables the generation of repositories for function templates and manages automatic deployments for any Appwrite Functions through GitHub.
+Hemos integrado GitHub para simplificar tu flujo de trabajo de desarrollo con las Funciones de Appwrite. Esta integración permite la generación de repositorios para plantillas de funciones y gestiona implementaciones automáticas para cualquier Función de Appwrite a través de GitHub.
 
-## Messaging
+## Mensajería
 
-- [Twilio](https://appwrite.io/docs/products/messaging/twilio) for SMS
+- [Twilio](https://appwrite.io/docs/products/messaging/twilio) para SMS
 
-You can use the Twilio provider in Appwrite Messaging to send customized SMS messages to your users. Whether you need to send them instantly or schedule them for later, these messages can serve a variety of purposes like reminders, promotions, announcements, and even custom authentication flows.
+Puedes utilizar el proveedor de Twilio en la Mensajería de Appwrite para enviar mensajes SMS personalizados a tus usuarios. Ya sea que necesites enviarlos al instante o programarlos para más tarde, estos mensajes pueden servir a una variedad de propósitos como recordatorios, promociones, anuncios e incluso flujos de autenticación personalizados.
 
-- [Sendgrid](https://appwrite.io/docs/products/messaging/sendgrid) for Email
+- [Sendgrid](https://appwrite.io/docs/products/messaging/sendgrid) para correo electrónico
 
-Send custom emails to your users with Sendgrid, either instantly or on a schedule. Use it to deliver reminders, promotions, and announcements, keeping your audience engaged and informed.
+Envía correos electrónicos personalizados a tus usuarios con Sendgrid, ya sea al instante o programados. Úsalo para entregar recordatorios, promociones y anuncios, manteniendo a tu audiencia comprometida e informada.
 
-- [APNs and FCM](https://appwrite.io/docs/products/messaging/send-push-notifications) for Push notifications
+- [APNs y FCM](https://appwrite.io/docs/products/messaging/send-push-notifications) para notificaciones push
 
-Use Apple Push Notifications service (APNs) or Firebase Cloud Messaging to send in-app or push notifications. Deliver app updates, promotional offers, and other messages straight to your users’ devices.
+Utiliza el servicio de Notificaciones Push de Apple (APNs) o Firebase Cloud Messaging para enviar notificaciones en la aplicación o push. Entrega actualizaciones de la aplicación, ofertas promocionales y otros mensajes directamente a los dispositivos de tus usuarios.
 
-- [Vonage](https://appwrite.io/docs/products/messaging/vonage) for WhatsApp messages
+- [Vonage](https://appwrite.io/docs/products/messaging/vonage) para mensajes de WhatsApp
 
-Going one step further? Use Vonage to send WhatsApp messages and connect with your users in a modern, user-friendly way.
+¿Quieres ir un paso más allá? Utiliza Vonage para enviar mensajes de WhatsApp y conectarte con tus usuarios de una manera moderna y amigable.
 
-## Storage
+## Almacenamiento
 
 - Amazon S3
 
-Store your files on self-hosted instances with Amazon S3. Amazon S3 provides scalable object storage that allows you to manage and access your data seamlessly, ensuring high availability and durability.
+Almacena tus archivos en instancias autoalojadas con Amazon S3. Amazon S3 proporciona almacenamiento de objetos escalable que te permite gestionar y acceder a tus datos sin problemas, asegurando alta disponibilidad y durabilidad.
 
-## Logging
+## Registro
 
-Monitor your application's performance by tracing errors across your Appwrite instance and fixing them faster. These tools help you proactively manage issues and deliver a more stable experience: 
+Monitorea el rendimiento de tu aplicación rastreando errores a través de tu instancia de Appwrite y solucionándolos más rápido. Estas herramientas te ayudan a gestionar proactivamente los problemas y ofrecer una experiencia más estable:
 
 - Sentry
 - Raygun
 - AppSignal
 
-## AI
+## IA
 
-- Hugging Face and Generative AI
+- Hugging Face y Generative AI
 
-Enhance your app with AI through Appwrite's integrations. Build [with our AI function templates](https://appwrite.io/blog/post/building-with-ai-function-templates) from popular tools like Hugging Face, OpenAI, Perplexity, and more. Imagine creating [your very own AI chatbot](https://appwrite.io/blog/post/personal-chatbot-gpt-4o) with OpenAI’s GPT-4o — it's easier than you think!
+Mejora tu aplicación con IA a través de las integraciones de Appwrite. Construye [con nuestras plantillas de funciones de IA](https://appwrite.io/blog/post/building-with-ai-function-templates) de herramientas populares como Hugging Face, OpenAI, Perplexity y más. Imagina crear [tu propio chatbot de IA](https://appwrite.io/blog/post/personal-chatbot-gpt-4o) con GPT-4o de OpenAI: ¡es más fácil de lo que piensas!
 
-## Payments
+## Pagos
 
 - Stripe
 
-Use Stripe to set up app [subscriptions](https://appwrite.io/docs/tutorials/subscriptions-with-stripe/step-1) and payments. It's designed to be straightforward so you can smoothly manage your transactions.
+Utiliza Stripe para configurar [suscripciones](https://appwrite.io/docs/tutorials/subscriptions-with-stripe/step-1) y pagos en la aplicación. Está diseñado para ser sencillo, de modo que puedas gestionar tus transacciones sin problemas.
 
 - Lemon Squeezy
 
-Lemon Squeezy lets you set up payments and subscriptions quickly, so you can focus on your app’s functionality. Check out [this video for a step-by-step guide](https://www.youtube.com/watch?v=dHo7lvpU6gs).
+Lemon Squeezy te permite configurar pagos y suscripciones rápidamente, para que puedas concentrarte en la funcionalidad de tu aplicación. Consulta [este video para una guía paso a paso](https://www.youtube.com/watch?v=dHo7lvpU6gs).
 
-## Databases
+## Bases de datos
 
-- MongoDB Atlas and Upstash Vector
+- MongoDB Atlas y Upstash Vector
 
-Easily manage your data using MongoDB Atlas and Upstash Vector integration. MongoDB Atlas offers a flexible database solution, and Upstash Vector improves query capabilities for fast and reliable data access. Together, they help you manage data efficiently and boost your app’s performance.
+Gestiona fácilmente tus datos utilizando la integración de MongoDB Atlas y Upstash Vector. MongoDB Atlas ofrece una solución de base de datos flexible, y Upstash Vector mejora las capacidades de consulta para un acceso rápido y confiable a los datos. Juntos, ayudan a gestionar los datos de manera eficiente y a mejorar el rendimiento de tu aplicación.
 
-## Search
+## Búsqueda
 
 - Algolia
 
-Improve your app’s search functionality with the Algolia integration. Algolia makes it straightforward to integrate practical search features, helping users easily find the information they need without hassle.
+Mejora la funcionalidad de búsqueda de tu aplicación con la integración de Algolia. Algolia facilita la integración de características de búsqueda prácticas, ayudando a los usuarios a encontrar fácilmente la información que necesitan sin complicaciones.
 
-# Designed with your experience in mind
+# Diseñado con tu experiencia en mente
 
-As with everything we do here at Appwrite, we heavily focus on the developer experience. Our main goal with the Integration Catalog is to meet your needs when integrating X with Appwrite. We focused on a set of principles that helped us deliver on our promise:
+Como con todo lo que hacemos aquí en Appwrite, nos enfocamos mucho en la experiencia del desarrollador. Nuestro objetivo principal con el Catálogo de Integraciones es satisfacer tus necesidades al integrar X con Appwrite. Nos enfocamos en un conjunto de principios que nos ayudaron a cumplir nuestra promesa:
 
-1. Appwrite developers need quick access to integration options, including everything provided in the console and future integrations.
-2. Categories should group integrations, and a consistent hierarchy of information should exist on every page.
-3. Finding new categories should be logical, intuitive, and fast.
-4. The content should be presented in an easy-to-digest manner and help you find what you’re looking for.
+1. Los desarrolladores de Appwrite necesitan acceso rápido a las opciones de integración, incluyendo todo lo proporcionado en la consola y futuras integraciones.
+2. Las categorías deben agrupar integraciones, y debe existir una jerarquía de información consistente en cada página.
+3. Encontrar nuevas categorías debe ser lógico, intuitivo y rápido.
+4. El contenido debe presentarse de una manera fácil de digerir y ayudarte a encontrar lo que estás buscando.
 
-Missing anything? Have feedback? Let us know on [Discord](https://appwrite.io/discord)!
+¿Te falta algo? ¿Tienes comentarios? ¡Háznoslo saber en [Discord](https://appwrite.io/discord)!
 
-# Become a Technology Partner
+# Conviértete en un Socio Tecnológico
 
-With the launch of our Integrations Catalog, we’re also inviting developers and companies to join us as **Technology Partners**. This is your chance to integrate your solutions with Appwrite, reach a wider audience, and add value to the developer community.
+Con el lanzamiento de nuestro Catálogo de Integraciones, también estamos invitando a desarrolladores y empresas a unirse a nosotros como **Socios Tecnológicos**. Esta es tu oportunidad para integrar tus soluciones con Appwrite, alcanzar una audiencia más amplia y agregar valor a la comunidad de desarrolladores.
 
-## Why become a Technology Partner?
+## ¿Por qué convertirte en un Socio Tecnológico?
 
-- **Improve dev experience:** Improve the experience by collaborating on an integration.
-- **Increased exposure**: Feature your integration in front of our growing community of developers.
-- **Collaborative marketing**: Partner with us on co-marketing efforts to highlight your integration.
-- **Dedicated developer support**: Get assistance from our team to ensure your integration is top-notch.
-- **Exclusive developer tools**: Access our API documentation, SDKs, and best practices to make your integration seamless.
+- **Mejorar la experiencia del desarrollador:** Mejora la experiencia colaborando en una integración.
+- **Mayor exposición:** Presenta tu integración frente a nuestra creciente comunidad de desarrolladores.
+- **Marketing colaborativo:** Colabora con nosotros en esfuerzos de co-marketing para resaltar tu integración.
+- **Soporte dedicado para desarrolladores:** Obtén asistencia de nuestro equipo para asegurarte de que tu integración sea de primera calidad.
+- **Herramientas exclusivas para desarrolladores:** Accede a nuestra documentación API, SDKs y mejores prácticas para hacer que tu integración sea fluida.
 
-# How to apply
+# Cómo aplicar
 
-Do you think your tool plays well with Appwrite? Visit our [Integrations Catalog Technology partners page](https://appwrite.io/integrations/technology-partner) and fill out the submission form. Tell us about your company, the integration you’re proposing, and how it benefits developers using Appwrite. Our team will review your submission and get back to you with the next steps.
+¿Crees que tu herramienta funciona bien con Appwrite? Visita nuestra [página de Socios Tecnológicos del Catálogo de Integraciones](https://appwrite.io/integrations/technology-partner) y completa el formulario de envío. Cuéntanos sobre tu empresa, la integración que propones y cómo beneficia a los desarrolladores que usan Appwrite. Nuestro equipo revisará tu envío y se pondrá en contacto contigo con los próximos pasos.
 
-# More to come
+# Más por venir
 
-We believe the Appwrite [Integrations Catalog](https://appwrite.io/integrations) will open up new possibilities for developers, making it easier than ever to build, connect, and deploy applications with Appwrite. Watch for updates on our changelog and socials as we add more integrations. 
+Creemos que el [Catálogo de Integraciones de Appwrite](https://appwrite.io/integrations) abrirá nuevas posibilidades para los desarrolladores, facilitando más que nunca construir, conectar y desplegar aplicaciones con Appwrite. Mantente atento a las actualizaciones en nuestro changelog y redes sociales a medida que agreguemos más integraciones.
 
-# Resources
+# Recursos
 
-- [Join us on discord](https://appwrite.io/discord)
-- [Visit our documentation](https://appwrite.io/docs)
-- [Get started with Appwrite](https://cloud.appwrite.io/)
+- [Únete a nosotros en Discord](https://appwrite.io/discord)
+- [Visita nuestra documentación](https://appwrite.io/docs)
+- [Comienza con Appwrite](https://cloud.appwrite.io/)

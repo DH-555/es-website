@@ -10,35 +10,40 @@
 </script>
 
 <div data-theme-ignore class="inner-phone light">
-    <p class="title">Create an Account</p>
-    <p class="subtitle">Please enter your details</p>
+    <p class="title">Crear cuenta</p>
+    <p class="subtitle">Introduzca sus detalles</p>
     <div class="inputs">
         <fieldset>
-            <label for="name">Your Name</label>
-            <input type="name" id="name" placeholder="Enter your name" bind:value={$state.name} />
+            <label for="name">Tu nombre</label>
+            <input
+                type="name"
+                id="name"
+                placeholder="Introduce tu nombre"
+                bind:value={$state.name}
+            />
         </fieldset>
         <fieldset>
-            <label for="email">Your Email</label>
+            <label for="email">Tu email</label>
             <input
                 type="email"
                 id="email"
-                placeholder="Enter your email"
+                placeholder="Introduce tu email"
                 bind:value={$state.email}
             />
         </fieldset>
         <fieldset>
-            <label for="password">Create Password</label>
+            <label for="password">Crear Contraseña</label>
             <input
                 type="password"
                 id="password"
-                placeholder="Enter Password"
+                placeholder="Introduce tu contraseña"
                 bind:value={$state.password}
             />
         </fieldset>
     </div>
-    <button class="sign-up">Sign Up</button>
+    <button class="sign-up">Registro</button>
     {#if controlsEnabled}
-        <span class="with-sep" transition:fade={{ duration: 100 }}>or sign up with</span>
+        <span class="with-sep" transition:fade={{ duration: 100 }}>o inicie sesión con</span>
         <div class="oauth-btns" transition:fade={{ duration: 100 }}>
             {#each objectKeys($state.controls).filter((p) => $state.controls[p]) as provider (provider)}
                 <button

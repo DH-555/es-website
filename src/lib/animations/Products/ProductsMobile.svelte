@@ -8,12 +8,12 @@
         <span class="web-badges text-micro uppercase !text-white">Products_</span>
 
         <h2 class="text-display font-aeonik-pro text-primary mt-4">
-            Your backend, minus the hassle
+            Tu backend, sin lo complicado.
         </h2>
 
         <p class="text-description mt-4">
-            Build secure and scalable applications with less code. Add authentication, databases,
-            storage, and more using Appwrite's development platform.
+            Construya aplicaciones seguras y escalables con menos código. Agregue autenticación,
+            bases de datos, almacenamiento y más utilizando la plataforma de desarrollo de Appwrite.
         </p>
 
         <div class="infos">
@@ -53,10 +53,11 @@
         <div class="post-wrapper">
             <img src="/images/products/post.png" alt="" />
 
-            <h2>See your products grow</h2>
+            <h2>Ve tus productos crecer</h2>
             <p>
-                Keep track of your projects progress on the Appwrite Console and see them grow into
-                products users love and use every day.
+                Mantén un seguimiento del progreso de tus proyectos en la Consola de Appwrite y
+                observa cómo se convierten en productos que los usuarios aman y utilizan todos los
+                días.
             </p>
         </div>
     </div>

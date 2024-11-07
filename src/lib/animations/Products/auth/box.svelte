@@ -22,21 +22,21 @@
               }
             : undefined,
         {
-            avatar: 'BD',
-            name: 'Benjamin Davis',
-            email: 'benjamin.davis@example.com',
+            avatar: 'DH',
+            name: 'David Hernán',
+            email: 'david.hernan@ejemplo.com',
             id: 1
         },
         {
             avatar: 'OS',
-            name: 'Olivia Smith',
-            email: 'olivia.smith@example.com',
+            name: 'Olivia Salas',
+            email: 'olivia.salas@ejemplo.com',
             id: 2
         },
         {
-            avatar: 'EW',
-            name: 'Ethan Wilson',
-            email: 'ethan.wilson@example.com',
+            avatar: 'PG',
+            name: 'Paco García',
+            email: 'paco.garcía@ejeplo.com',
             id: 3
         }
     ].filter(Boolean) as AuthEntry[];
@@ -44,8 +44,8 @@
 
 <div class="pseudo-table">
     <div class="header">
-        <span class="text-micro uppercase">Name</span>
-        <span class="text-micro uppercase">Identifier</span>
+        <span class="text-micro uppercase">Nombre</span>
+        <span class="text-micro uppercase">Identificador</span>
     </div>
     {#each authData as user (user.id)}
         <div

@@ -4,54 +4,54 @@
 
     const parent: NavParent = {
         href: '/docs',
-        label: 'Storage'
+        label: 'Almacenamiento'
     };
 
     const navigation: NavTree = [
         {
-            label: 'Getting started',
+            label: 'Empezando',
             items: [
                 {
-                    label: 'Overview',
+                    label: 'Visión general',
                     href: '/docs/products/storage'
                 },
                 {
-                    label: 'Quick start',
+                    label: 'Inicio rápido',
                     href: '/docs/products/storage/quick-start'
                 }
             ]
         },
         {
-            label: 'Concepts',
+            label: 'Conceptos',
             items: [
                 {
-                    label: 'Buckets',
+                    label: 'Cubos',
                     href: '/docs/products/storage/buckets'
                 },
                 {
-                    label: 'Permissions',
+                    label: 'Permisos',
                     href: '/docs/products/storage/permissions'
                 }
             ]
         },
         {
-            label: 'Journeys',
+            label: 'Recorridos',
             items: [
                 {
-                    label: 'Upload and download',
+                    label: 'Subida y descarga',
                     href: '/docs/products/storage/upload-download'
                 },
                 {
-                    label: 'Image transformations',
+                    label: 'Transformación de imágenes',
                     href: '/docs/products/storage/images'
                 }
             ]
         },
         {
-            label: 'References',
+            label: 'Referencias',
             items: [
                 {
-                    label: 'Storage API',
+                    label: 'API de almacenamiento',
                     href: '/docs/references/cloud/client-web/storage'
                 }
             ]

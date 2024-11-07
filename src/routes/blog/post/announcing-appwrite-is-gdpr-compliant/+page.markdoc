@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Appwrite is now GDPR compliant
-description: At Appwrite, we take your data seriously. Therefore, we are excited to announce that Appwrite is now GDPR Compliant.
+title: "Appwrite ahora es compatible con GDPR"
+description: En Appwrite, tomamos en serio tus datos. Por lo tanto, estamos emocionados de anunciar que Appwrite ahora es compatible con GDPR.
 date: 2024-01-09
 cover: /images/blog/announcing-appwrite-is-gdpr-compliant/GDPR-Announcement.png
 timeToRead: 3
@@ -9,23 +9,23 @@ author: may-ender
 category: GDPR
 ---
 
-We have always kept strict internal policies with regard to personal data and privacy. But to be GDPR compliant, one must undertake the necessary steps and show proof. We have done this and are pleased that we are now certified with the European General Data Protection Regulation (GDPR) standards.
+Siempre hemos mantenido políticas internas estrictas con respecto a los datos personales y la privacidad. Pero para ser compatible con el GDPR, se deben llevar a cabo los pasos necesarios y mostrar prueba. Hemos hecho esto y nos complace que ahora estamos certificados con los estándares del Reglamento General de Protección de Datos (GDPR) de la Unión Europea.
 
-Appwrite developers will no longer have to navigate the complex waters of GDPR compliance, we've got you covered. We have undertaken the necessary measures to protect personal information. Our policies, procedures, and infrastructure have been updated, and we are committed to a continuous improvement cycle as time goes by.
+Los desarrolladores de Appwrite ya no tendrán que navegar por las complejas aguas del cumplimiento del GDPR, nosotros lo tenemos cubierto. Hemos tomado las medidas necesarias para proteger la información personal. Nuestras políticas, procedimientos e infraestructura han sido actualizados, y estamos comprometidos con un ciclo de mejora continua a medida que pasa el tiempo.
 
-If you are interested in having a data processing agreement with Appwrite, you can now find our DPA download button in our console. Click and sign it, and the agreement will be implemented.
+Si estás interesado en tener un acuerdo de procesamiento de datos con Appwrite, ahora puedes encontrar nuestro botón de descarga del DPA en nuestra consola. Haz clic y firma, y el acuerdo se implementará.
 
-![Download DPA from your organization's settings](/images/blog/announcing-appwrite-is-gdpr-compliant/dpa-card.png)
+![Descargar DPA desde la configuración de tu organización](/images/blog/announcing-appwrite-is-gdpr-compliant/dpa-card.png)
 
-Here are some technical insights into how we enhance data security:
+Aquí hay algunas ideas técnicas sobre cómo mejoramos la seguridad de los datos:
 
-- Appwrite implements a multi-layered security approach, integrating centralized IAM (Identity and Access Management) to regulate access to production resources.
-- Cloud security processes are employed for provisioning, configuring, monitoring, and accessing cloud resources. Changes in production environments follow a controlled process using Infrastructure as Code (IaC).
-- Industry-standard encryption protocols like TLS/SSL safeguard data transmitted over networks. Additionally, data stored in databases and file storage is secured using techniques like AES encryption. Key rotations are performed at regular intervals to ensure data security.
-- Appwrite performs regular security audits at the application and infrastructure layers to ensure compliance with industry-leading security standards and practices. Periodic vulnerability scans are also conducted on software dependencies and packages to mitigate against CVEs.
+- Appwrite implementa un enfoque de seguridad multicapa, integrando IAM (Gestión de Identidades y Accesos) centralizado para regular el acceso a los recursos de producción.
+- Se emplean procesos de seguridad en la nube para aprovisionar, configurar, monitorear y acceder a los recursos en la nube. Los cambios en los entornos de producción siguen un proceso controlado utilizando Infraestructura como Código (IaC).
+- Protocolos de cifrado estándar de la industria, como TLS/SSL, protegen los datos transmitidos a través de redes. Además, los datos almacenados en bases de datos y almacenamiento de archivos están asegurados mediante técnicas como el cifrado AES. Las rotaciones de claves se realizan a intervalos regulares para garantizar la seguridad de los datos.
+- Appwrite realiza auditorías de seguridad regulares en las capas de aplicación e infraestructura para garantizar el cumplimiento de los estándares y prácticas de seguridad líderes en la industria. También se llevan a cabo escaneos de vulnerabilidad periódicos en las dependencias y paquetes de software para mitigar contra CVEs.
 
-As always, with Appwrite, developers can continue creating with peace of mind. Your personal data will not be mistreated.
+Como siempre, con Appwrite, los desarrolladores pueden seguir creando con tranquilidad. Tus datos personales no serán maltratados.
 
-Appwrite is also [HIPAA](https://appwrite.io/docs/advanced/security/hipaa) and [SOC 2](https://appwrite.io/docs/advanced/security/soc2) compliant as of April 24th, 2024.
+Appwrite también es compatible con [HIPAA](https://appwrite.io/docs/advanced/security/hipaa) y [SOC 2](https://appwrite.io/docs/advanced/security/soc2) desde el 24 de abril de 2024.
 
-Further resources: [Documentation](https://appwrite.io/docs/advanced/security/gdpr), [Privacy policy](https://appwrite.io/privacy) , [Cookie policy](https://appwrite.io/cookies)
+Recursos adicionales: [Documentación](https://appwrite.io/docs/advanced/security/gdpr), [Política de privacidad](https://appwrite.io/privacy), [Política de cookies](https://appwrite.io/cookies)

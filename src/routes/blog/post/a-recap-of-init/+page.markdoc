@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A recap of Init. The Appwrite community at its best
-description: We had such a great week and we look forward to the next Init, but for now we look back and enjoy all the fun we had.
+title: Un resumen de Init. La comunidad de Appwrite en su mejor momento
+description: Tuvimos una semana increíble y esperamos con ansias la próxima Init, pero por ahora, recordamos toda la diversión que tuvimos.
 date: 2024-03-04
 cover: /images/blog/a-recap-of-init/the-recap.png
 timeToRead: 12
@@ -10,165 +10,181 @@ category: OSS
 featured: false
 ---
 
-Init has come to an end, and we’re happy how all of you showed up and made it an amazing week filled with product announcements, events, content, celebrations, a release, and most of all, community fun!
+Init ha llegado a su fin, y estamos felices de cómo todos ustedes se presentaron y hicieron de esta una semana increíble, llena de anuncios de productos, eventos, contenido, celebraciones, un lanzamiento y, sobre todo, diversión en comunidad.
 
-In this blog, we will recap on what happened during Init and highlight some of our favorite moments and comments, and share all the content for each day. Let’s dive in.
+En este blog, recapitularemos lo que sucedió durante Init y destacaremos algunos de nuestros momentos y comentarios favoritos, además de compartir todo el contenido de cada día. ¡Vamos a sumergirnos!
 
-# Announcing the start of something new
+# Anunciando el inicio de algo nuevo
 
-For months, we have been working on creating all of the elements that make Init come alive. We spent many hours creating and planning the tickets, the website, the videos, the swags, Discord sessions, and all other content.
+Durante meses, hemos estado trabajando en la creación de todos los elementos que dan vida a Init. Pasamos muchas horas creando y planificando las entradas, el sitio web, los videos, los regalos, las sesiones de Discord y todo el demás contenido.
 
-We did everything in-house, which brought some challenges as we had to learn on the spot, but we had a lot of fun doing it, and the results were beyond our own expectations. We even filmed and produced five videos starring the Appwrite team. For most, it was also the first time being in front of the camera. Here is a [sneak peak of behind-the-scenes footage](https://www.instagram.com/reel/C4FvPehvxs5/) of the team working on the Init announcement videos.
+Hicimos todo internamente, lo que trajo algunos desafíos ya que tuvimos que aprender sobre la marcha, pero nos divertimos mucho haciéndolo, y los resultados superaron nuestras propias expectativas. Incluso filmamos y producimos cinco videos protagonizados por el equipo de Appwrite. Para muchos, también fue la primera vez frente a la cámara. Aquí hay un [adelanto de las imágenes detrás de escena](https://www.instagram.com/reel/C4FvPehvxs5/) del equipo trabajando en los videos de anuncio de Init.
 
-![behind the scenes](/images/blog/a-recap-of-init/init1.png)
+![detrás de escena](/images/blog/a-recap-of-init/init1.png)
 
-![behind the scenes](/images/blog/a-recap-of-init/init2.png)
+![detrás de escena](/images/blog/a-recap-of-init/init2.png)
 
-![behind the scenes](/images/blog/a-recap-of-init/init3.png)
+![detrás de escena](/images/blog/a-recap-of-init/init3.png)
 
-![behind the scenes](/images/blog/a-recap-of-init/init4.png)
+![detrás de escena](/images/blog/a-recap-of-init/init4.png)
 
-## The fun begins
+## La diversión comienza
 
-And then, finally, we got to [announce Init](https://appwrite.io/blog/post/announcing-init) to all of you and have you join in the fun and create your tickets.
+Y finalmente, tuvimos la oportunidad de [anunciar Init](https://appwrite.io/blog/post/announcing-init) a todos ustedes y que se unieran a la diversión y crearan sus entradas.
 
-![Init begins](/images/blog/a-recap-of-init/init5.png)
+![Init comienza](/images/blog/a-recap-of-init/init5.png)
 
-Many of you asked us, but what is Init? [Dennis explains](https://www.youtube.com/shorts/Brex4HwiKqU).
+Muchos de ustedes nos preguntaron, pero ¿qué es Init? [Dennis explica](https://www.youtube.com/shorts/Brex4HwiKqU).
 
-Of course we understood we needed some more explaining to do, about what Init actually is. So, we prepared an announcement video, which was the most exciting part of the pre-campaign. This was a first for Appwrite, and we loved sharing this moment with you.
+Por supuesto, entendimos que necesitábamos dar más explicaciones sobre lo que es Init. Así que preparamos un video de anuncio, que fue la parte más emocionante de la pre-campaña. Esta fue la primera vez para Appwrite, y nos encantó compartir este momento con ustedes.
 
 {% youtube src="https://www.youtube-nocookie.com/embed/5NtrYks2dqE?si=0vjkBCZYg8yf2GUW" thumbnail="/images/blog/a-recap-of-init/thumbnails/thumbnail-1.png" /%}
 
-Of course, we designed Init swag for you to win and The Appwriter. Didn’t win an Appwriter? No worries, it will be coming to the [Appwrite Store](https://appwrite.store/) soon.
+Por supuesto, diseñamos regalos de Init para que ustedes pudieran ganar, incluyendo El Appwriter. ¿No ganaste un Appwriter? No te preocupes, estará disponible en la [Appwrite Store](https://appwrite.store/) pronto.
 
-![Appwrite Init giveaway](/images/blog/a-recap-of-init/init6.png)
+![sorteo de Appwrite Init](/images/blog/a-recap-of-init/init6.png)
 
-## Special guest line up
+## Línea de invitados especiales
 
-But what would Init be without special guests? We invited friends and creators of Appwrite to join us during a Discord session each day to come geek out with us and join in the celebration. The lineup speaks for itself.
+Pero, ¿qué sería Init sin invitados especiales? Invitamos a amigos y creadores de Appwrite a unirse a nosotros durante una sesión de Discord cada día para compartir su pasión con nosotros y participar en la celebración. La alineación habla por sí misma.
 
-![Special guest line up](/images/blog/a-recap-of-init/init7.png)
+![Línea de invitados especiales](/images/blog/a-recap-of-init/init7.png)
 
-![Reactions to announcing the line ups](/images/blog/a-recap-of-init/init8.png)
+![Reacciones al anunciar la alineación](/images/blog/a-recap-of-init/init8.png)
 
-# Init begins
+# Init comienza
 
-After a week of pre fun it finally was time to make our first announcement. This product was one that was highly anticipated, and we holding our breath to share it with the world. So what did we kick off with?
+Después de una semana de diversión previa, finalmente fue el momento de hacer nuestro primer anuncio. Este producto era muy esperado, y contuvimos la respiración para compartirlo con el mundo. ¿Con qué comenzamos?
 
-### The first of many
+### El primero de muchos
 
-On day 0 of Init, we brought you Messaging, a massive announcement as this was a product many of you have requested as it is a requirement for many applications, being able to communicate with your users.
+En el día 0 de Init, les presentamos Mensajería, un anuncio masivo, ya que era un producto que muchos de ustedes habían solicitado, siendo una necesidad para muchas aplicaciones: poder comunicarse con sus usuarios.
 
 {% youtube src="https://www.youtube-nocookie.com/embed/w-izHSKXqtU?si=OV30JUel_Zoq10AU" thumbnail="/images/blog/a-recap-of-init/thumbnails/thumbnail-messaging.png" /%}
 
-The reactions are what we hoped for and made day 0 of Init a great start to the week.
+Las reacciones fueron lo que esperábamos y hicieron del día 0 de Init un gran comienzo para la semana.
 
-![Reactions to Messaging](/images/blog/a-recap-of-init/init9.png)
+![Reacciones a Mensajería](/images/blog/a-recap-of-init/init9.png)
 
-![Reactions to Messaging](/images/blog/a-recap-of-init/init10.png)
+![Reacciones a Mensajería](/images/blog/a-recap-of-init/init10.png)
 
-### Discord session
+### Sesión de Discord
 
-We kicked off the first Discord session with Appwrite Hero and Vonage dev advocate [Diana Pham](https://twitter.com/dianasoyster) to talk about Messaging. As always, the community around Appwrite showed up in mass and made it a great hour of fun and learning!
+Iniciamos la primera sesión de Discord con la Heroína de Appwrite y la defensora de desarrolladores de Vonage [Diana Pham](https://twitter.com/dianasoyster) para hablar sobre Mensajería. Como siempre, la comunidad de Appwrite se presentó en masa y hizo que fuera una hora divertida y educativa.
 
-![Discord session turn out](/images/blog/a-recap-of-init/init11.png)
+![Asistencia a la sesión de Discord](/images/blog/a-recap-of-init/init11.png)
 
-### Content list
+### Lista de contenido
 
-- [Best practices for sending push notifications](https://appwrite.io/blog/post/push-notifications-best-practices)
-- [How Twilio simplifies messaging for developers](https://appwrite.io/blog/post/simplify-messaging-twilio)
-- [Product tour video](https://www.youtube.com/watch?v=QdDgPeuBZ1I)
+- [Mejores prácticas para enviar notificaciones push](https://appwrite.io/blog/post/push-notifications-best-practices)
+- [Cómo Twilio simplifica la mensajería para desarrolladores](https://appwrite.io/blog/post/simplify-messaging-twilio)
+- [Video de recorrido del producto](https://www.youtube.com/watch?v=QdDgPeuBZ1I)
 
-## Another day
+## Otro día
 
-On day 1 we continued our same flow and announced Improved support for [server-side rendering.](https://appwrite.io/blog/post/introducing-support-for-server-side-rendering)
+En el día 1, continuamos con el mismo flujo y anunciamos la mejora del soporte para [renderizado del lado del servidor](https://appwrite.io/blog/post/introducing-support-for-server-side-rendering).
 
 {% youtube src="https://www.youtube-nocookie.com/embed/jeL4cSovOBA?si=0tMDecmUucWOYASg" thumbnail="/images/blog/a-recap-of-init/thumbnails/thumbnail-ssr.png" /%}
 
-This improvement was more than welcome.
+Esta mejora fue muy bienvenida.
 
-![Welcome SSR](/images/blog/a-recap-of-init/init12.png)
+![Bienvenida SSR](/images/blog/a-recap-of-init/init12.png)
 
-### Fund and knowledge
+### Diversión y conocimiento
 
-For day 1 we invited [Hitesh Choudhary](https://twitter.com/Hiteshdotcom) to come and join us on stage to talk about SSR.
+Para el día 1, invitamos a [Hitesh Choudhary](https://twitter.com/Hiteshdotcom) a unirse a nosotros en el escenario para hablar sobre SSR.
 
-![Hitesh having fun](/images/blog/a-recap-of-init/init13.png)
+![Hitesh divirtiéndose](/images/blog/a-recap-of-init/init13.png)
 
-![Community fun](/images/blog/a-recap-of-init/init14.png)
+![Diversión en comunidad](/images/blog/a-recap-of-init/init14.png)
 
-### Content list
+### Lista de contenido
 
-- [SSR vs CSR with Next.js](https://appwrite.io/blog/post/csr-vs-ssr-with-nextjs)
-- [Product tour](https://youtu.be/7LN05c-ov_0)
-- [Announcement SSR](https://appwrite.io/blog/post/introducing-support-for-server-side-rendering)
+- [SSR vs CSR con Next.js](https://appwrite.io/blog/post/csr-vs-ssr-with-nextjs)
+- [Recorrido del producto](https://youtu.be/7LN05c-ov_0)
+- [Anuncio de SSR](https://appwrite.io/blog/post/introducing-support-for-server-side-rendering)
 
-## Safety first
+## Seguridad primero
 
-Day 2 of Init was all about safety and the dev experience. Two-factor authentication and Enum SDK support were announced.
+El día 2 de Init fue todo sobre seguridad y la experiencia de desarrollo. Se anunciaron la autenticación de dos factores y el soporte de Enum SDK.
 
 {% youtube src="https://www.youtube-nocookie.com/embed/hpdUXOFay4M?si=TPO8CistphsTOCas" thumbnail="/images/blog/a-recap-of-init/thumbnails/thumbnail-2fa.png" /%}
 
-As Eddie mentioned, with just a few lines of code you can now add 2FA to your apps.
+Como mencionó Eddie, con solo unas pocas líneas de código ahora puedes añadir 2FA a tus aplicaciones.
 
-![Eddie responding to 2FA](/images/blog/a-recap-of-init/init15.png)
+![Eddie respondiendo sobre 2FA](/images/blog/a-recap-of-init/init15.png)
 
-With Enum SDK support we make our commitment to improving your developer experience valid.
+Con el soporte de Enum SDK, validamos nuestro compromiso de mejorar tu experiencia de desarrollo.
 
-![James loving Enums](/images/blog/a-recap-of-init/init16.png)
+![James amando los Enums](/images/blog/a-recap-of-init/init16.png)
 
-### Last minute guest
+### Invitado de última hora
 
-We got a curve ball thrown at us on day 2 of Init, as our guest for the day had to cancel. But luckily we had [Francesco Ciulli](https://twitter.com/FrancescoCiull4) from daily.dev join us last minute to save the day.
+Recibimos un contratiempo el día 2 de Init, ya que nuestro invitado tuvo que cancelar. Pero, afortunadamente, [Francesco Ciulli](https://twitter.com/FrancescoCiull4) de daily.dev se unió a nosotros de última hora para salvar el día.
 
-![Francesco joining us last minute](/images/blog/a-recap-of-init/init17.png)
+![Francesco uniéndose de última hora](/images/blog/a-recap-of-init/init17.png)
 
-### Content list
+### Lista de contenido
 
-- [Product tour 2FA](https://youtu.be/OWRju8ZZuQ8)
-- [Announcement 2FA](https://appwrite.io/blog/post/announcing-two-factor-authentication)
-- [From passwords to protection: Implementing 2FA in your applications](https://appwrite.io/blog/post/password-protection-2fa)
-- [Announcement Enum SDK support](https://appwrite.io/blog/post/introducing-enum-sdk-support)
-- [Effective use of enums in API design](https://appwrite.io/blog/post/enums-api-design)
-- [Enhancing type safety in software development with enums](https://appwrite.io/blog/post/enhancing-type-safety)
+- [Recorrido del producto 2FA](https://youtu.be/OWRju8ZZuQ8)
+- [Anuncio de 2FA](https://appwrite.io/blog/post/announcing-two-factor-authentication)
+- [De contraseñas a protección: Implementando 2FA en tus aplicaciones](https://appwrite.io/blog/post/password-protection-2fa)
+- [Anuncio del soporte de Enum SDK](https://appwrite.io/blog/post/introducing-enum-sdk-support)
+- [Uso efectivo de enums en el diseño de API](https://appwrite.io/blog/post/enums-api-design)
+- [Mejorando la seguridad de tipos en el desarrollo de software con enums](https://appwrite.io/blog/post/enhancing-type-safety)
 
-## More querying!
+## ¡Más consultas!
 
-What is a database without queries? Not a lot! The introduction of new Database operators for Appwrite Databases makes all the difference and gives you more control and flexibility when writing queries.
+¿Qué es una base de datos sin consultas? ¡No mucho! La introducción de nuevos operadores de base de datos para las bases de datos de Appwrite hace toda la diferencia y te brinda más control y flexibilidad al escribir consultas.
 
-{% youtube src="https://www.youtube-nocookie.com/embed/73flN6mZqAs?si=3hUI26G9DDVDzJG4" thumbnail="/images/blog/a-recap-of-init/thumbnails/thumbnail-db.png" /%}
+{% youtube src="https://www.youtube-nocookie.com/embed/73flN6mZqAs?si=3hUI26G9DDVDzJG4" thumbnail="/images/blog/a-recap-of-init/thumbnails/thumbnail-queries.png" /%}
 
-![Community highlight](/images/blog/a-recap-of-init/init18.png)
+### Sesión educativa
 
-For day 3 of Init, we had [Danny Thompson](https://twitter.com/DThompsonDev) join us. Not only did he have great horror SQL stories, he also shared some helpful insights. Soon, we will share the videos of each Discord session.
+El día 3, invitamos a nuestro [amigo Alexis](https://twitter.com/AlexisH), quien compartió sus conocimientos sobre consultas.
 
-![Danny joining us](/images/blog/a-recap-of-init/init19.png)
+![Alexis en la sesión de Discord](/images/blog/a-recap-of-init/init18.png)
 
-### Content list
+### Lista de contenido
 
-- [Database operators announcement](https://appwrite.io/blog/post/introducing-new-database-operators)
-- [Product tour video](https://youtu.be/IMgl9f_iht4)
-- [Understanding data queries in database management](https://appwrite.io/blog/post/understand-data-queries)
+- [Nuevos operadores de consulta](https://appwrite.io/blog/post/database-operators)
+- [Guía completa de operadores de consulta](https://appwrite.io/blog/post/complete-query-operators-guide)
+- [Video de operadores de consulta](https://youtu.be/NG8Dph8-YdU)
 
-## The end and the beginning
+## Mensajería con estilo
 
-The last day of Init was a proper celebration. We started off with our last announcement: [New and updated runtimes.](/blog/post/announcing-more-and-updated-runtimes) But the highlight of the day was the closing party we held on Discord with our friend from open-sauced, [Nick Taylor](https://twitter.com/nickytonline).
+El día 4 fue todo sobre el nuevo formato de [mensajería con estilo](https://appwrite.io/blog/post/styled-messaging). Cuando escuchamos a los desarrolladores y sus necesidades, este es el tipo de cambios que surgen. ¡Así que un aplauso para nuestro equipo de desarrollo!
 
-![Fun with Nick during the closing party](/images/blog/a-recap-of-init/init20.png)
+{% youtube src="https://www.youtube-nocookie.com/embed/BvK3BOhEXDQ?si=PKlMcSUyXtEJ_r4H" thumbnail="/images/blog/a-recap-of-init/thumbnails/thumbnail-styled-messaging.png" /%}
 
-The closing party got an extra special touch with five giveaways to celebrate. And if you ever wondered who holds the power of the giveaway, according to Francesco it’s Aditya.
+### Experiencias en tiempo real
 
-![Aditya the giveaway man](/images/blog/a-recap-of-init/init21.png)
+Invitamos a una especial y maravillosa desarrolladora, [Andrea](https://twitter.com/theandrean), a unirse a nosotros y compartir su experiencia con las nuevas funciones de mensajería.
 
-### Content list
+![Andrea en el escenario](/images/blog/a-recap-of-init/init19.png)
 
-- [New runtimes announcement](https://appwrite.io/blog/post/introducing-enum-sdk-support)
-- [Sound null-safety for your Dart functions](https://appwrite.io/blog/post/sound-null-safety-for-your-dart-functions)
-- [Why you need to try the new Bun function runtime](https://appwrite.io/blog/post/why-you-need-to-try-the-new-bun-runtime)
+### Lista de contenido
 
-# Thank you all for joining
+- [Estilo y contenido en la mensajería](https://appwrite.io/blog/post/styled-messaging)
+- [Recorrido del producto de mensajería con estilo](https://www.youtube.com/watch?v=qeH4cKzIBg4)
 
-Init is the start of something new and we hope we have inspired you to get started on your next project.
+## ¡Finalizamos!
 
-We hope to see you at the next Init! Do you have ideas on how to make it better? Share your feedback with us by filling out [this Typeform](https://t.co/OEaBMMGblT).
+El día 5 fue el gran final de Init y anunciamos **Soporte para PWA y Flutter**. No podemos esperar a ver todas las increíbles aplicaciones que ustedes crearán.
+
+{% youtube src="https://www.youtube-nocookie.com/embed/XMDDt0Ef57I?si=-uz0u7hivpWRqkFv" thumbnail="/images/blog/a-recap-of-init/thumbnails/thumbnail-pwa-flutter.png" /%}
+
+La asistencia a la sesión de Discord fue espectacular, con miembros de la comunidad haciendo preguntas en cada oportunidad.
+
+![Asistencia a la sesión de Discord en el día 5](/images/blog/a-recap-of-init/init20.png)
+
+### Reflexionando sobre el gran final
+
+El final fue increíble. Agradecemos a nuestro equipo por su arduo trabajo y dedicación. Un agradecimiento especial a nuestra comunidad, que fue el corazón y el alma de Init. ¡Sin ustedes, no podríamos haber hecho esto!
+
+## ¡Eso es todo!
+
+Si no pudiste asistir, ¡no te preocupes! Cada día de Init tuvo su contenido publicado en nuestro [sitio web](https://init.appwrite.io/).
+
+Gracias por ser parte de la comunidad de Appwrite y por hacer de Init una celebración especial. Estamos emocionados de lo que se avecina y no podemos esperar a que ustedes sean parte de ello.
+

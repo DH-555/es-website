@@ -13,15 +13,15 @@
     }`;
     $: navigation = [
         {
-            label: 'Getting started',
+            label: 'Empezando',
             items: [
                 {
-                    label: 'Overview',
+                    label: 'Visión general',
                     href: '/docs/references',
                     icon: 'icon-view-grid'
                 },
                 {
-                    label: 'Quick start',
+                    label: 'Inicio rápido',
                     href: '/docs/references/quick-start',
                     icon: 'icon-play'
                 }
@@ -31,47 +31,47 @@
             label: 'APIs',
             items: [
                 {
-                    label: 'Account',
+                    label: 'Cuentas',
                     icon: 'icon-user',
                     href: `${prefix}/account`
                 },
                 {
-                    label: 'Users',
+                    label: 'Usuarios',
                     icon: 'icon-user-group',
                     href: `${prefix}/users`
                 },
                 {
-                    label: 'Teams',
+                    label: 'Equipos',
                     icon: 'icon-users',
                     href: `${prefix}/teams`
                 },
                 {
-                    label: 'Databases',
+                    label: 'Bases de datos',
                     icon: 'icon-database',
                     href: `${prefix}/databases`
                 },
                 {
-                    label: 'Storage',
+                    label: 'Almacenamiento',
                     icon: 'icon-folder',
                     href: `${prefix}/storage`
                 },
                 {
-                    label: 'Functions',
+                    label: 'Funciones',
                     icon: 'icon-lightning-bolt',
                     href: `${prefix}/functions`
                 },
                 {
-                    label: 'Messaging',
+                    label: 'Mensajería',
                     icon: 'icon-send',
                     href: `${prefix}/messaging`
                 },
                 {
-                    label: 'Localization',
+                    label: 'Localización',
                     icon: 'icon-location-marker',
                     href: `${prefix}/locale`
                 },
                 {
-                    label: 'Avatars',
+                    label: 'Avatares',
                     icon: 'icon-user-circle',
                     href: `${prefix}/avatars`
                 }

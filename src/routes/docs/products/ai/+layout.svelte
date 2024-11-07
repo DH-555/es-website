@@ -4,12 +4,12 @@
 
     const parent: NavParent = {
         href: '/docs',
-        label: 'AI'
+        label: 'IA'
     };
 
     const navigation: NavTree = [
         {
-            label: 'Getting started',
+            label: 'Empezando',
             items: [
                 {
                     label: 'Overview',
@@ -18,67 +18,67 @@
             ]
         },
         {
-            label: 'Concepts',
+            label: 'Conceptos',
             items: [
                 {
-                    label: 'Computer vision',
+                    label: 'Visión computacional',
                     href: '/docs/products/ai/computer-vision'
                 },
                 {
-                    label: 'Natural language processing',
+                    label: 'Procesamiento natural del lenguaje',
                     href: '/docs/products/ai/natural-language'
                 },
                 {
-                    label: 'Audio processing',
+                    label: 'Procesamiento de audio',
                     href: '/docs/products/ai/audio-processing'
                 }
             ]
         },
         {
-            label: 'Computer vision',
+            label: 'Visión computacional',
             items: [
                 {
-                    label: 'Image classification',
+                    label: 'Clasificación de imágenes',
                     href: '/docs/products/ai/tutorials/image-classification'
                 },
                 {
-                    label: 'Object detection',
+                    label: 'Detección de objetos',
                     href: '/docs/products/ai/tutorials/object-detection'
                 }
             ]
         },
         {
-            label: 'Natural language processing',
+            label: 'procesamiento natural del lenguaje',
             items: [
                 {
-                    label: 'Text generation',
+                    label: 'Generación de textos',
                     href: '/docs/products/ai/tutorials/text-generation'
                 },
                 {
-                    label: 'Language translation',
+                    label: 'Traducción del lenguaje',
                     href: '/docs/products/ai/tutorials/language-translation'
                 }
             ]
         },
         {
-            label: 'Audio processing',
+            label: 'Procesamiento de audio',
             items: [
                 {
-                    label: 'Speech recognition',
+                    label: 'Reconocimiento del habla',
                     href: '/docs/products/ai/tutorials/speech-recognition'
                 },
                 {
-                    label: 'Text to speech',
+                    label: 'Texto a sonido',
                     href: '/docs/products/ai/tutorials/text-to-speech'
                 },
                 {
-                    label: 'Music generation',
+                    label: 'Generación de música',
                     href: '/docs/products/ai/tutorials/music-generation'
                 }
             ]
         },
         {
-            label: 'Integrations',
+            label: 'Integraciones',
             items: [
                 {
                     label: 'Perplexity',

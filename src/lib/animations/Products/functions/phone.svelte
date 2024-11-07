@@ -17,7 +17,7 @@
         },
         {
             icon: '/images/animations/credit-card.svg',
-            label: 'Card'
+            label: 'Tarjeta'
         },
         {
             icon: '/images/animations/paypal.svg',
@@ -32,20 +32,20 @@
 
 <div data-theme-ignore class="inner-phone light">
     <div class="header">
-        <p class="title">Upgrade plan</p>
+        <p class="title">Mejorar plan</p>
         <span class="icon-menu" aria-label="menu" />
     </div>
 
     <div class="plan">
-        <p class="title">Premium plan</p>
+        <p class="title">Plan premium</p>
         <div class="subscription">
             <p class="price">$20</p>
-            <p class="period">/month</p>
+            <p class="period">/mes</p>
         </div>
         <ul>
-            <li>Premium plan</li>
-            <li>Premium plan</li>
-            <li>Premium plan</li>
+            <li>Plan premium</li>
+            <li>Plan premium</li>
+            <li>Plan premium</li>
         </ul>
     </div>
 
@@ -64,10 +64,10 @@
 
     {#if $state.submit !== 'success'}
         <div class="form">
-            <p>Card information</p>
+            <p>información de la tarjeta</p>
             <div class="bordered">
                 <div>
-                    <p>placeholder</p>
+                    <p>casilla</p>
                     <img src="/images/animations/visa.png" alt="" />
                     <img src="/images/animations/mastercard.png" alt="" />
                 </div>
@@ -80,9 +80,9 @@
     {/if}
 
     <button>
-        Pay $20.00
+        Pagar $20.00
         {#if $state.submit === 'success'}
-            <span in:slide={{ axis: 'x' }}>on Stripe</span>
+            <span in:slide={{ axis: 'x' }}>en Stripe</span>
         {/if}
     </button>
 </div>

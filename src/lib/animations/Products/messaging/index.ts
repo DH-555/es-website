@@ -34,7 +34,7 @@ const state = createResettable<State>({
     tasks: [
         {
             id: '3397fecdedb13397fecdedb1',
-            title: 'Research user needs',
+            title: 'Usuario explorador necesita',
             checked: true
         }
     ],
@@ -76,7 +76,7 @@ const execute = async () => {
             ...p.tasks,
             {
                 id: '3397fecdedb13397fecdedb2',
-                title: 'Create wireframes',
+                title: 'Crear wireframes',
                 checked: false
             }
         ]
@@ -96,7 +96,7 @@ const execute = async () => {
             ...p.tasks,
             {
                 id: '3397fecdedb13397fecdedb3',
-                title: 'Create visual design',
+                title: 'Crear diseño visual',
                 checked: false
             }
         ]
@@ -113,7 +113,7 @@ const execute = async () => {
 
     safeAnimate(code, { opacity: 1 }, { duration: 0.5 })?.finished, await sleep(250);
     await write(
-        'New task assigned to you',
+        'Nueva tarea asignada',
         (v) => {
             state.update((n) => ({ ...n, heading: v }));
         },
@@ -121,7 +121,7 @@ const execute = async () => {
     );
 
     await write(
-        'You were assigned a new task in your board. Tap to check it out.',
+        'Se te ha asignado una taria. Pulsa para verla.',
         (v) => {
             state.update((n) => ({ ...n, message: v }));
         },

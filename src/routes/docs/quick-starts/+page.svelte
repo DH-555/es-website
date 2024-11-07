@@ -76,7 +76,7 @@
             ]
         },
         {
-            title: 'Mobile and native',
+            title: 'Móvil y nativo',
             quickStarts: [
                 {
                     title: 'React Native',
@@ -105,7 +105,7 @@
             ]
         },
         {
-            title: 'Server',
+            title: 'Servidor',
             quickStarts: [
                 {
                     title: 'Node.js',
@@ -171,9 +171,8 @@
         }
     ];
 
-    const title = 'Quick starts' + DOCS_TITLE_SUFFIX;
-    const description =
-        'Get started with your favorite framework and language in just a few clicks.';
+    const title = 'Inicio rápido' + DOCS_TITLE_SUFFIX;
+    const description = 'Empieza con tus lenguajes y frameworks favoritos en solo unos clicks.';
     const ogImage = DEFAULT_HOST + '/images/open-graph/docs.png';
 </script>
 
@@ -197,7 +196,7 @@
 <main class="web-main-section" id="main">
     <article class="web-article">
         <header class="web-article-header">
-            <div class="web-article-header-start flex flex-col web-u-cross-start">
+            <div class="web-article-header-start web-u-cross-start flex flex-col">
                 <div class="relative flex items-center">
                     <h1 class="text-title font-aeonik-pro">Quick start</h1>
                 </div>
@@ -220,7 +219,7 @@
                                             class="{quickStart.icon} web-u-font-size-24"
                                             aria-hidden="true"
                                         />
-                                        <h4 class="text-sub-body font-medium text-primary">
+                                        <h4 class="text-sub-body text-primary font-medium">
                                             {quickStart.title}
                                         </h4>
                                     </header>

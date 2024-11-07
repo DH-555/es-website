@@ -17,7 +17,7 @@
 
     export let data;
 
-    const title = 'Integrations' + TITLE_SUFFIX;
+    const title = 'Integraciones' + TITLE_SUFFIX;
     const description = DEFAULT_DESCRIPTION;
     const ogImage = DEFAULT_HOST + '/images/open-graph/website.png';
 
@@ -38,9 +38,9 @@
     });
 
     // platform filters
-    const platforms = ['All', ...data.platforms];
+    const platforms = ['Todas', ...data.platforms];
 
-    let activePlatform = 'All';
+    let activePlatform = 'Todas';
 
     // categories
     let activeCategory: string | null = null;
@@ -107,14 +107,14 @@
                     class="l-integrations-hero web-u-max-width-680 flex flex-col justify-center gap-5"
                 >
                     <div class="text-micro text-primary uppercase">
-                        INTEGRATIONS<span class="web-u-color-text-accent">_</span>
+                        INTEGRACIONES<span class="web-u-color-text-accent">_</span>
                     </div>
                     <h1 class="text-headline font-aeonik-pro text-primary">
-                        Discover infinite possibilities
+                        Descubre infinitas posibilidades
                     </h1>
                     <p class="text-description">
-                        Unlock the full potential of Appwrite by seamlessly integrating your
-                        favorite apps with your projects.
+                        Descubre infinitas posibilidades al integrar tus aplicaciones favoritas con
+                        Appwrite.
                     </p>
                 </div>
             </div>
@@ -134,7 +134,7 @@
                             <Input
                                 label="Search"
                                 name="search"
-                                placeholder="Search"
+                                placeholder="Buscar"
                                 bind:value={$query}
                                 autocomplete="off"
                                 on:input={handleQuery}
@@ -147,7 +147,7 @@
                                 <h2
                                     class="web-side-nav-header text-micro whitespace-nowrap uppercase"
                                 >
-                                    Platform
+                                    Plataforma
                                 </h2>
                                 <ul class="flex flex-wrap gap-2" class:disabled={hasQuery}>
                                     {#each platforms as platform}
@@ -173,7 +173,7 @@
                                 <h2
                                     class="web-side-nav-header text-micro whitespace-nowrap uppercase"
                                 >
-                                    Categories
+                                    Categorías
                                 </h2>
 
                                 <div class="relative block sm:hidden">
@@ -187,13 +187,13 @@
                                             {@const integrations = data.integrations.find(
                                                 (i) => i.category === category.slug
                                             )}
-                                            {#if integrations && (activePlatform === 'All' || integrations.integrations.some( (i) => i.platform.includes(activePlatform) ))}
+                                            {#if integrations && (activePlatform === 'Todas' || integrations.integrations.some( (i) => i.platform.includes(activePlatform) ))}
                                                 <option value={category.slug}>
                                                     {category.heading}
                                                 </option>
                                             {/if}
                                         {/each}
-                                        <option value={null}> Select category </option>
+                                        <option value={null}> Selección de categoría </option>
                                     </select>
                                     <span
                                         class="icon-cheveron-down web-u-pointer-events-none absolute top-2 right-2"
@@ -206,7 +206,7 @@
                                         {@const integrations = data.integrations.find(
                                             (i) => i.category === category.slug
                                         )}
-                                        {#if integrations && (activePlatform === 'All' || integrations.integrations.some( (i) => i.platform.includes(activePlatform) ))}
+                                        {#if integrations && (activePlatform === 'Todas' || integrations.integrations.some( (i) => i.platform.includes(activePlatform) ))}
                                             <li>
                                                 <a
                                                     href={`#${category.slug}`}
@@ -276,8 +276,10 @@
                             {:else}
                                 <section class="flex flex-col gap-8">
                                     <header class="flex flex-col gap-1">
-                                        <h2 class="text-label text-primary">Featured</h2>
-                                        <p class="text-description">Top recommended integrations</p>
+                                        <h2 class="text-label text-primary">Destacadas</h2>
+                                        <p class="text-description">
+                                            Integraciones más recomendadas
+                                        </p>
                                     </header>
 
                                     <div>
@@ -327,7 +329,7 @@
                                 </section>
 
                                 {#each data.integrations as { category, heading, description, integrations }}
-                                    {#if integrations?.length > 0 && (activePlatform === 'All' || integrations.some( (i) => i.platform.includes(activePlatform) ))}
+                                    {#if integrations?.length > 0 && (activePlatform === 'Todas' || integrations.some( (i) => i.platform.includes(activePlatform) ))}
                                         <section
                                             class="l-max-size-list-cards-section flex flex-col gap-8"
                                             id={category.toLowerCase()}
@@ -353,7 +355,7 @@
                                             <div class="l-max-size-list-cards flex flex-col gap-8">
                                                 <ul class="l-grid-1">
                                                     {#each integrations as integration, index (`${integration.title}-${index}`)}
-                                                        {#if activePlatform === 'All' || integration.platform.includes(activePlatform)}
+                                                        {#if activePlatform === 'Todas' || integration.platform.includes(activePlatform)}
                                                             <li>
                                                                 <a
                                                                     href={integration.href}
@@ -394,7 +396,7 @@
                                                     href={`#${category.toLowerCase()}`}
                                                     class="l-float-button web-button is-text"
                                                 >
-                                                    <span>Show more</span>
+                                                    <span>Mostrar más</span>
                                                 </a>
                                             </div>
                                         </section>
@@ -425,17 +427,18 @@
                         <h2
                             class="text-display font-aeonik-pro text-primary max-w-[600px] text-center"
                         >
-                            Become a Technology Partner
+                            Convertirse en un socio
                         </h2>
                         <p class="text-body font-medium">
-                            Join our Technology Partners program to integrate your solutions with
-                            Appwrite’s API, enhancing functionality and expanding your reach.
+                            Únete a nuestro programa de asociados tecnológicos para integrar tus
+                            soluciones con la API de Appwrite, mejorar la funcionalidad y aumentar
+                            tu alcance.
                         </p>
                         <a
                             href="/integrations/technology-partner"
                             class="web-button is-primary mt-4 self-center"
                         >
-                            <span class="text">Get Started</span>
+                            <span class="text">Unirse</span>
                         </a>
                     </section>
                 </div>

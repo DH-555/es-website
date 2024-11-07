@@ -8,10 +8,10 @@
             },
             date: '2024-09-19',
             location: 'Discord',
-            title: 'Office Hours: Ask me anything!',
+            title: 'Horas de Oficina: ¡Pregunte cualquier cosa!',
             description:
-                'Join us for another round of Office Hours, where we answer your questions and geek out on everything tech and Appwrite!',
-            buttonText: 'View event'
+                '¡Únete a nosotros para otra ronda de Horas de Oficina, donde responderemos tus preguntas y nos emocionaremos con todo lo relacionado con la tecnología y Appwrite!',
+            buttonText: 'Ver evento'
         },
         {
             href: 'https://discord.com/events/564160730845151244/1279026334496067669/1288892841984000000',
@@ -21,10 +21,10 @@
             },
             date: '2024-09-26',
             location: 'Discord',
-            title: 'Office Hours: Ask me anything!',
+            title: 'Horas de Oficina: ¡Pregunte cualquier cosa!',
             description:
-                'Join us for another round of Office Hours, where we answer your questions and geek out on everything tech and Appwrite!',
-            buttonText: 'View event'
+                '¡Únete a nosotros para otra ronda de Horas de Oficina, donde responderemos tus preguntas y nos emocionaremos con todo lo relacionado con la tecnología y Appwrite!',
+            buttonText: 'Ver evento'
         },
         {
             href: 'https://discord.com/events/564160730845151244/1279026334496067669/1291429557043200000',
@@ -34,10 +34,10 @@
             },
             date: '2024-10-03',
             location: 'Discord',
-            title: 'Office Hours: Ask me anything!',
+            title: 'Horas de Oficina: ¡Pregunte cualquier cosa!',
             description:
-                'Join us for another round of Office Hours, where we answer your questions and geek out on everything tech and Appwrite!',
-            buttonText: 'View event'
+                '¡Únete a nosotros para otra ronda de Horas de Oficina, donde responderemos tus preguntas y nos emocionaremos con todo lo relacionado con la tecnología y Appwrite!',
+            buttonText: 'Ver evento'
         }
     ];
 </script>
@@ -63,44 +63,46 @@
 
     const projects: ProjectCardProps[] = [
         {
-            title: 'Auth UI',
-            description: 'Appwrite-powered authentication screens generator for any application.',
+            title: 'Interfaz de Autenticación',
+            description:
+                'Generador de pantallas de autenticación potenciado por Appwrite para cualquier aplicación.',
             image: {
                 src: 'https://cloud.appwrite.io/v1/storage/buckets/thumbnails/files/64803bb4f34eb4b05ee3/preview?width=800&output=webp&project=builtWithAppwrite',
-                alt: 'Auth UI: Fully customizable login flow for your applications'
+                alt: 'Interfaz de Autenticación: Flujo de inicio de sesión completamente personalizable para tus aplicaciones'
             },
             href: 'https://builtwith.appwrite.io/projects/6467cedd4502d0e29205/'
         },
         {
             title: 'Glitch',
-            description: 'Appwrite-powered collaboration Tool for streamlined team communication.',
+            description:
+                'Herramienta de colaboración potenciada por Appwrite para una comunicación fluida en equipo.',
             image: {
                 src: '/images/community/projects/glitch.png',
-                alt: 'A screenshot of the Glitch dashboard. There\'s a sidebar, and a headline that reads: "Welcome to Glitch, powered by Appwrite"'
+                alt: 'Una captura de pantalla del panel de control de Glitch. Hay una barra lateral y un encabezado que dice: "Bienvenido a Glitch, potenciado por Appwrite"'
             },
             href: 'https://builtwith.appwrite.io/projects/648bfe0c1d8d70602b0b/'
         },
         {
             title: 'uCanEarn',
             description:
-                'Appwrite-powered platform where you can sell your digital products online.',
+                'Plataforma potenciada por Appwrite donde puedes vender tus productos digitales en línea.',
             image: {
                 src: '/images/community/projects/ucanearn.png',
-                alt: "A screenshot of uCanEarn's website"
+                alt: 'Una captura de pantalla del sitio web de uCanEarn'
             },
             href: 'https://builtwith.appwrite.io/projects/648606ad9cd179190b28/'
         }
     ];
 
     const metrics = [
-        { metric: `${GITHUB_STARS}+`, description: 'GitHub Stars' },
+        { metric: `${GITHUB_STARS}+`, description: 'Estrellas de GitHub' },
         { metric: '3K+', description: 'Pull Requests' },
         { metric: '21K+', description: 'Commits' },
         { metric: '3K+', description: 'Issues' },
-        { metric: '500+', description: 'Open Issues' },
-        { metric: '2.5K+', description: 'Closed Issues' },
+        { metric: '500+', description: 'Issues abiertos' },
+        { metric: '2.5K+', description: 'Issues cerrados' },
         { metric: '3.5K+', description: 'Forks' },
-        { metric: '800+', description: 'Contributors' }
+        { metric: '800+', description: 'Contribuidores' }
     ];
 
     let name = '';
@@ -115,15 +117,16 @@
         const response = await newsletter(name, email);
         submitting = false;
         if (response.status >= 400) {
-            error = response.status >= 500 ? 'Server Error.' : 'Error submitting form.';
+            error =
+                response.status >= 500 ? 'Error del servidor.' : 'Error al subir el formulario.';
             return;
         }
         submitted = true;
     }
 
-    const title = 'Community' + TITLE_SUFFIX;
+    const title = 'Comunidad' + TITLE_SUFFIX;
     const description =
-        'Join our vibrant community of developers. Ask questions, contribute solutions, and inspire others to improve the backend development experience.';
+        'Únete a nuestra vibrante comunidad de desarrolladores. Haz preguntas, contribuye con soluciones e inspira a otros a mejorar la experiencia de desarrollo de backend.';
     const ogImage = DEFAULT_HOST + '/images/open-graph/website.png';
 </script>
 
@@ -160,13 +163,13 @@
                 <section class="container web-u-padding-block-end-0 relative">
                     <div class="web-hero is-align-start web-u-max-width-580">
                         <h1 class="text-display font-aeonik-pro text-primary">
-                            Built by a community of 800+ contributors
+                            Construido por una comunidad de más de 800 contribuyentes
                         </h1>
                         <div>
                             <p class="text-description">
-                                Inspire and get inspired. Join Appwrite's community of maintainers
-                                and contributors and help us make Appwrite better for developers
-                                worldwide.
+                                Inspira y déjate inspirar. Únete a la comunidad de mantenedores y
+                                contribuyentes de Appwrite y ayúdanos a mejorar Appwrite para
+                                desarrolladores en todo el mundo.
                             </p>
                             <div class="mt-8 flex flex-wrap gap-3">
                                 <a
@@ -175,7 +178,7 @@
                                     rel="noopener noreferrer"
                                     class="web-button is-full-width-mobile"
                                 >
-                                    <span class="text">Join our Discord</span>
+                                    <span class="text">Únete a nuestro Discord</span>
                                 </a>
                                 <a
                                     href="https://github.com/appwrite/appwrite/stargazers"
@@ -184,7 +187,7 @@
                                     class="web-button is-secondary is-full-width-mobile"
                                 >
                                     <span aria-hidden="true" class="web-icon-star" />
-                                    <span>Star on GitHub</span>
+                                    <span>Estrella en GitHub</span>
                                     <span class="web-inline-tag text-sub-body">{GITHUB_STARS}</span>
                                 </a>
                             </div>
@@ -229,12 +232,12 @@
                 <div class="container relative">
                     <div class="web-hero is-mobile-center web-u-max-width-900 gap-5">
                         <h1 class="text-headline font-aeonik-pro text-primary">
-                            The power of open source benefits us all
+                            El poder del código abierto nos beneficia a todos
                         </h1>
                         <div>
                             <p class="text-description">
-                                See contributors of Appwrite since 2019 and discover how you can
-                                start contributing.
+                                Ve a los contribuyentes de Appwrite desde 2019 y descubre cómo
+                                puedes comenzar a contribuir.
                             </p>
                             <div class="mt-8 flex flex-wrap justify-center gap-3">
                                 <a
@@ -243,7 +246,7 @@
                                     rel="noopener noreferrer"
                                     class="web-button is-secondary is-full-width-mobile"
                                 >
-                                    <span>View all contributors</span>
+                                    <span>Ver todos los contribuyentes</span>
                                 </a>
                             </div>
                         </div>
@@ -259,8 +262,8 @@
                         <h2 class="text-display font-aeonik-pro text-primary">Get involved</h2>
                         <div>
                             <p class="text-description">
-                                With every contribution, Appwrite gets better for all of us. Start
-                                contributing today.
+                                Con cada contribución, Appwrite mejora para todos nosotros. Comienza
+                                a contribuir hoy.
                             </p>
                         </div>
                     </div>
@@ -273,9 +276,11 @@
                             class="web-u-flex-direction-column-mobile web-u-row-gap-48 flex gap-28"
                         >
                             <div>
-                                <h3 class="text-label text-primary">Check our Open Issues</h3>
-                                <p class="text-body font-medium mt-1">
-                                    Anyone can join and help Appwrite become better.
+                                <h3 class="text-label text-primary">
+                                    Consulta nuestros Issues abiertos.
+                                </h3>
+                                <p class="text-body mt-1 font-medium">
+                                    Cualquiera puede unirse y ayudar a que Appwrite sea mejor.
                                 </p>
                                 <a
                                     href="https://github.com/appwrite/appwrite/issues"
@@ -284,7 +289,7 @@
                                     class="web-button is-secondary mt-8"
                                 >
                                     <span class="web-icon-github" aria-hidden="true" />
-                                    <span class="">View all Open Issues</span>
+                                    <span class="">Ver todos los Issues abiertos</span>
                                 </a>
                             </div>
                             <div class="flex-1">
@@ -295,7 +300,9 @@
                                                 class="web-table-line-cell text-primary whitespace-nowrap text-start"
                                                 >Issue #</th
                                             >
-                                            <th class="web-table-line-cell text-primary text-start">Title</th>
+                                            <th class="web-table-line-cell text-primary text-start"
+                                                >Título</th
+                                            >
                                         </tr>
                                     </thead>
                                     <tbody class="web-table-line-body">
@@ -338,7 +345,7 @@
             </div>
             <div class="web-big-padding-section-level-2">
                 <section class="container">
-                    <h4 class="text-label text-primary">Other ways to help</h4>
+                    <h4 class="text-label text-primary">Otras formas de ayudar</h4>
                     <ul
                         class="mt-5 grid gap-5 md:grid-cols-4 md:gap-8"
                         style="--grid-item-size:15rem"
@@ -347,11 +354,11 @@
                             <div
                                 class="web-card is-normal has-border-gradient web-u-gap-6 flex flex-col"
                             >
-                                <div class="text-sub-body font-medium text-primary">
-                                    Create content
+                                <div class="text-sub-body text-primary font-medium">
+                                    Crea contenido
                                 </div>
                                 <div class="text-sub-body">
-                                    Help others discover Appwrite with videos and blogs.
+                                    Ayuda a otros a descubrir Appwrite con Vídeos y blogs.
                                 </div>
                             </div>
                         </li>
@@ -359,11 +366,11 @@
                             <div
                                 class="web-card is-normal has-border-gradient web-u-gap-6 flex flex-col"
                             >
-                                <div class="text-sub-body font-medium text-primary">
-                                    Present at meetups
+                                <div class="text-sub-body text-primary font-medium">
+                                    Presenta en encuentros
                                 </div>
                                 <div class="text-sub-body">
-                                    Share your experience and represent Appwrite in public.
+                                    Comparte tu experiencia y representa a Appwrite en público.
                                 </div>
                             </div>
                         </li>
@@ -371,11 +378,11 @@
                             <div
                                 class="web-card is-normal has-border-gradient web-u-gap-6 flex flex-col"
                             >
-                                <div class="text-sub-body font-medium text-primary">
-                                    Report bugs
+                                <div class="text-sub-body text-primary font-medium">
+                                    Reportar bugs
                                 </div>
                                 <div class="text-sub-body">
-                                    Find bugs and submit PRs to fix them.
+                                    Encuentra bugs y solicita PRs para arreglarlos.
                                 </div>
                             </div>
                         </li>
@@ -383,11 +390,12 @@
                             <div
                                 class="web-card is-normal has-border-gradient web-u-gap-6 flex flex-col"
                             >
-                                <div class="text-sub-body font-medium text-primary">
-                                    Submit new ideas
+                                <div class="text-sub-body text-primary font-medium">
+                                    Solicita nuevas ideas
                                 </div>
                                 <div class="text-sub-body">
-                                    Suggest features, integrations, or SDKs for our roadmap.
+                                    Solicita nuevas ideas, integraciones, o SDKs para nuestros
+                                    planes.
                                 </div>
                             </div>
                         </li>
@@ -395,11 +403,12 @@
                             <div
                                 class="web-card is-normal has-border-gradient web-u-gap-6 flex flex-col"
                             >
-                                <div class="text-sub-body font-medium text-primary">
-                                    Improve documentation
+                                <div class="text-sub-body text-primary font-medium">
+                                    Mejora la documentación
                                 </div>
                                 <div class="text-sub-body">
-                                    Find improvements in our docs and improve accessibility.
+                                    Busca mejoras en nuestra documentación y mejora la
+                                    accesibilidad.
                                 </div>
                             </div>
                         </li>
@@ -407,11 +416,11 @@
                             <div
                                 class="web-card is-normal has-border-gradient web-u-gap-6 flex flex-col"
                             >
-                                <div class="text-sub-body font-medium text-primary">
-                                    Helping others
+                                <div class="text-sub-body text-primary font-medium">
+                                    Ayuda a otros
                                 </div>
                                 <div class="text-sub-body">
-                                    Support developers with their projects and contributions.
+                                    Ayuda a desarrolladores con sus proyectos y contribuciones.
                                 </div>
                             </div>
                         </li>
@@ -422,7 +431,7 @@
                 <section class="container web-u-sep-block-start web-u-padding-block-start-64">
                     <Carousel size="big">
                         <svelte:fragment slot="header">
-                            <h4 class="text-label text-primary">Upcoming Events</h4>
+                            <h4 class="text-label text-primary">Eventos próximos</h4>
                         </svelte:fragment>
                         {#each events as event}
                             <li>
@@ -447,11 +456,11 @@
                 <div class="container">
                     <div class="web-hero is-center">
                         <h2 class="text-display font-aeonik-pro text-primary">
-                            Inspire and get inspired
+                            Inspírate e inspira.
                         </h2>
                         <p class="text-description web-u-margin-block-start-0">
-                            Visit our showcase website built with Appwrite to find inspiration for
-                            your projects or to showcase what you have built.
+                            Visita nuestro showcase hecho con Appwrite para encontrar inspiración
+                            con tus proyectos o aporta los tuyos.
                         </p>
                         <a
                             href="https://builtwith.appwrite.io"
@@ -459,7 +468,7 @@
                             rel="noopener noreferrer"
                             class="web-button is-secondary mt-4 self-center"
                         >
-                            <span>View all projects</span>
+                            <span>Ver todos los proyectos</span>
                         </a>
                     </div>
                     <ul class="web-grid-3-desktop-1-mobile web-u-margin-block-start-64">
@@ -478,10 +487,10 @@
                     <div class="web-grid-15-25-desktop web-u-row-gap-48 web-u-column-gap-96">
                         <div class="web-hero is-align-start web-u-max-width-380">
                             <div class="text-display font-aeonik-pro text-primary">
-                                Visit the community
+                                Visita la comunidad
                             </div>
                             <p class="text-description">
-                                Discover Appwrite's community across platforms and join the fun.
+                                Descubre la comunidad de Appwrite y únete a nosotros.
                             </p>
                         </div>
                         <ul class="web-multi-columns-1" style:--p-col-gap="-1rem">
@@ -501,7 +510,7 @@
                                         />
                                     </div>
                                     <div class="text-title font-aeonik-pro mt-auto">
-                                        17K+ members
+                                        19K+ miembros
                                     </div>
                                 </a>
                             </li>
@@ -521,7 +530,7 @@
                                         />
                                     </div>
                                     <div class="text-title font-aeonik-pro mt-auto">
-                                        128K+ followers
+                                        128K+ seguidores
                                     </div>
                                 </a>
                             </li>
@@ -541,7 +550,7 @@
                                         />
                                     </div>
                                     <div class="text-title font-aeonik-pro mt-auto">
-                                        {GITHUB_STARS}+ stargazers
+                                        {GITHUB_STARS}+ estrellas
                                     </div>
                                 </a>
                             </li>
@@ -561,7 +570,7 @@
                                         />
                                     </div>
                                     <div class="text-title font-aeonik-pro mt-auto">
-                                        4K+ subscribers
+                                        4K+ suscriptores
                                     </div>
                                 </a>
                             </li>
@@ -584,9 +593,10 @@
                                         Appwrite insights
                                     </h1>
                                     <p class="text-description web-u-padding-block-end-40">
-                                        Sign up to our company blog and get the latest insights from
-                                        Appwrite. Learn more about engineering, product design,
-                                        building community, and tips & tricks for using Appwrite.
+                                        Regístrate en nuestro blog de la empresa y recibe las
+                                        últimas novedades de Appwrite. Aprende más sobre ingeniería,
+                                        diseño de productos, construcción de comunidad y consejos y
+                                        trucos para usar Appwrite.
                                     </p>
                                 </section>
                             </div>
@@ -632,7 +642,7 @@
                                 class="flex flex-col gap-4"
                             >
                                 <div class="flex flex-col gap-1">
-                                    <label for="name">Your name</label>
+                                    <label for="name">Tu nombre</label>
                                     <input
                                         class="web-input-text"
                                         type="text"
@@ -644,7 +654,7 @@
                                     />
                                 </div>
                                 <div class="flex flex-col gap-1">
-                                    <label for="email">Your email</label>
+                                    <label for="email">Tu email</label>
                                     <input
                                         class="web-input-text"
                                         type="email"
@@ -656,7 +666,7 @@
                                     />
                                 </div>
                                 <button type="submit" class="web-button" disabled={submitting}
-                                    >Sign up</button
+                                    >Registro</button
                                 >
                                 {#if error}
                                     <span class="text">
@@ -669,7 +679,7 @@
                 </div>
             </div>
 
-            <div class="pt-[7.5rem] relative">
+            <div class="relative pt-[7.5rem]">
                 <div class="container">
                     <PreFooter />
                     <FooterNav />
